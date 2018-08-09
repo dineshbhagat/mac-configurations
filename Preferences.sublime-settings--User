@@ -1,0 +1,16 @@
+Sublime 3 user configuration file
+
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"theme": "Default.sublime-theme",
+	"font_size" : 14,
+	"open_files_in_new_window": false,
+	"highlight_modified_tabs": true,
+	"auto_find_in_selection": true,
+	"drag_text": false,
+	"match_brackets_angle": true,
+	"highlight_line":true,
+	"bold_folder_labels" : true,
+	"close_windows_when_empty": true,
+	"spellcheck": true
+}
