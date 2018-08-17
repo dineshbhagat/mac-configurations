@@ -1,6 +1,7 @@
 # configurations
 
 Mac configuration
+https://github.com/powerline/fonts
 
 https://github.com/nicolashery/mac-dev-setup
 
