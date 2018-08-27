@@ -16,3 +16,6 @@
  
  #git shorcuts
  alias gitlog="git log --graph --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --date=short"
+
+# commented following line since its disabling $ls color output
+#PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
