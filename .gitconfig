@@ -5,6 +5,8 @@
    remotes = remote -v
    # Pretty log output
    hist = log --graph --pretty=format:'%Cred%h%Creset %s%C(yellow)%d%Creset %Cgreen(%cr)%Creset [%an]' --abbrev-commit --date=relative
+   st = status
+   df = diff --word-diff=color
 
  [color]
    # Use colors in Git commands that are capable of colored output when outputting to the terminal
