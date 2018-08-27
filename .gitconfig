@@ -22,6 +22,8 @@
    added = green
    changed = red
    untracked = cyan
+   branch = magenta
+   header = white
 
  # Use `origin` as the default remote on the `master` branch in all cases
  [branch "master"]
