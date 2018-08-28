@@ -19,3 +19,8 @@
 
 # commented following line since its disabling $ls color output
 #PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
+# customize your ls output using online tool: https://geoff.greer.fm/lscolors/
+
+export CLICOLOR=1;
+export LSCOLORS="GxcxcxdxBxfxfxabagacad"
