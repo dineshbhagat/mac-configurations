@@ -24,3 +24,8 @@
 
 export CLICOLOR=1;
 export LSCOLORS="GxcxcxdxBxfxfxabagacad"
+
+#usage box 10.1.1.1
+function box() {
+    ssh <ssh-username>@$1
+ }
