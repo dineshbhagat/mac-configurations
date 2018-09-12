@@ -29,3 +29,8 @@ export LSCOLORS="GxcxcxdxBxfxfxabagacad"
 function box() {
     ssh <ssh-username>@$1
  }
+
+alias stopnginx="nginx -s stop"
+
+alias urld='python -c "import sys, urllib as ul; print ul.unquote_plus(sys.argv[1])"'
+alias urle='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1])"'
