@@ -1,5 +1,4 @@
 bat
-tgt/brewhouse/bifrost
 coreutils
 dos2unix
 git
