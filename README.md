@@ -13,3 +13,4 @@ https://github.com/andreafrancia/trash-cli
 
 For IntelliJ keymap, import settings.jar
 
+http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up your mac java version and environment variables
