@@ -1,5 +1,5 @@
 Install software using homebrew
-brew install $(< brew-leaves-list.txt)
+brew install $(< brew-leaves.txt)
 homebrew
 iterm
 jd-gui
