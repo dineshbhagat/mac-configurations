@@ -41,3 +41,4 @@ alias startkafka="$kafka/bin/kafka-server-start.sh $kafka/config/server.properti
 alias startzoo="$kafka/bin/zookeeper-server-start.sh $kafka/config/zookeeper.properties"
 alias stopkafka=""
 alias stopzoo=""
+alias startmongo="mongod --config /usr/local/etc/mongod.conf"
