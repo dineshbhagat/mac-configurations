@@ -16,8 +16,11 @@ https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-instal
 #Fonts
 
 https://github.com/adobe-fonts/source-code-pro
+
 https://github.com/powerline/fonts
+
 https://github.com/gabrielelana/awesome-terminal-fonts
+
 https://github.com/ryanoasis/nerd-fonts
 
 $gem install colorl
