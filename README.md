@@ -14,8 +14,11 @@ https://github.com/andreafrancia/trash-cli
 https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k
 
 #Fonts
+
 https://github.com/adobe-fonts/source-code-pro
 https://github.com/powerline/fonts
+https://github.com/gabrielelana/awesome-terminal-fonts
+https://github.com/ryanoasis/nerd-fonts
 
 For IntelliJ keymap, import settings.jar
 
