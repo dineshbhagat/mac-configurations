@@ -25,7 +25,7 @@ https://github.com/gabrielelana/awesome-terminal-fonts
 
 https://github.com/ryanoasis/nerd-fonts
 
-$gem install colorl
+$gem install colorls
 
 
 
