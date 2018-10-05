@@ -51,11 +51,6 @@ POWERLEVEL9K_STATUS_OK=false
 # commented following line since its disabling $ls color output
 #PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 
-# customize your ls output using online tool: https://geoff.greer.fm/lscolors/
-
-export CLICOLOR=1;
-export LSCOLORS="GxcxcxdxBxfxfxabagacad"
-
 #usage box 10.1.1.1
 function box() {
     ssh <ssh-username>@$1
@@ -78,6 +73,7 @@ alias startmongo="mongod --config /usr/local/etc/mongod.conf"
 
 source $(dirname $(gem which colorls))/tab_complete.sh
 
+# customize your ls output using online tool: https://geoff.greer.fm/lscolors/
 export CLICOLOR=1;
 export LSCOLORS="di=1:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=36:*.rpm=90"
 
