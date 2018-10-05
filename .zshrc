@@ -8,8 +8,8 @@ POWERLEVEL9K_MODE='nerdfont-complete'
 source ~/.oh-my-zsh/custom/themes/powerlevel9k
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
-######## parameter customization for powerlevel theme ###############################
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(time virtualenv background_jobs ssh dir vcs status root_indicator dir_writable)
+######## parameter customization for powerlevel theme, get it from https://github.com/bhilburn/powerlevel9k ###############################
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv background_jobs ssh dir vcs status root_indicator dir_writable)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 
 #POWERLEVEL9K_PROMPT_ON_NEWLINE=true
