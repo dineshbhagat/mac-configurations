@@ -15,6 +15,9 @@ https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-instal
 
 https://github.com/codetalkchannel/pimpyourterminal/blob/master/.zshrc
 
+https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
+
+
 #Fonts
 
 https://github.com/adobe-fonts/source-code-pro
