@@ -30,6 +30,13 @@ https://github.com/ryanoasis/nerd-fonts
 
 $gem install colorls
 
+Snapshots of my configurations:
+
+![normal-prompt](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202018-10-08%20at%2011.50.18%20AM.png)
+
+![auto-complete](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202018-10-08%20at%2011.59.12%20AM.png)
+
+![terminate-command-on-failure-status](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202018-10-08%20at%2012.00.18%20PM.png)
 
 
 For IntelliJ keymap, import settings.jar
