@@ -45,6 +45,9 @@ command-failure-status:
 ![terminate-command-on-failure-status](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202018-10-08%20at%2012.00.18%20PM.png)
 
 
+
+![ll-and-ls-commands](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202016-11-08%20at%2012.18.00%20AM.png)
+
 For IntelliJ keymap, import settings.jar
 
 http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up your mac java version and environment variables
