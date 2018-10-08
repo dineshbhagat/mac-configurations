@@ -34,7 +34,7 @@ POWERLEVEL9K_STATUS_OK=false
 
  HIST_STAMPS="mm/dd/yyyy"
  plugins=(
-   git zsh-syntax-highlighting
+   git zsh-syntax-highlighting zsh-autosuggestions iterm2 osx jsontools mvn
  )
 
  source $ZSH/oh-my-zsh.sh
