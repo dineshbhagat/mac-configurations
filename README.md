@@ -18,6 +18,12 @@ https://github.com/codetalkchannel/pimpyourterminal/blob/master/.zshrc
 https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 
 
+# Get better version of man pages
+https://tldr.ostera.io/
+```shell
+brew install tldr
+```
+
 #Fonts
 
 https://github.com/adobe-fonts/source-code-pro
