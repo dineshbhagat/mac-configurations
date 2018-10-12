@@ -21,11 +21,12 @@ https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 # Get better version of man pages
 
 https://tldr.sh/
+
 ```shell
 brew install tldr
 ```
 
-#Fonts
+# Fonts
 
 https://github.com/adobe-fonts/source-code-pro
 
