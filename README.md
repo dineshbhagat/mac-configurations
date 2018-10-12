@@ -19,7 +19,8 @@ https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 
 
 # Get better version of man pages
-https://tldr.ostera.io/
+
+https://tldr.sh/
 ```shell
 brew install tldr
 ```
