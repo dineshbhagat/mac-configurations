@@ -31,7 +31,14 @@ https://github.com/ryanoasis/nerd-fonts
 $gem install colorls
 
 Snapshots of my configurations:
-
+```shell
++ — uncommitted changes in the index;
+! — unstaged changes;
+? — untracked changes;
+$ — stashed changes;
+⇣ — unpulled commits;
+⇡ — unpushed commits
+```
 
 ![normal-prompt](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202018-10-08%20at%2011.50.18%20AM.png)
 
