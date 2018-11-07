@@ -65,8 +65,8 @@ alias jshell="~/standalone/jdk-12.jdk/Contents/Home/bin/jshell"
 export kafka="~/standalone/kafka_2.11-2.0.0"
 alias startkafka="$kafka/bin/kafka-server-start.sh $kafka/config/server.properties"
 alias startzoo="$kafka/bin/zookeeper-server-start.sh $kafka/config/zookeeper.properties"
-alias stopkafka=""
-alias stopzoo=""
+alias stopkafka="$kafka/bin/kafka-server-stop.sh"
+alias stopzoo="$kafka/bin/zookeeper-server-stop.sh"
 alias startmongo="mongod --config /usr/local/etc/mongod.conf"
 
 ######################### This line should be last in file else ll command is giving trouble ########################################
