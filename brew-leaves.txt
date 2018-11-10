@@ -6,6 +6,7 @@ gradle
 gradle-completion
 jmeter
 maven
+mc
 mysql
 nginx
 node
