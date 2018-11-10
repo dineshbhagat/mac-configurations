@@ -14,7 +14,7 @@ https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-instal
 
 https://github.com/codetalkchannel/pimpyourterminal/blob/master/.zshrc
 
-https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
+https://github.com/zsh-users
 
 Following are other changes require to make iterm more customizable and solutions to some problem I have encountered so far.
 
@@ -23,7 +23,7 @@ Following are other changes require to make iterm more customizable and solution
 You can add additional plugins in zsh at `.oh-my-zsh/custom/plugins` location
 
 ```shell
-cd $ZSH;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+cd $ZSH;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git && git clone https://github.com/zsh-users/zsh-autosuggestions
 ```
 
 
