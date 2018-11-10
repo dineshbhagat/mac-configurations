@@ -17,8 +17,16 @@ https://github.com/codetalkchannel/pimpyourterminal/blob/master/.zshrc
 
 https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 
+#### Zsh plugins
 
-# Get better version of man pages
+You can add additional plugins in zsh at `.oh-my-zsh/custom/plugins` location
+
+```shell
+cd $ZSH;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+```
+
+
+#### Get better version of man pages
 
 https://tldr.sh/
 
@@ -26,7 +34,7 @@ https://tldr.sh/
 brew install tldr
 ```
 
-# Fonts
+#### Fonts
 
 https://github.com/adobe-fonts/source-code-pro
 
@@ -66,6 +74,8 @@ command-failure-status:
 For IntelliJ keymap, import settings.jar
 
 http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up your mac java version and environment variables
+
+#### video tutorials
 
 If you still could not follow up the steps, follow steps mentioned in the video  
 Part1: https://www.youtube.com/watch?v=iwH1XqVjZOE  
