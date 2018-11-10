@@ -1,7 +1,6 @@
 # configurations
 
-Mac configuration
-
+Following site will help you setup your mac.
 
 https://github.com/nicolashery/mac-dev-setup
 
@@ -16,6 +15,8 @@ https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-instal
 https://github.com/codetalkchannel/pimpyourterminal/blob/master/.zshrc
 
 https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
+
+Following are other changes require to make iterm more customizable and solutions to some problem I have encountered so far.
 
 #### Zsh plugins
 
@@ -34,7 +35,7 @@ https://tldr.sh/
 brew install tldr
 ```
 
-#### Fonts
+#### Install Fonts
 
 https://github.com/adobe-fonts/source-code-pro
 
@@ -44,7 +45,9 @@ https://github.com/gabrielelana/awesome-terminal-fonts
 
 https://github.com/ryanoasis/nerd-fonts
 
+```shell
 $gem install colorls
+```
 
 Snapshots of my configurations:
 ```shell
@@ -71,7 +74,11 @@ command-failure-status:
 
 ![ll-and-ls-commands](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202016-11-08%20at%2012.18.00%20AM.png)
 
+#### intelliJ idea settings
+
 For IntelliJ keymap, import settings.jar
+
+#### multiple java versions in mac
 
 http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up your mac java version and environment variables
 
