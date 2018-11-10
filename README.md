@@ -66,3 +66,8 @@ command-failure-status:
 For IntelliJ keymap, import settings.jar
 
 http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up your mac java version and environment variables
+
+If you still could not follow up the steps, follow steps mentioned in the video  
+Part1: https://www.youtube.com/watch?v=iwH1XqVjZOE  
+Part2: https://www.youtube.com/watch?v=UsKd9Y42Mo0  
+
