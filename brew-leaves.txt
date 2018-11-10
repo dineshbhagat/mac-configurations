@@ -18,5 +18,3 @@ tree
 vim
 wget
 zsh
-zsh-completions
-zsh-syntax-highlighting
