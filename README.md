@@ -23,7 +23,7 @@ Following are other changes require to make iterm more customizable and solution
 You can add additional plugins in zsh at `.oh-my-zsh/custom/plugins` location
 
 ```shell
-cd $ZSH;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git && git clone https://github.com/zsh-users/zsh-autosuggestions
+cd $ZSH;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git && git clone https://github.com/zsh-users/zsh-autosuggestions && git clone https://github.com/zsh-users/zsh-completions
 ```
 
 
