@@ -40,9 +40,6 @@ cd $ZSH;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git && gi
 
 https://tldr.sh/
 
-```shell
-brew install tldr
-```
 
 #### Install Fonts
 
