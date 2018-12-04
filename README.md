@@ -6,8 +6,8 @@ Following site will help you setup your mac.
 
 1. Homebrew
 2. Install software listed in file brew-leaves.txt `brew install $(< brew-leaves.txt)`
-3. Oh-my-Z `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-4. 
+3. Add theme to iterm2: Oh-my-Z `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+4. Add additional themes and fonts to iterm2
 
 
 
