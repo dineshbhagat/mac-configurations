@@ -7,9 +7,11 @@ gradle-completion
 jmeter
 maven
 mc
+mongo
 mysql
 nginx
 node
+redis
 sbt
 scala
 telnet
