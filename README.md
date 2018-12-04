@@ -1,5 +1,7 @@
 # configurations
 
+Note: Make sure you have local admin rights before you proceed with the following installations.
+
 Following site will help you setup your mac.
 
 https://github.com/nicolashery/mac-dev-setup
