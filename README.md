@@ -9,9 +9,9 @@ Following site will help you setup your mac.
 3. Add theme to iterm2: Oh-my-Z `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 4. Add additional themes and fonts to iterm2
 5. Install powerlevel9k theme(choose Option 2: Install for Oh-My-ZSH) https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k
-
-
-
+6. change fonts for iterm2: iTerm2 -> Preferences -> Profiles -> Text -> Font -> Change Font to hack-nerd
+7. Execute `compaudit | xargs chmod g-w,o-w /usr/local/share/zsh ;compaudit | xargs chmod g-w,o-w /usr/local/share/zsh/site-functions`
+8. 
 https://github.com/nicolashery/mac-dev-setup
 
 https://github.com/donnemartin/dev-setup
@@ -53,7 +53,7 @@ https://github.com/gabrielelana/awesome-terminal-fonts
 https://github.com/ryanoasis/nerd-fonts
 
 ```shell
-$gem install colorls
+$sudo gem install colorls
 ```
 
 Snapshots of my configurations:
