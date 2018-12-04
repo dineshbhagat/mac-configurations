@@ -13,6 +13,7 @@ node
 sbt
 scala
 telnet
+tldr
 trash-cli
 tree
 vim
