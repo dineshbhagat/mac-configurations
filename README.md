@@ -8,6 +8,7 @@ Following site will help you setup your mac.
 2. Install software listed in file brew-leaves.txt `brew install $(< brew-leaves.txt)`
 3. Add theme to iterm2: Oh-my-Z `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 4. Add additional themes and fonts to iterm2
+5. Install powerlevel9k theme https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k
 
 
 
@@ -19,7 +20,7 @@ https://sourabhbajaj.com/mac-setup/
 
 https://github.com/andreafrancia/trash-cli
 
-https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k
+
 
 https://github.com/codetalkchannel/pimpyourterminal/blob/master/.zshrc
 
