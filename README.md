@@ -4,6 +4,13 @@ Note: Make sure you have local admin rights before you proceed with the followin
 
 Following site will help you setup your mac.
 
+1. Homebrew
+2. ZSH: `brew install zsh`
+3. Oh-my-Z `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+4. 
+
+
+
 https://github.com/nicolashery/mac-dev-setup
 
 https://github.com/donnemartin/dev-setup
