@@ -8,27 +8,27 @@ Following site will help you setup your mac.
 2. Install software listed in file brew-leaves.txt `brew install $(< brew-leaves.txt)`
 3. Add theme to iterm2: Oh-my-Z `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 4. Add additional plugins, themes and fonts to iterm2  
-#### Zsh plugins
+   #### Zsh plugins
 
-You can add additional plugins in zsh at `.oh-my-zsh/custom/plugins` location
+   You can add additional plugins in zsh at `.oh-my-zsh/custom/plugins` location
 
-```shell
-cd $ZSH;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git && git clone https://github.com/zsh-users/zsh-autosuggestions && git clone https://github.com/zsh-users/zsh-completions
-```
+   ```shell
+   cd $ZSH;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git && git clone https://github.com/zsh-users/zsh-autosuggestions && git clone https://github.com/zsh-users/zsh-completions
+   ```
 
-#### Install Fonts
+   #### Install Fonts
 
-https://github.com/adobe-fonts/source-code-pro
+   https://github.com/adobe-fonts/source-code-pro
 
-https://github.com/powerline/fonts
+   https://github.com/powerline/fonts
 
-https://github.com/gabrielelana/awesome-terminal-fonts
+   https://github.com/gabrielelana/awesome-terminal-fonts
 
-https://github.com/ryanoasis/nerd-fonts
+   https://github.com/ryanoasis/nerd-fonts
 
 
-5. Install powerlevel9k theme(choose Option 2: Install for Oh-My-ZSH) https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k
-6. Update .zshrc file as show in 
+5. Install powerlevel9k theme(choose Option 2: Install for Oh-My-ZSH) https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k  
+6. Update .zshrc file as show in [here](https://github.com/dineshbhagat/mac-configurations/blob/master/.zshrc)
 7. change fonts for iterm2: iTerm2 -> Preferences -> Profiles -> Text -> Font -> Change Font to hack-nerd
 8. Execute `compaudit | xargs chmod g-w,o-w /usr/local/share/zsh ;compaudit | xargs chmod g-w,o-w /usr/local/share/zsh/site-functions`
 9. change font settings as shown in image  
