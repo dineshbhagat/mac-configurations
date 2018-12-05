@@ -33,7 +33,10 @@ Following site will help you setup your mac.
 8. Execute `compaudit | xargs chmod g-w,o-w /usr/local/share/zsh ;compaudit | xargs chmod g-w,o-w /usr/local/share/zsh/site-functions`
 9. change font settings as shown in image  
 ![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202018-12-04%20at%205.47.48%20PM.png)
-        
+10. Vim Customization 
+```shell
+git clone https://github.com/amix/vimrc.git ~/.vim_runtime && sh ~/.vim_runtime/install_awesome_vimrc.sh
+```
 
 More info:
 
