@@ -13,7 +13,7 @@ Following site will help you setup your mac.
    You can add additional plugins in zsh at `.oh-my-zsh/custom/plugins` location
 
    ```shell
-   cd $ZSH;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git && git clone https://github.com/zsh-users/zsh-autosuggestions && git clone https://github.com/zsh-users/zsh-completions
+   cd $ZSH/custom/plugins;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git && git clone https://github.com/zsh-users/zsh-autosuggestions && git clone https://github.com/zsh-users/zsh-completions
    ```
 
    #### Install Fonts
