@@ -4,32 +4,10 @@ Note: Make sure you have local admin rights before you proceed with the followin
 
 Following site will help you setup your mac.
 
-1. Homebrew
+1. Install Homebrew from https://brew.sh/
 2. Install software listed in file brew-leaves.txt `brew install $(< brew-leaves.txt)`
 3. Add theme to iterm2: Oh-my-Z `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-4. Add additional themes and fonts to iterm2
-5. Install powerlevel9k theme(choose Option 2: Install for Oh-My-ZSH) https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k
-6. change fonts for iterm2: iTerm2 -> Preferences -> Profiles -> Text -> Font -> Change Font to hack-nerd
-7. Execute `compaudit | xargs chmod g-w,o-w /usr/local/share/zsh ;compaudit | xargs chmod g-w,o-w /usr/local/share/zsh/site-functions`
-8. change font settings as shown in image  
-![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202018-12-04%20at%205.47.48%20PM.png)
-        
-https://github.com/nicolashery/mac-dev-setup
-
-https://github.com/donnemartin/dev-setup
-
-https://sourabhbajaj.com/mac-setup/
-
-https://github.com/andreafrancia/trash-cli
-
-
-
-https://github.com/codetalkchannel/pimpyourterminal/blob/master/.zshrc
-
-https://github.com/zsh-users
-
-Following are other changes require to make iterm more customizable and solutions to some problem I have encountered so far.
-
+4. Add additional plugins, themes and fonts to iterm2  
 #### Zsh plugins
 
 You can add additional plugins in zsh at `.oh-my-zsh/custom/plugins` location
@@ -37,12 +15,6 @@ You can add additional plugins in zsh at `.oh-my-zsh/custom/plugins` location
 ```shell
 cd $ZSH;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git && git clone https://github.com/zsh-users/zsh-autosuggestions && git clone https://github.com/zsh-users/zsh-completions
 ```
-
-
-#### Get better version of man pages
-
-https://tldr.sh/
-
 
 #### Install Fonts
 
@@ -53,6 +25,39 @@ https://github.com/powerline/fonts
 https://github.com/gabrielelana/awesome-terminal-fonts
 
 https://github.com/ryanoasis/nerd-fonts
+
+
+5. Install powerlevel9k theme(choose Option 2: Install for Oh-My-ZSH) https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k
+6. Update .zshrc file as show in 
+7. change fonts for iterm2: iTerm2 -> Preferences -> Profiles -> Text -> Font -> Change Font to hack-nerd
+8. Execute `compaudit | xargs chmod g-w,o-w /usr/local/share/zsh ;compaudit | xargs chmod g-w,o-w /usr/local/share/zsh/site-functions`
+9. change font settings as shown in image  
+![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202018-12-04%20at%205.47.48%20PM.png)
+        
+
+More info:
+
+https://github.com/nicolashery/mac-dev-setup
+
+https://github.com/donnemartin/dev-setup
+
+https://sourabhbajaj.com/mac-setup/
+
+https://github.com/andreafrancia/trash-cli
+
+https://github.com/codetalkchannel/pimpyourterminal/blob/master/.zshrc
+
+https://github.com/zsh-users
+
+Following are other changes require to make iterm more customizable and solutions to some problem I have encountered so far.
+
+
+#### Get better version of man pages
+
+https://tldr.sh/
+
+
+
 
 ```shell
 $sudo gem install colorls
