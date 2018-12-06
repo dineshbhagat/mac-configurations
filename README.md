@@ -37,6 +37,11 @@ Following site will help you setup your mac.
 ```shell
 git clone https://github.com/amix/vimrc.git ~/.vim_runtime && sh ~/.vim_runtime/install_awesome_vimrc.sh
 ```
+11. Bonus: If you want terminal app to be similar to iterm2 do following settings
+   - terminal -> preference -> Basic theme ->Background -> change color from white to black, 
+   - Text -> change color from black to white
+   - Font -> change for to Hack bold nerd font  
+
 
 More info:
 
