@@ -4,7 +4,7 @@ Note: Make sure you have local admin rights before you proceed with the followin
 
 Following site will help you setup your mac.
 
-1. Install Homebrew from https://brew.sh/
+1. Install Homebrew from https://brew.sh/ 
 2. Install software listed in file brew-leaves.txt `brew install $(< brew-leaves.txt)`
 3. Add theme to iterm2: Oh-my-Z `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 4. Add additional plugins, themes and fonts to iterm2  
@@ -37,7 +37,16 @@ Following site will help you setup your mac.
 ```shell
 git clone https://github.com/amix/vimrc.git ~/.vim_runtime && sh ~/.vim_runtime/install_awesome_vimrc.sh
 ```
-11. Bonus: If you want terminal app to be similar to iterm2 do following settings
+11. Customize iterm2 [shortcut](https://stackoverflow.com/a/10485061/2987755)
+![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/iterm2-config.png)
+
+⌘←  "SEND HEX CODE"      0x01  
+⌘→  "SEND HEX CODE"      0x05  
+⌥←  "SEND ESC SEQ"  b  
+⌥→  "SEND ESC SEQ"  f  
+
+
+12. Bonus: If you want terminal app to be similar to iterm2 do following settings
    - terminal -> preference -> Basic theme ->Background -> change color from white to black, 
    - Text -> change color from black to white
    - Font -> change for to Hack bold nerd font  
