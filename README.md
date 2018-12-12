@@ -4,7 +4,7 @@ Note: Make sure you have local admin rights before you proceed with the followin
 
 Following site will help you setup your mac.
 
-1. Install Homebrew from https://brew.sh/ 
+1. Install iterm2 from https://www.iterm2.com/ and Install Homebrew from https://brew.sh/ 
 2. Install software listed in file brew-leaves.txt `brew install $(< brew-leaves.txt)`
 3. Add theme to iterm2: Oh-my-Z `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 4. Add additional plugins, themes and fonts to iterm2  
