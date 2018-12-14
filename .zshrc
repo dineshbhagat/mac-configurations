@@ -69,6 +69,7 @@ alias startzoo="$kafka/bin/zookeeper-server-start.sh $kafka/config/zookeeper.pro
 alias stopkafka="$kafka/bin/kafka-server-stop.sh"
 alias stopzoo="$kafka/bin/zookeeper-server-stop.sh"
 alias startmongo="mongod --config /usr/local/etc/mongod.conf"
+alias redis="redis-server /usr/local/etc/redis.conf"
 
 ######################### This line should be last in file else ll command is giving trouble ########################################
 
