@@ -113,3 +113,6 @@ end tell
 2. Select application, Press command button and drag application to finder toolbar
 3. Your screen will look like as below
 ![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/finder-toolbar-customization.png)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
