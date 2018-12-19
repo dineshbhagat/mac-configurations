@@ -1,4 +1,13 @@
-#### Use apps in Split View on Mac
+## <a name='toc'>Table of Contents</a>
+- [ ] [Use apps in Split View on Mac](#split):
+- [ ] [copy full path in mac](#copypath):
+- [ ] [Create text file at any location in finder app](#textfile):
+- [ ] [Adding application to finder window](#addAppFinder):
+
+
+
+
+#### [[⬆]](#toc) <a name='split'>Use apps in Split View on Mac</a>
 
 https://support.apple.com/en-in/guide/mac-help/use-apps-in-split-view-mchl4fbe2921/10.14/mac/10.14
 
@@ -29,12 +38,12 @@ Press Control-Up Arrow (or swipe up with three or four fingers) to enter Mission
 You can also drag one app thumbnail onto another in the Spaces bar.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### copy full path in mac
+#### [[⬆]](#toc) <a name='copypath'>copy full path in mac</a>
 
 http://osxdaily.com/2013/06/19/copy-file-folder-path-mac-os-x/
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### Create text file at anylocation in finder app
+#### [[⬆]](#toc) <a name='textfile'>Create text file at any location in finder app</a>
 
 Ref: https://zeldor.biz/2017/12/mac-os-x-finder-new-file/
 
@@ -99,7 +108,7 @@ end tell
 ```
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Adding application to finder window
+#### [[⬆]](#toc) <a name='addAppFinder'>Adding application to finder window</a>
 1. go to folder where application is present in finder e.g. /Applications/
 2. Select application, Press command button and drag application to finder toolbar
 3. Your screen will look like as below
