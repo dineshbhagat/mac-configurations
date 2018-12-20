@@ -70,6 +70,7 @@ alias stopkafka="$kafka/bin/kafka-server-stop.sh"
 alias stopzoo="$kafka/bin/zookeeper-server-stop.sh"
 alias startmongo="mongod --config /usr/local/etc/mongod.conf"
 alias redis="redis-server /usr/local/etc/redis.conf"
+alias gradleArtifactPath="~/.gradle/caches/modules-2/files-2.1"
 
 ######################### This line should be last in file else ll command is giving trouble ########################################
 
