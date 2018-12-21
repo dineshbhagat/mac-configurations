@@ -42,8 +42,13 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 alias starymysql="mysql.server start"
 alias brewski="brew outdated && brew update && brew upgrade && brew cleanup; brew doctor"
 export JAVA_HOME=$(/usr/libexec/java_home)
-export GRADLE_HOME=$(brew info gradle | grep /usr/local/Cellar/gradle | awk '{print $1}')
-export PATH=$PATH:$GRADLE_HOME/bin
+export PATH=$JAVA_HOME/bin:$PATH
+
+#export GRADLE_HOME=$(brew info gradle | grep /usr/local/Cellar/gradle | awk '{print $1}')
+#export PATH=$PATH:$GRADLE_HOME/bin
+#export M2_HOME=$(brew info maven | grep /usr/local/Cellar/maven | awk '{print $1}')
+#export PATH=$PATH:$M2_HOME/bin
+
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
  
  #git shorcuts
