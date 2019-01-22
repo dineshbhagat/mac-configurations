@@ -4,6 +4,7 @@ dos2unix
 git
 gradle
 gradle-completion
+haproxy
 jmeter
 maven
 mc
