@@ -79,7 +79,7 @@ alias haproxy="haproxy -f /usr/local/etc/haproxy.cfg"
 
 export gradleArtifactPath="~/.gradle/caches/modules-2/files-2.1"
 
-export graalHome="~/standalone/graalvm-ce-1.0.0-rc11/Contents/Home/bin"
+export graalHome=~/standalone/graalvm-ce-1.0.0-rc11/Contents/Home/bin
 alias gjavac="$graalHome/javac"
 alias gjava="$graalHome/java"
  
