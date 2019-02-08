@@ -4,3 +4,5 @@ Restart bbedit.
 ```shell
 mv ~/Desktop/pretty-json.py ~/Library/Application\ Support/BBEdit/Text\ Filters
 ```
+If you face issue in above file
+[refer](mac-configurations/python/fix-Errors.md)
