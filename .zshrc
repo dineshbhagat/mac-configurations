@@ -76,6 +76,10 @@ alias stopzoo="$kafka/bin/zookeeper-server-stop.sh"
 alias startmongo="mongod --config /usr/local/etc/mongod.conf"
 alias redis="redis-server /usr/local/etc/redis.conf"
 alias haproxy="haproxy -f /usr/local/etc/haproxy.cfg"
+alias neo4jst="neo4j start"
+alias neo4jsp="neo4j stop"
+alias elastic="elasticsearch"
+alias kibana="kibana"
 
 export gradleArtifactPath="~/.gradle/caches/modules-2/files-2.1"
 
