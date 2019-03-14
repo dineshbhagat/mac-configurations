@@ -89,6 +89,8 @@ alias gjava="$graalHome/java"
  
 ######################### This line should be last in file else ll command is giving trouble ########################################
 
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
 source $(dirname $(gem which colorls))/tab_complete.sh
 
 # customize your ls output using online tool: https://geoff.greer.fm/lscolors/
