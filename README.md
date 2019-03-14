@@ -74,6 +74,25 @@ Following are other changes require to make iterm more customizable and solution
 https://tldr.sh/
 
 
+##### Install Ruby
+
+```shell
+
+brew install rbenv ruby-build
+
+# Add rbenv to bash/zsh (.bash_profile/.zshrc) so that it loads every time you open a terminal
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+source ~/.bash_profile
+
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.zshrc
+source ~/.zshrc
+
+# Install Ruby
+rbenv install 2.6.1
+rbenv global 2.6.1
+ruby -v
+
+```
 
 
 ```shell
