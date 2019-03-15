@@ -136,17 +136,30 @@ It offers flexibility in isolating multiple python environment and does not inte
 Package installed in one virtual environment will not be visible in other virtual environment  
 Package installed in virtual environment will not be installed system wide hence it will not be available to all programs which uses system python setup.
 
-System python installation path  
+System python installation path   
 `/System/Library/Frameworks/Python.framework/`
 
-Homebrew installed python path
+Homebrew installed python path  
 `/usr/local/Cellar/python/<version>/`
 
-Let us us python3 for virtual environment
+Let us us python3 for virtual environment  
 `pip3 install virtualenv`
 
-Setup virtual environment at any location, lets setup at home directory
+Setup virtual environment at any location, lets setup at home directory  
+`virtualenv -p python3 ~/virtEnvPy3`
 
+Activate virtual environment  
+```shell
+cd ~/virtEnvPy3
+source bin/activate
+```
+Install any package for above virtual environment from terminal   
+`pip install flask`
+
+Deactivate environment
+`deactivate`
+
+on similar line we can create virtual environment for python2 as well  
 
 
 #### intelliJ idea settings
