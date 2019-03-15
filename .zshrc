@@ -67,7 +67,9 @@ alias stopnginx="nginx -s stop"
 alias urld='python -c "import sys, urllib as ul; print ul.unquote_plus(sys.argv[1])"'
 alias urle='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1])"'
 
-alias jshell="~/standalone/jdk-12.jdk/Contents/Home/bin/jshell"
+alias jshell="~/standalone/jdk-12.jdk/Contents/Home/bin/jshell --enable-preview"
+alias ojava="~/standalone/jdk-12.jdk/Contents/Home/bin/java"
+
 export kafka="~/standalone/kafka_2.11-2.0.0"
 alias startkafka="$kafka/bin/kafka-server-start.sh $kafka/config/server.properties"
 alias startzoo="$kafka/bin/zookeeper-server-start.sh $kafka/config/zookeeper.properties"
