@@ -125,6 +125,30 @@ command-failure-status:
 
 ![ll-and-ls-commands](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202016-11-08%20at%2012.18.00%20AM.png)
 
+
+#### Python setup
+
+`brew install python@3`
+`brew install python@2`
+
+###### Virtual Environment for python
+It offers flexibility in isolating multiple python environment and does not interfer with other virtual environment  
+Package installed in one virtual environment will not be visible in other virtual environment  
+Package installed in virtual environment will not be installed system wide hence it will not be available to all programs which uses system python setup.
+
+System python installation path  
+`/System/Library/Frameworks/Python.framework/`
+
+Homebrew installed python path
+`/usr/local/Cellar/python/<version>/`
+
+Let us us python3 for virtual environment
+`pip3 install virtualenv`
+
+Setup virtual environment at any location, lets setup at home directory
+
+
+
 #### intelliJ idea settings
 
 For IntelliJ keymap, import settings.jar
