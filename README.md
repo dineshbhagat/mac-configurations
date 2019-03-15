@@ -1,6 +1,18 @@
 # 
 
-[TOC]
+- [Configurations](#configurations)
+	- [Iterm2/Terminal configurations](#iterm2terminal-configurations)
+		- [Zsh plugins](#zsh-plugins)
+		- [Install Fonts](#install-fonts)
+		- [Get better version of man pages](#get-better-version-of-man-pages)
+		- [Install Ruby](#install-ruby)
+		- [Make terminal colorful](#make-terminal-colorful)
+	- [Python setup](#python-setup)
+		- [Virtual Environment for python](#virtual-environment-for-python)
+	- [IntelliJ idea settings](#intellij-idea-settings)
+	- [Multiple java versions in mac](#multiple-java-versions-in-mac)
+	- [video tutorials](#video-tutorials)
+
 
 ### Configurations
 
