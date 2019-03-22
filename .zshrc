@@ -70,9 +70,15 @@ alias urle='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]
 alias jshell="~/standalone/jdk-12.jdk/Contents/Home/bin/jshell --enable-preview"
 alias ojava="~/standalone/jdk-12.jdk/Contents/Home/bin/java"
 # This will enable java for only in terminal where this function is executed
-enable_java_12()
+enable_java_12_or_11()
 {
-    export JAVA_HOME=~/standalone/jdk-12.jdk/Contents/Home
+    if [ $1 -eq 12  ]
+    then
+        echo $1
+        export JAVA_HOME=~/standalone/jdk-12.jdk/Contents/Home
+    else
+        export JAVA_HOME=~/standalone/jdk-11.jdk/Contents/Home
+    fi
     export PATH=$JAVA_HOME/bin:$PATH
     java -version
 }
