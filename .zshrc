@@ -69,6 +69,13 @@ alias urle='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]
 
 alias jshell="~/standalone/jdk-12.jdk/Contents/Home/bin/jshell --enable-preview"
 alias ojava="~/standalone/jdk-12.jdk/Contents/Home/bin/java"
+# This will enable java for only in terminal where this function is executed
+enable_java_12()
+{
+    export JAVA_HOME=/Users/z003byl/standalone/jdk-12.jdk/Contents/Home
+    export PATH=$JAVA_HOME/bin:$PATH
+    java -version
+}
 
 export kafka="~/standalone/kafka_2.11-2.0.0"
 alias startkafka="$kafka/bin/kafka-server-start.sh $kafka/config/server.properties"
