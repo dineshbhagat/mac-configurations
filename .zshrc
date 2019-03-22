@@ -72,7 +72,7 @@ alias ojava="~/standalone/jdk-12.jdk/Contents/Home/bin/java"
 # This will enable java for only in terminal where this function is executed
 enable_java_12()
 {
-    export JAVA_HOME=/Users/z003byl/standalone/jdk-12.jdk/Contents/Home
+    export JAVA_HOME=~/standalone/jdk-12.jdk/Contents/Home
     export PATH=$JAVA_HOME/bin:$PATH
     java -version
 }
