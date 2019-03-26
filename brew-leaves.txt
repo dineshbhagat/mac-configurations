@@ -2,6 +2,7 @@ bat
 coreutils
 dos2unix
 git
+go
 gradle
 gradle-completion
 haproxy
