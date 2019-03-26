@@ -42,12 +42,16 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 alias starymysql="mysql.server start"
 alias brewski="brew outdated && brew update && brew upgrade && brew cleanup; brew doctor"
 export JAVA_HOME=$(/usr/libexec/java_home)
-export PATH=$JAVA_HOME/bin:$PATH
+export PATH=${JAVA_HOME}/bin:$PATH
 
-#export GRADLE_HOME=$(brew info gradle | grep /usr/local/Cellar/gradle | awk '{print $1}')
-#export PATH=$PATH:$GRADLE_HOME/bin
-#export M2_HOME=$(brew info maven | grep /usr/local/Cellar/maven | awk '{print $1}')
-#export PATH=$PATH:$M2_HOME/bin
+export GOPATH="${HOME}/.go"
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+
+#export GRADLE_HOME=$(brew --prefix gradle)/libexec
+#export PATH=$PATH:${GRADLE_HOME}/bin
+#export M2_HOME=$(brew --prefix maven)/libexec
+#export PATH=$PATH:${M2_HOME}/bin
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
  
@@ -69,6 +73,7 @@ alias urle='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]
 
 alias jshell="~/standalone/jdk-12.jdk/Contents/Home/bin/jshell --enable-preview"
 alias ojava="~/standalone/jdk-12.jdk/Contents/Home/bin/java"
+
 # This will enable java for only in terminal where this function is executed
 enable_java_12_or_11()
 {
