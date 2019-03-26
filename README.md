@@ -111,7 +111,27 @@ rbenv global 2.6.1
 ruby -v
 
 rbenv rehash
+
+# to check outdated gems
+gem outdated
+
+#update all outdated gems
+sudo gem update
+
+# delete older gems
+gem cleanup
+
 ```
+
+ The first thing you want to do after installing a new Ruby version is to [install Bundler](https://github.com/nicolashery/mac-dev-setup#ruby).   
+ This tool will allow you to set up separate environments for your different Ruby projects, so their required gem versions won't conflict with each other.  
+ Install Bundler with:  
+
+`gem install bundler`
+
+ In a new Ruby project directory, create a new Gemfile with: like venv of python environment  
+`bundle init`
+
 
 
 
