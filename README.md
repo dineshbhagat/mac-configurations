@@ -1,4 +1,6 @@
-# 
+[![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)   **But it is**  [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)  
+
+
 
 - [Configurations](#configurations)
 	- [Iterm2/Terminal configurations](#iterm2terminal-configurations)
