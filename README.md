@@ -242,7 +242,7 @@ More Ref
 
 #### IntelliJ idea settings
 
-For IntelliJ keymap, import settings.jar
+For IntelliJ keymap, import [settings.jar](settings.jar)
 
 #### Multiple java versions in mac
 
