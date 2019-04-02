@@ -228,7 +228,11 @@ export GOPATH="${HOME}/go-workspace"
 export GOROOT="$(brew --prefix golang)/libexec"
 export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 ```
+Import Go packages
+`go get -u github.com/tednaleid/ganda` [Ref](https://github.com/tednaleid/ganda)
 
+More Ref
+1. https://golang.org/project/
 
 
 
