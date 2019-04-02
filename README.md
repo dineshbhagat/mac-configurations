@@ -11,6 +11,7 @@
 		- [Make terminal colorful](#make-terminal-colorful)
 	- [Python setup](#python-setup)
 		- [Virtual Environment for python](#virtual-environment-for-python)
+	- [GO setup](#go-setup)
 	- [IntelliJ idea settings](#intellij-idea-settings)
 	- [Multiple java versions in mac](#multiple-java-versions-in-mac)
 	- [video tutorials](#video-tutorials)
