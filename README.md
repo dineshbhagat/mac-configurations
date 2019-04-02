@@ -204,6 +204,15 @@ Deactivate environment
 
 on similar line we can create virtual environment for python2 as well  
 
+#### GO setup
+`brew install golang`  or `brew install go`
+
+
+
+
+
+
+
 #### IntelliJ idea settings
 
 For IntelliJ keymap, import settings.jar
