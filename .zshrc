@@ -44,7 +44,7 @@ alias brewski="brew outdated && brew update && brew upgrade && brew cleanup; bre
 export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH=${JAVA_HOME}/bin:$PATH
 
-export GOPATH="${HOME}/.go"
+export GOPATH="${HOME}/go-workspace"
 export GOROOT="$(brew --prefix golang)/libexec"
 export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 
