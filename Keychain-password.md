@@ -8,7 +8,7 @@
 
     1. Select File->New Password Item (cmd+N)
     2. Make sure Keychain item name is distinct —> `service-name` in command line
-    3. Account name —> `USER` in command line
+    3. Account name —> `USER` in command line, it is $whoami, or echo ${USER}
 
   - Command line using security command
 
