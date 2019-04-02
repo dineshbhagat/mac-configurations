@@ -91,6 +91,8 @@ https://github.com/codetalkchannel/pimpyourterminal/blob/master/.zshrc
 
 https://github.com/zsh-users
 
+https://help.github.com/en
+
 Following are other changes require to make iterm more customizable and solutions to some problem I have encountered so far.
 
 ##### Get better version of man pages
