@@ -12,6 +12,7 @@
 	- [Python setup](#python-setup)
 		- [Virtual Environment for python](#virtual-environment-for-python)
 	- [GO setup](#go-setup)
+		- [Environment variables](#environment-variables)
 	- [IntelliJ idea settings](#intellij-idea-settings)
 	- [Multiple java versions in mac](#multiple-java-versions-in-mac)
 	- [video tutorials](#video-tutorials)
@@ -207,9 +208,26 @@ on similar line we can create virtual environment for python2 as well
 
 #### GO setup
 `brew install golang`  or `brew install go`
+check version
+`go version`
 
+##### Environment variables
+Your Go working directory (`GOPATH`) is where you store your Go code.  
+It can be any path you choose but must be separate from your Go installation directory (`GOROOT`).
 
+```shell
+mkdir ${HOME}/go-workspace
+# GO projects/program will be stored
+mkdir ${HOME}/go-workspace/src
+# packaged object will be stored  
+mkdir ${HOME}/go-workspace/pkg
+# compiled binary files will be stored  
+mkdir ${HOME}/go-workspace/bin
 
+export GOPATH="${HOME}/go-workspace"
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+```
 
 
 
