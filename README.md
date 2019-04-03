@@ -214,7 +214,8 @@ check version
 `go version`
 
 ##### Environment variables
-Your Go working directory (`GOPATH`) is where you store your Go code.  
+Your Go working directory (`GOPATH`) is where you store your Go code/additional libraries.
+It is not mandatory to have your code at `go-workspace`.
 It can be any path you choose but must be separate from your Go installation directory (`GOROOT`).
 
 ```shell
@@ -232,6 +233,11 @@ export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 ```
 Import Go packages
 `go get -u github.com/tednaleid/ganda` [Ref](https://github.com/tednaleid/ganda)
+`go get -u github.com/visualfc/gotools`
+`go get -u github.com/visualfc/gocode`
+
+
+
 
 More Ref
 1. https://golang.org/project/
