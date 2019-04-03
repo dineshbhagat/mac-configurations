@@ -233,10 +233,6 @@ export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 ```
 Import Go packages
 `go get -u github.com/tednaleid/ganda` [Ref](https://github.com/tednaleid/ganda)
-`go get -u github.com/visualfc/gotools`
-`go get -u github.com/visualfc/gocode`
-
-
 
 
 More Ref
