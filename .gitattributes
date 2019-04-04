@@ -207,7 +207,3 @@ Procfile text
 *.jspx text
 *.class binary
 *.war binary
-
-
-
-.gitattributes
