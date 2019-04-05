@@ -32,3 +32,4 @@ Eclipse Setup for golang
 - File -> new Go Project -> create new folder with name `main` under src folder.
 - Add your entry point go file to main folder.
 - That's it...
+![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202019-04-06%20at%202.47.48%20AM.png)
