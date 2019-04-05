@@ -22,3 +22,13 @@ go get -u github.com/visualfc/gocode
 go get -u golang.org/x/tools/cmd/guru
 go get -u github.com/rogpeppe/godef
 ```
+
+
+Eclipse Setup for golang
+
+- After all package installation, go to eclipse market place, search and install [goclipse](https://github.com/GoClipse/goclipse)  
+- Once it is installed, go to eclipse preferences -> search 'sdk' --> Set Go installation directory `/usr/local/Cellar/go/1.12.1/libexec`,  
+- Search go in preferences --> Tools --> provide path for gocode, guru, godef `/Users/$USER/go-workspace/bin/gocode`  
+- File -> new Go Project -> create new folder with name `main` under src folder.
+- Add your entry point go file to main folder.
+- That's it...
