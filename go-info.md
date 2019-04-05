@@ -17,4 +17,8 @@ go get -d -u github.com/golang/dep
 # tools
 go get -u github.com/visualfc/gotools
 go get -u github.com/visualfc/gocode
+
+# required for eclipse https://github.com/GoClipse/goclipse
+go get -u golang.org/x/tools/cmd/guru
+go get -u github.com/rogpeppe/godef
 ```
