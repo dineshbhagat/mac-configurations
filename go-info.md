@@ -6,6 +6,8 @@ https://github.com/golang/go/wiki/Projects
 ```shell
 # debugger
 go get -u github.com/go-delve/delve/cmd/dlv
+go get -u github.com/derekparker/delve/cmd/dlv
+go get -u github.com/aarzilli/gdlv
 
 # oracle DB driver
 go get -u gopkg.in/goracle.v2
@@ -37,5 +39,3 @@ Eclipse Setup for golang
 - That's it...
 ![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202019-04-06%20at%202.47.48%20AM.png)
 
-In order to debug program   
-https://github.com/go-delve/delve
