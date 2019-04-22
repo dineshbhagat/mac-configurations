@@ -272,15 +272,15 @@ $ rm -rf ~/.sdkman
 
 ```
 
-Update
+Update  
 `sdk update`
-
 
 Usage
 
 ```shell
 # Docs: https://sdkman.io/usage
 sdk install micronaut
+sdk list micronaut
 sdk uninstall micronaut 1.0.4
 ```
 
