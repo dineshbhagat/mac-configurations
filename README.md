@@ -15,6 +15,7 @@
 		- [Environment variables](#environment-variables)
 	- [IntelliJ idea settings](#intellij-idea-settings)
 	- [Multiple java versions in mac](#multiple-java-versions-in-mac)
+	- [Multiple-SDK-for-Development-SDKMAN](#SDKMAN)
 	- [video tutorials](#video-tutorials)
 
 
@@ -249,6 +250,39 @@ For IntelliJ keymap, import [settings.jar](settings.jar)
 #### Multiple java versions in mac
 
 http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up your mac java version and environment variables
+
+#### SDKMAN
+
+Install
+
+```shell
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk version
+
+```
+Uninstall 
+
+```shell
+tar zcvf ~/sdkman-backup_$(date +%F-%kh%M).tar.gz -C ~/ .sdkman
+$ rm -rf ~/.sdkman
+# remove following line from bashrc/zshrc
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+[[ -s "/home/dudette/.sdkman/bin/sdkman-init.sh" ]] && source "/home/dudette/.sdkman/bin/sdkman-init.sh"
+
+```
+
+Update
+`sdk update`
+
+
+Usage
+
+```shell
+# Docs: https://sdkman.io/usage
+sdk install micronaut
+sdk uninstall micronaut 1.0.4
+```
 
 #### video tutorials
 
