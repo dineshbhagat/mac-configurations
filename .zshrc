@@ -121,4 +121,8 @@ alias ll='colorls -lA --sd'
 alias ls='colorls --group-directories-first'
 
 bindkey '^`' autosuggest-clear
+
+# embedded-terminal intelliJ idea
+bindkey "\e\eOD" backward-word
+bindkey "\e\eOC" forward-word
 #################################################################
