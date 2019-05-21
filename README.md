@@ -250,9 +250,9 @@ Then install SDK by
 `brew install groovysdk`  
 `export GROOVY_HOME=/usr/local/opt/groovy/libexec`  
 Point intelliJ idea to following path  
-`/usr/local/Cellar/groovysdk/<version>/libexec`
-check version
-`go version`
+`/usr/local/Cellar/groovysdk/<version>/libexec`  
+check version  
+`groovy --version`  
 
 Ref:
 [1](https://stackoverflow.com/a/42952785/2987755)
