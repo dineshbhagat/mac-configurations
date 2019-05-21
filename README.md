@@ -251,7 +251,7 @@ For IntelliJ keymap, import [settings.jar](settings.jar)
 
 http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up your mac java version and environment variables
 
-#### SDKMAN
+#### [SDKMAN](https://sdkman.io/)
 
 Install
 
