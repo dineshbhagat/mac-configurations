@@ -13,6 +13,7 @@
 		- [Virtual Environment for python](#virtual-environment-for-python)
 	- [GO setup](#go-setup)
 		- [Environment variables](#environment-variables)
+	- [Groovy setup](#groovy-setup)
 	- [IntelliJ idea settings](#intellij-idea-settings)
 	- [Multiple java versions in mac](#multiple-java-versions-in-mac)
 	- [Multiple-SDK-for-Development-SDKMAN](#SDKMAN)
@@ -242,6 +243,20 @@ More Ref
       
 
 
+#### Groovy setup
+If you have existing groovy version installed remove it first  
+`brew remove groovy`  
+Then install SDK by  
+`brew install groovysdk`  
+`export GROOVY_HOME=/usr/local/opt/groovy/libexec`  
+Point intelliJ idea to following path  
+`/usr/local/Cellar/groovysdk/<version>/libexec`
+check version
+`go version`
+
+Ref:
+[1](https://stackoverflow.com/a/42952785/2987755)
+
 
 #### IntelliJ idea settings
 
@@ -251,7 +266,7 @@ For IntelliJ keymap, import [settings.jar](settings.jar)
 
 http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up your mac java version and environment variables
 
-#### [SDKMAN](https://sdkman.io/)
+#### SDKMAN
 
 Install
 
@@ -283,6 +298,7 @@ sdk install micronaut
 sdk list micronaut
 sdk uninstall micronaut 1.0.4
 ```
+Ref: https://sdkman.io/
 
 #### video tutorials
 
