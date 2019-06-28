@@ -42,6 +42,8 @@ You can also drag one app thumbnail onto another in the Spaces bar.
 
 http://osxdaily.com/2013/06/19/copy-file-folder-path-mac-os-x/
 
+https://github.com/dineshbhagat/mac-configurations/blob/master/images/Copy%20Path.workflow.zip
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### [[⬆]](#toc) <a name='textfile'>Create text file at any location in finder app</a>
 
