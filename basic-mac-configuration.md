@@ -47,6 +47,9 @@ https://github.com/dineshbhagat/mac-configurations/blob/master/images/Copy%20Pat
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### [[⬆]](#toc) <a name='textfile'>Create text file at any location in finder app</a>
 
+https://github.com/dineshbhagat/mac-configurations/blob/master/images/New%20text%20File.workflow.zip
+
+
 Ref: https://zeldor.biz/2017/12/mac-os-x-finder-new-file/
 
 01. Open Automator and create a Service.  
