@@ -120,4 +120,6 @@ end tell
 ![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/finder-toolbar-customization.png)
 
 
+https://github.com/dineshbhagat/mac-configurations/blob/master/images/New%20Text%20File.app.zip
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
