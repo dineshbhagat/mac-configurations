@@ -39,6 +39,23 @@ POWERLEVEL9K_STATUS_OK=false
 
 source $ZSH/oh-my-zsh.sh
 fpath=(/usr/local/share/zsh-completions $fpath)
+
+ ### Fix slowness of pastes with zsh-syntax-highlighting.zsh
+ pasteinit() {
+   OLD_SELF_INSERT=${${(s.:.)widgets[self-insert]}[2,3]}
+   zle -N self-insert url-quote-magic # I wonder if you'd need `.url-quote-magic`?
+ }
+
+ pastefinish() {
+   zle -N self-insert $OLD_SELF_INSERT
+ }
+ zstyle :bracketed-paste-magic paste-init pasteinit
+ zstyle :bracketed-paste-magic paste-finish pastefinish
+
+ source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+ ### Fix slowness of pastes
+ 
+ 
 alias starymysql="mysql.server start"
 alias brewski="brew outdated && brew update && brew upgrade && brew cleanup; brew doctor"
 export JAVA_HOME=$(/usr/libexec/java_home)
@@ -75,18 +92,18 @@ alias jshell="~/standalone/jdk-12.jdk/Contents/Home/bin/jshell --enable-preview"
 alias ojava="~/standalone/jdk-12.jdk/Contents/Home/bin/java"
 
 # This will enable java for only in terminal where this function is executed
-enable_java_12_or_11()
-{
-    if [ $1 -eq 12  ]
-    then
-        echo $1
-        export JAVA_HOME=~/standalone/jdk-12.jdk/Contents/Home
-    else
-        export JAVA_HOME=~/standalone/jdk-11.jdk/Contents/Home
-    fi
-    export PATH=$JAVA_HOME/bin:$PATH
-    java -version
-}
+java11()
+ {
+	   export JAVA_HOME=~/standalone/jdk-11.jdk/Contents/Home
+	   export PATH=${JAVA_HOME}/bin:$PATH
+	   java -version
+ }
+java12()
+ {
+	   export JAVA_HOME=~/standalone/jdk-12.jdk/Contents/Home
+	   export PATH=${JAVA_HOME}/bin:$PATH
+	   java -version
+ }
 
 export kafka="~/standalone/kafka_2.11-2.0.0"
 alias startkafka="$kafka/bin/kafka-server-start.sh $kafka/config/server.properties"
@@ -106,7 +123,9 @@ export gradleArtifactPath="~/.gradle/caches/modules-2/files-2.1"
 export graalHome=~/standalone/graalvm-ce-1.0.0-rc11/Contents/Home/bin
 alias gjavac="$graalHome/javac"
 alias gjava="$graalHome/java"
- 
+
+export LC_ALL=en_US.UTF-8
+
 ######################### This line should be last in file else ll command is giving trouble ########################################
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
