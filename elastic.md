@@ -12,3 +12,7 @@ Enable virtual environment as mention [here](https://github.com/dineshbhagat/mac
 3. Start the server: `python3 application.py`
 4. Point your browser to: http://localhost:5000
 
+
+To install plugins
+`cd /usr/local/Cellar/elasticsearch/6.8.2/libexec/bin/elasticsearch`  
+`elasticsearch-plugin install analysis-icu`
