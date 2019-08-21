@@ -11,8 +11,8 @@ http://127.0.0.1:9411/zipkin/
 build.gradle
 ```shell
     // https://www.baeldung.com/tracing-services-with-zipkin
-    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-zipkin', version: '2.1.0.RELEASE'
-    compile group: 'io.opentracing.brave', name: 'brave-opentracing', version: '0.33.9'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-zipkin', version: '2.1.2.RELEASE'
+    compile group: 'io.opentracing.brave', name: 'brave-opentracing', version: '0.34.2'
     // https://mvnrepository.com/artifact/io.zipkin.brave/brave-instrumentation-mysql8
     compile group: 'io.zipkin.brave', name: 'brave-instrumentation-mysql8', version: '5.6.10'
  ```
