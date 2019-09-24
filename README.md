@@ -1,6 +1,6 @@
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)   **But it is**  [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)  
 
-
+***
 
 - [Configurations](#configurations)
 	- [Iterm2/Terminal configurations](#iterm2terminal-configurations)
@@ -19,6 +19,7 @@
 	- [Multiple-SDK-for-Development-SDKMAN](#SDKMAN)
 	- [video tutorials](#video-tutorials)
 
+***
 
 ### Configurations
 
@@ -324,3 +325,7 @@ Ref: https://sdkman.io/
 If you still could not follow up the steps, follow steps mentioned in the video  
 Part1: https://www.youtube.com/watch?v=iwH1XqVjZOE  
 Part2: https://www.youtube.com/watch?v=UsKd9Y42Mo0  
+
+
+***
+[customize-iterm2.sh](https://gist.github.com/dineshbhagat/a4bdff5c011957f9950b9bebed7f5e30)
