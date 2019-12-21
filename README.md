@@ -9,6 +9,7 @@
 		- [Get better version of man pages](#get-better-version-of-man-pages)
 		- [Install Ruby](#install-ruby)
 		- [Make terminal colorful](#make-terminal-colorful)
+		- [Optional powerlevel10k on top of powerlevel9k](#powerlevel10k-on-top-of-powerlevel9k)
 	- [Python setup](#python-setup)
 		- [Virtual Environment for python](#virtual-environment-for-python)
 	- [GO setup](#go-setup)
@@ -172,6 +173,39 @@ command-failure-status:
 
 
 ![ll-and-ls-commands](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202016-11-08%20at%2012.18.00%20AM.png)
+
+
+##### powerlevel10k on top of powerlevel9k
+
+This is optional setup and can be easy to change to and fro from powerlevel9k to [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+
+Only change you need to do is
+1. Clone powerlevel10k sourcecode
+```bash
+git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
+```
+
+2. Add powerlevel10k theme to `.zshrc` file and comment powerlevel9k
+```bash
+#ZSH_THEME="powerlevel9k/powerlevel9k"
+ ZSH_THEME="powerlevel10k/powerlevel10k"
+ ```
+3. source the zsh config file
+```bash
+source ~/.zshrc
+```
+
+4. If you still need to configure powerlevel10k, you can execute following command and choose suitable options for you
+
+```bash
+p10k configure
+```
+
+5. If you want to use older setup, just change the theme to powerlevel9k and 
+```bash
+mv ~/.p10k.zsh ~/.p10k.zsh.bak
+```
+
 
 #### Python setup
 
