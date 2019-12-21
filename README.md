@@ -205,7 +205,13 @@ p10k configure
 ```bash
 mv ~/.p10k.zsh ~/.p10k.zsh.bak
 ```
+Minor difference compare to previous setup
+1. No longer print status bar on enter command   
+2. git status difference, we get total number of unstaged, untracked files, here 5 unstaged files and 13 untracked files   
+3. if previous command's return status was success/error then subsequent enter will be in green/red respectively as shown below   
 
+![](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screenshot%202019-12-21%20at%204.59.39%20PM.png)
+![](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screenshot%202019-12-21%20at%204.57.52%20PM.png)
 
 #### Python setup
 
