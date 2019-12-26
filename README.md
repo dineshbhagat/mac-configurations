@@ -270,6 +270,21 @@ Deactivate environment
 
 on similar line we can create virtual environment for python2 as well  
 
+Now, if you want to extract which all packages you installed   
+```python
+pip2 freeze > requirements-2.txt
+# OR
+pip3 freeze > requirements-3.txt
+```
+
+If you want to install all packages from `requirements.txt`   
+
+```python
+pip2 install -r requirements.txt
+#OR
+pip3 install -r requirements.txt
+```
+
 #### GO setup
 `brew install golang`  or `brew install go`
 check version
