@@ -8,7 +8,7 @@
 		- [Install Fonts](#install-fonts)
 		- [Get better version of man pages](#get-better-version-of-man-pages)
 		- [Install Ruby](#install-ruby)
-		- [Make terminal colorful](#make-terminal-colorful)
+		- [Make ls, ll commands colorful](#make-ls-ll-commands-colorful)
 		- [Optional powerlevel10k on top of powerlevel9k](#powerlevel10k-on-top-of-powerlevel9k)
 	- [Python setup](#python-setup)
 		- [Virtual Environment for python](#virtual-environment-for-python)
@@ -17,7 +17,7 @@
 	- [Groovy setup](#groovy-setup)
 	- [IntelliJ idea settings](#intellij-idea-settings)
 	- [Multiple java versions in mac](#multiple-java-versions-in-mac)
-	- [Multiple-SDK-for-Development-SDKMAN](#SDKMAN)
+	- [SDKMAN](#sdkman)
 	- [video tutorials](#video-tutorials)
 
 ***
@@ -32,9 +32,11 @@ Following site will help you setup your mac.
 
 1. Install iterm2 from https://www.iterm2.com/ and Install Homebrew from https://brew.sh/ 
 
-2. Install software listed in file brew-leaves.txt `brew install $(< brew-leaves.txt)`
+2. Install software listed in file brew-leaves.txt   
+`brew install $(< brew-leaves.txt)`
 
-3. Add theme to iterm2: Oh-my-Z `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+3. Add theme to iterm2: [Oh-my-Z](https://ohmyz.sh/)   
+`sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
 4. Add additional plugins, themes and fonts to iterm2  
 
@@ -103,6 +105,7 @@ Following are other changes require to make iterm more customizable and solution
 
 https://tldr.sh/
 
+
 ##### Install Ruby
 
 ```shell
@@ -143,9 +146,7 @@ gem cleanup
 `bundle init`
 
 
-
-
-##### Make terminal colorful
+##### Make ls, ll commands colorful
 
 ```shell
 $sudo gem install colorls
@@ -212,6 +213,8 @@ Minor difference compare to previous setup
 
 ![](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screenshot%202019-12-21%20at%204.59.39%20PM.png)
 ![](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screenshot%202019-12-21%20at%204.57.52%20PM.png)
+
+------
 
 #### Python setup
 
@@ -284,6 +287,7 @@ pip2 install -r requirements.txt
 #OR
 pip3 install -r requirements.txt
 ```
+------
 
 #### GO setup
 `brew install golang`  or `brew install go`
@@ -316,7 +320,7 @@ More Ref
 1. https://golang.org/project/
 2. [GO-info](go-info.md)
       
-
+------
 
 #### Groovy setup
 If you have existing groovy version installed remove it first  
@@ -332,6 +336,7 @@ check version
 Ref:
 [1](https://stackoverflow.com/a/42952785/2987755)
 
+------
 
 #### IntelliJ idea settings
 
@@ -341,9 +346,11 @@ For IntelliJ keymap, import [settings.jar](settings.jar)
 
 http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up your mac java version and environment variables
 
+------ 
+
 #### SDKMAN
 
-Install
+Install:
 
 ```shell
 curl -s "https://get.sdkman.io" | bash
@@ -351,7 +358,7 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk version
 
 ```
-Uninstall 
+Uninstall: 
 
 ```shell
 tar zcvf ~/sdkman-backup_$(date +%F-%kh%M).tar.gz -C ~/ .sdkman
@@ -362,10 +369,10 @@ $ rm -rf ~/.sdkman
 
 ```
 
-Update  
+Update:  
 `sdk update`
 
-Usage
+Usage:
 
 ```shell
 # Docs: https://sdkman.io/usage
@@ -382,5 +389,6 @@ Part1: https://www.youtube.com/watch?v=iwH1XqVjZOE
 Part2: https://www.youtube.com/watch?v=UsKd9Y42Mo0  
 
 
-***
+------
+
 [customize-iterm2.sh](https://gist.github.com/dineshbhagat/a4bdff5c011957f9950b9bebed7f5e30)
