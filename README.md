@@ -1,5 +1,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)   **But it is**  [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)  
 
+### Configurations
+
 ***
 
 - [Configurations](#configurations)
@@ -22,7 +24,7 @@
 
 ***
 
-### Configurations
+
 
 <a href="#configurations">:arrow_up:</a> 
 #### Iterm2/Terminal configurations
