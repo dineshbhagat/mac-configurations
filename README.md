@@ -24,6 +24,7 @@
 
 ### Configurations
 
+<a href="#configurations">:arrow_up:</a> 
 #### Iterm2/Terminal configurations
 
 Note: Make sure you have *local admin rights* before you proceed with the following installations.
@@ -215,7 +216,7 @@ Minor difference compare to previous setup
 ![](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screenshot%202019-12-21%20at%204.57.52%20PM.png)
 
 ------
-
+<a href="#configurations">:arrow_up:</a>  
 #### Python setup
 
 `brew install python@3`  
@@ -288,7 +289,7 @@ pip2 install -r requirements.txt
 pip3 install -r requirements.txt
 ```
 ------
-
+<a href="#configurations">:arrow_up:</a>  
 #### GO setup
 `brew install golang`  or `brew install go`
 check version
@@ -321,7 +322,7 @@ More Ref
 2. [GO-info](go-info.md)
       
 ------
-
+<a href="#configurations">:arrow_up:</a>  
 #### Groovy setup
 If you have existing groovy version installed remove it first  
 `brew remove groovy`  
@@ -337,7 +338,7 @@ Ref:
 [1](https://stackoverflow.com/a/42952785/2987755)
 
 ------
-
+<a href="#configurations">:arrow_up:</a>  
 #### IntelliJ idea settings
 
 For IntelliJ keymap, import [settings.jar](settings.jar)
@@ -347,7 +348,7 @@ For IntelliJ keymap, import [settings.jar](settings.jar)
 http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up your mac java version and environment variables
 
 ------ 
-
+<a href="#configurations">:arrow_up:</a>  
 #### SDKMAN
 
 Install:
