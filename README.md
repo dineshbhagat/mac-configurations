@@ -393,5 +393,8 @@ Part2: https://www.youtube.com/watch?v=UsKd9Y42Mo0
 
 
 ------
+<a href="#configurations">:arrow_up:</a> 
 
 [customize-iterm2.sh](https://gist.github.com/dineshbhagat/a4bdff5c011957f9950b9bebed7f5e30)
+
+------
