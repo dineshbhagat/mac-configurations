@@ -1,5 +1,9 @@
-- homebrew
-- Install software using homebrew: Ref: https://apple.stackexchange.com/q/101090/299037, brew install $(< brew-leaves.txt)
+- homebrew  
+- Install software using homebrew: Ref: https://apple.stackexchange.com/q/101090/299037,   
+  ```bash
+  brew install $(< brew-leaves.txt)
+  ```
+
 - iterm
 - jd-gui
 - intelliJ-idea-ce
