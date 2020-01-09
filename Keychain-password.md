@@ -12,7 +12,13 @@
 
   - Command line using security command
 
-    - Add command: add-generic-password `security add-generic-password -h`
+    - Help:
+    ```bash
+    security add-generic-password -h
+    ```
+    
+    - Add command:   
+    add-generic-password 
       
       ```bash
       $ security add-generic-password -a ${USER} -s <service-name> -w 
@@ -20,7 +26,7 @@
 
       Enter password on prompt, 
 
-    - Update password if already exists : `-U ` flag
+    - *Update* password if already exists : `-U ` flag
 
       ```bash
       $ security add-generic-password -a ${USER} -s <service-name> -w -U
