@@ -20,6 +20,7 @@
 	- [IntelliJ idea settings](#intellij-idea-settings)
 	- [Multiple java versions in mac](#multiple-java-versions-in-mac)
 	- [SDKMAN](#sdkman)
+	- [Keychain-password](#keychain-password)
 	- [video tutorials](#video-tutorials)
 
 ***
@@ -384,6 +385,14 @@ sdk list micronaut
 sdk uninstall micronaut 1.0.4
 ```
 Ref: https://sdkman.io/
+
+------
+<a href="#configurations">:arrow_up:</a> 
+#### Keychain Password
+
+[here](https://github.com/dineshbhagat/mac-configurations/blob/master/Keychain-password.md)
+
+------
 
 #### video tutorials
 
