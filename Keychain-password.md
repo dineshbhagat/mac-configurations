@@ -13,19 +13,29 @@
   - Command line using security command
 
     - Add command: add-generic-password `security add-generic-password -h`
-      `$ security add-generic-password -a ${USER} -s <service-name> -w `
+      
+      ```bash
+      $ security add-generic-password -a ${USER} -s <service-name> -w 
+      ```
 
       Enter password on prompt, 
 
     - Update password if already exists : `-U ` flag
 
-      `$ security add-generic-password -a ${USER} -s <service-name> -w -U`
+      ```bash
+      $ security add-generic-password -a ${USER} -s <service-name> -w -U
+      ```
 
     - Delete password: `security delete-generic-password -h`
 
-      `security delete-generic-password -a ${USER} -s <service-name>`
+      ```bash
+      security delete-generic-password -a ${USER} -s <service-name>
+      ```
 
-    - Retrieve Password: `security find-generic-password -h`
+    - Retrieve Password:  
+    ```bash
+    security find-generic-password -h
+    ```
 
       
 
