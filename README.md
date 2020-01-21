@@ -348,6 +348,7 @@ For IntelliJ keymap, import [settings.jar](settings.jar)
 
 [Fonts](https://www.jetbrains.com/lp/mono/)
 
+------
 
 #### Multiple java versions in mac
 
