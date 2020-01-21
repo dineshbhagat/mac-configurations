@@ -346,6 +346,9 @@ Ref:
 
 For IntelliJ keymap, import [settings.jar](settings.jar)
 
+[Fonts](https://www.jetbrains.com/lp/mono/)
+
+
 #### Multiple java versions in mac
 
 http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up your mac java version and environment variables
@@ -390,7 +393,7 @@ Ref: https://sdkman.io/
 <a href="#configurations">:arrow_up:</a> 
 #### Keychain Password
 
-[here](https://github.com/dineshbhagat/mac-configurations/blob/master/Keychain-password.md)
+[add/update/delete](https://github.com/dineshbhagat/mac-configurations/blob/master/Keychain-password.md)
 
 ------
 
