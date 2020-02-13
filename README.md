@@ -218,6 +218,12 @@ Minor difference compare to previous setup
 ![](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screenshot%202019-12-21%20at%204.59.39%20PM.png)
 ![](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screenshot%202019-12-21%20at%204.57.52%20PM.png)
 
+
+
+Other customizations you can try:
+1. https://denysdovhan.com/spaceship-prompt/
+
+
 ------
 <a href="#configurations">:arrow_up:</a>  
 #### Python setup
