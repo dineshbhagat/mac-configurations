@@ -136,7 +136,7 @@ gem outdated
 sudo gem update
 
 # delete older gems
-gem cleanup
+sudo gem cleanup
 
 ```
 
