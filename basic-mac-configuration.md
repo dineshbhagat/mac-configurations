@@ -3,6 +3,7 @@
 - [ ] [copy full path in mac](#copypath):
 - [ ] [Create text file at any location in finder app](#textfile):
 - [ ] [Adding application to finder window](#addAppFinder):
+- [ ] [Image editing tool](#imageEditingTool):
 
 
 
@@ -123,3 +124,14 @@ end tell
 https://github.com/dineshbhagat/mac-configurations/blob/master/images/New%20Text%20File.app.zip
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### [[⬆]](#toc) <a name='imageEditingTool'>Append Images using ImageMagick</a>
+
+```bash
+brew install ImageMagick;
+
+convert -append ~/Desktop/Screenshot\ 2020-08-11\ at\ 3.03.52\ PM.png ~/Desktop/Screenshot\ 2020-08-11\ at\ 3.06.01\ PM.png  ~/Desktop/out.png
+```
+
+------
+
