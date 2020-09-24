@@ -144,9 +144,9 @@ brew cask install background-music
 
 Ref: https://github.com/kyleneideck/BackgroundMusic
 
-In case if you see, there is no impact of changing the audio by changing slider ![here]()
+In case if you see, there is no impact of changing the audio by changing slider ![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/backgroundmusic.png)
 
-Then check for audi setting and chose background music option as shown ![here]()
+Then check for audio setting and choose background music option as shown ![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/zoom-setting.png)
 
 
 ------
