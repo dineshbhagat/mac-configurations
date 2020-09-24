@@ -4,6 +4,7 @@
 - [ ] [Create text file at any location in finder app](#textfile):
 - [ ] [Adding application to finder window](#addAppFinder):
 - [ ] [Image editing tool](#imageEditingTool):
+- [ ] [Control audio based on application](#audioControl):
 
 
 
@@ -135,3 +136,17 @@ convert -append ~/Desktop/Screenshot\ 2020-08-11\ at\ 3.03.52\ PM.png ~/Desktop/
 
 ------
 
+#### [[⬆]](#toc) <a name='audioControl'> Control audio per application level </a>
+
+```bash
+brew cask install background-music
+```
+
+Ref: https://github.com/kyleneideck/BackgroundMusic
+
+In case if you see, there is no impact of changing the audio by changing slider ![here]()
+
+Then check for audi setting and chose background music option as shown ![here]()
+
+
+------
