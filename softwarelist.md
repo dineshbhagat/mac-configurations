@@ -19,3 +19,4 @@
 - mysqlWorkbench
 - studio3T
 - sequalPro
+- `brew reinstall background-music`
