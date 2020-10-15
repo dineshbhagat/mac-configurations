@@ -9,7 +9,6 @@ haproxy
 jmeter
 maven
 mc
-mongo
 mysql
 nginx
 node
