@@ -394,6 +394,45 @@ sdk install micronaut
 sdk list micronaut
 sdk uninstall micronaut 1.0.4
 ```
+
+Install Java (multi distribution)
+
+```bash
+sdk list java
+```
+
+Available Java Versions
+
+`>>>` indicates current default version
+
+| Vendor        | Use | Version      | Dist    | Status     | Identifier       |
+|---------------|-----|--------------|---------|------------|------------------|
+| AdoptOpenJDK  |     | 15.0.0.j9    | adpt    |            | 15.0.0.j9-adpt   |      
+|               | >>> | 11.0.8.hs    | adpt    | installed  | 11.0.8.hs-adpt   |
+|               |     | 8.0.265.j9   | adpt    |            | 8.0.265.j9-adpt  |
+|               |     | 8.0.265.hs   | adpt    |            | 8.0.265.hs-adpt  |
+| Amazon        |     | 15.0.0       | amzn    |            | 15.0.0-amzn      |
+|               |     | 11.0.8       | amzn    |            | 11.0.8-amzn      |
+|               |     | 8.0.265      | amzn    |            | 8.0.265-amzn     |
+| Azul Zulu     |     | 15.0.0       | zulu    |            | 15.0.0-zulu      |     
+| BellSoft      |     | 15.0.0.fx    | librca  |            | 15.0.0.fx-librca |    
+| GraalVM       |     | 20.2.0.r11   | grl     |            | 20.2.0.r11-grl   |     
+| Java.net      |     | 16.ea.19     | open    |            | 16.ea.19-open    |       
+| SAP           |     | 15.0.0       | sapmchn |            | 15.0.0-sapmchn   |
+     
+================================================================================
+Use the Identifier for installation:   
+
+```bash
+# syntax
+sdk install java <version-dist>
+# e.g.
+sdk install java 11.0.8.hs-adpt
+
+```
+
+
+
 Ref: https://sdkman.io/
 
 ------
