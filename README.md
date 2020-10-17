@@ -420,7 +420,7 @@ Available Java Versions
 | Java.net      |     | 16.ea.19     | open    |            | 16.ea.19-open    |       
 | SAP           |     | 15.0.0       | sapmchn |            | 15.0.0-sapmchn   |
      
-================================================================================
+
 Use the Identifier for installation:   
 
 ```bash
@@ -430,8 +430,6 @@ sdk install java <version-dist>
 sdk install java 11.0.8.hs-adpt
 
 ```
-
-
 
 Ref: https://sdkman.io/
 
