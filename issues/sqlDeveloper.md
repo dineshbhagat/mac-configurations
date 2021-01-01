@@ -17,7 +17,8 @@ SetJavaHome /Users/<user>/standalone/adoptopenjdk-11.jdk/Contents/Home
 
 Ref: https://adoptopenjdk.net/migration.html
 
-After upgrade to catalina, if you unable to open sqlDeveloper due to apple's security policy("“SQLDeveloper.app” can’t be opened because Apple cannot check it for malicious software.") and somehow this workaround(locate application from finder app --> Usually at `/Applications/SQLDeveloper.app` -> Right click on it and select open) too does not work then do as below  
+After upgrade to catalina, if you unable to open sqlDeveloper due to apple's security policy("“SQLDeveloper.app” can’t be opened because Apple cannot check it for malicious software.") and   
+somehow this workaround(locate application from finder app --> Usually at `/Applications/SQLDeveloper.app` -> Right click on it and select open) too does not work then do as below   
 add following alias to your `.bashrc/.zshrc` file.    
 
 ```bash
