@@ -1,5 +1,5 @@
 - If your recursive backward search(ctrl+r) is slow, then you can delete unwanted commands from ~/.zsh_history file   
-  open `bbedit` application  
+  `bbedit ~/.zsh_history`  
   enable `grep` in find and replace command box:   
   Add to find  
   `^:\s\d.*;pwd.*\n`   
