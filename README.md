@@ -123,8 +123,8 @@ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.zshrc
 source ~/.zshrc
 
 # Install Ruby
-rbenv install 2.7.0
-rbenv global 2.7.0
+rbenv install 2.7.2
+rbenv global 2.7.2
 ruby -v
 
 rbenv rehash
