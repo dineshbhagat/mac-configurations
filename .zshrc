@@ -1,7 +1,13 @@
+export TERM="xterm-256color"
  # Path to your oh-my-zsh installation.
- export ZSH="/Users/<username>/.oh-my-zsh"
+ export ZSH="/Users/${USER}/.oh-my-zsh"
 # ZSH_THEME="robbyrussell"
 
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+#ZSH_THEME="robbyrussell"
 
 #POWERLEVEL9K_MODE='awesome-fontconfig'
 POWERLEVEL9K_MODE='nerdfont-complete'
@@ -40,39 +46,52 @@ POWERLEVEL9K_STATUS_OK=false
 source $ZSH/oh-my-zsh.sh
 fpath=(/usr/local/share/zsh-completions $fpath)
 
- ### Fix slowness of pastes with zsh-syntax-highlighting.zsh
- pasteinit() {
-   OLD_SELF_INSERT=${${(s.:.)widgets[self-insert]}[2,3]}
-   zle -N self-insert url-quote-magic # I wonder if you'd need `.url-quote-magic`?
- }
+### Fix slowness of pastes with zsh-syntax-highlighting.zsh
+pasteinit() {
+  OLD_SELF_INSERT=${${(s.:.)widgets[self-insert]}[2,3]}
+  zle -N self-insert url-quote-magic # I wonder if you'd need `.url-quote-magic`?
+}
 
- pastefinish() {
-   zle -N self-insert $OLD_SELF_INSERT
- }
- zstyle :bracketed-paste-magic paste-init pasteinit
- zstyle :bracketed-paste-magic paste-finish pastefinish
+pastefinish() {
+  zle -N self-insert $OLD_SELF_INSERT
+}
+zstyle :bracketed-paste-magic paste-init pasteinit
+zstyle :bracketed-paste-magic paste-finish pastefinish
 
- source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
- ### Fix slowness of pastes
- 
- 
-alias starymysql="mysql.server start"
+source $ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+### Fix slowness of pastes
+
+alias startmysql="mysql.server start"
 alias brewski="brew outdated && brew update && brew upgrade && brew cleanup; brew doctor"
 export JAVA_HOME=$(/usr/libexec/java_home)
-export PATH=${JAVA_HOME}/bin:$PATH
+export PATH=$JAVA_HOME/bin:$PATH
+alias sqldeveloper="/Applications/SQLDeveloper.app/Contents/MacOS/sqldeveloper.sh; exit"
+alias jd="java -jar /Users/${USER}/standalone/Bytecode-Viewer-2.9.22.jar"
+
 
 export GOPATH="${HOME}/go-workspace"
 export GOROOT="$(brew --prefix golang)/libexec"
 export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 
+export GROOVY_HOME=/usr/local/opt/groovy/libexec
+
+java14()
+ {
+	export JAVA_HOME=~/standalone/jdk-14.0.1+7/Contents/Home
+	export PATH=${JAVA_HOME}/bin:$PATH
+	java -version
+ }
+
+
 #export GRADLE_HOME=$(brew --prefix gradle)/libexec
 #export PATH=$PATH:${GRADLE_HOME}/bin
+#export GRADLE_JARS=~/.gradle/caches/modules-2/files-2.1
 #export M2_HOME=$(brew --prefix maven)/libexec
 #export PATH=$PATH:${M2_HOME}/bin
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
  
- #git shorcuts
+#git shorcuts
 alias gitlog="git log --graph --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --date=short"
 
 # commented following line since its disabling $ls color output
@@ -88,24 +107,9 @@ alias stopnginx="nginx -s stop"
 alias urld='python -c "import sys, urllib as ul; print ul.unquote_plus(sys.argv[1])"'
 alias urle='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1])"'
 
-alias jshell="~/standalone/jdk-12.jdk/Contents/Home/bin/jshell --enable-preview"
-alias ojava="~/standalone/jdk-12.jdk/Contents/Home/bin/java"
-
-# This will enable java for only in terminal where this function is executed
-java11()
- {
-	   export JAVA_HOME=~/standalone/jdk-11.jdk/Contents/Home
-	   export PATH=${JAVA_HOME}/bin:$PATH
-	   java -version
- }
-java12()
- {
-	   export JAVA_HOME=~/standalone/jdk-12.jdk/Contents/Home
-	   export PATH=${JAVA_HOME}/bin:$PATH
-	   java -version
- }
-
-export kafka="~/standalone/kafka_2.11-2.0.0"
+alias jshell="~/standalone/jdk-14.0.1+7/Contents/Home/bin/jshell --enable-preview"
+alias ojava="~/standalone/jdk-14.0.1+7/Contents/Home/bin/java"
+export kafka=~/standalone/kafka_2.11-2.1.0
 alias startkafka="$kafka/bin/kafka-server-start.sh $kafka/config/server.properties"
 alias startzoo="$kafka/bin/zookeeper-server-start.sh $kafka/config/zookeeper.properties"
 alias stopkafka="$kafka/bin/kafka-server-stop.sh"
@@ -116,13 +120,18 @@ alias haproxy="haproxy -f /usr/local/etc/haproxy.cfg"
 alias neo4jst="neo4j start"
 alias neo4jsp="neo4j stop"
 alias elastic="elasticsearch"
-alias kibana="kibana"
+#alias kibana="kibana"
+#alias logstash="logstash"
+alias grafana="grafana-server --config=/usr/local/etc/grafana/grafana.ini --homepath /usr/local/share/grafana --packaging=brew cfg:default.paths.logs=/usr/local/var/log/grafana cfg:default.paths.data=/usr/local/var/lib/grafana cfg:default.paths.plugins=/usr/local/var/lib/grafana/plugins"
 
+alias startc="~/standalone/apache-cassandra-4.0-beta1/bin/cassandra -f"
+alias stconsul="consul agent -dev -bind 127.0.0.1"
 export gradleArtifactPath="~/.gradle/caches/modules-2/files-2.1"
 
 export graalHome=~/standalone/graalvm-ce-1.0.0-rc11/Contents/Home/bin
 alias gjavac="$graalHome/javac"
 alias gjava="$graalHome/java"
+export PATH=$graalHome/bin:$PATH
 
 export LC_ALL=en_US.UTF-8
 
