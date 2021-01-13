@@ -1,1 +1,6 @@
 theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-feed
+  
+title: Mac-Configuration
