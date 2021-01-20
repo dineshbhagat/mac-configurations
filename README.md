@@ -156,7 +156,7 @@ sudo gem cleanup
 `bundle init`
 
 
-##### Make ls, ll commands colorful
+##### Make ls, ll commands colorful and much more using [colorls](https://github.com/athityakumar/colorls)
 
 ```shell
 $sudo gem install colorls
