@@ -10,7 +10,7 @@
 		- [Install Fonts](#install-fonts)
 		- [Get better version of man pages](#get-better-version-of-man-pages)
 		- [Install Ruby](#install-ruby)
-		- [Make ls, ll commands colorful](#make-ls-ll-commands-colorful)
+		- [Make ls, ll commands colorful](#make-ls-ll-commands-colorful-and-much-more-using-colorls)
 		- [Optional powerlevel10k on top of powerlevel9k](#powerlevel10k-on-top-of-powerlevel9k)
 	- [Python setup](#python-setup)
 		- [Virtual Environment for python](#virtual-environment-for-python)
