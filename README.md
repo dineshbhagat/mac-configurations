@@ -61,6 +61,8 @@ Following site will help you setup your mac.
    https://github.com/gabrielelana/awesome-terminal-fonts
 
    https://github.com/ryanoasis/nerd-fonts
+   
+   https://www.nerdfonts.com/
 
 5. Install powerlevel9k theme(choose Option 2: Install for Oh-My-ZSH) https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k  
 6. Update .zshrc file as show in [here](https://github.com/dineshbhagat/mac-configurations/blob/master/.zshrc)
