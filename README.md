@@ -188,6 +188,16 @@ command-failure-status:
 ![ll-and-ls-commands](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202016-11-08%20at%2012.18.00%20AM.png)
 
 
+Following are some alternatives to colorls
+
+https://github.com/ogham/exa
+
+https://github.com/Peltoche/lsd
+
+
+
+
+
 ##### powerlevel10k on top of powerlevel9k
 
 This is optional setup and can be easy to change to and fro from powerlevel9k to [powerlevel10k](https://github.com/romkatv/powerlevel10k)
