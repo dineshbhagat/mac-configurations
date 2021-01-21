@@ -54,15 +54,15 @@ Following site will help you setup your mac.
 
    ##### Install Fonts
 
-   https://github.com/adobe-fonts/source-code-pro
+   [source-code-pro](https://github.com/adobe-fonts/source-code-pro)
 
-   https://github.com/powerline/fonts
+   [powerline fonts](https://github.com/powerline/fonts)
 
-   https://github.com/gabrielelana/awesome-terminal-fonts
+   [awesome-terminal-fonts](https://github.com/gabrielelana/awesome-terminal-fonts)
 
-   https://github.com/ryanoasis/nerd-fonts
+   [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
    
-   https://www.nerdfonts.com/
+   [nerd-fonts](https://www.nerdfonts.com/)
 
 5. Install powerlevel9k theme(choose Option 2: Install for Oh-My-ZSH) https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k  
 6. Update .zshrc file as show in [here](.zshrc)
@@ -91,19 +91,19 @@ git clone https://github.com/amix/vimrc.git ~/.vim_runtime && sh ~/.vim_runtime/
 
 More info:
 
-https://github.com/nicolashery/mac-dev-setup
+[nicolashery/mac-dev-setup](https://github.com/nicolashery/mac-dev-setup)
 
-https://github.com/donnemartin/dev-setup
+[donnemartin/dev-setup](https://github.com/donnemartin/dev-setup)
 
-https://sourabhbajaj.com/mac-setup/
+[sourabhbajaj/mac-setup/](https://sourabhbajaj.com/mac-setup/)
 
-https://github.com/andreafrancia/trash-cli
+[andreafrancia/trash-cli](https://github.com/andreafrancia/trash-cli)
 
-https://github.com/codetalkchannel/pimpyourterminal/blob/master/.zshrc
+[pimpyourterminal/blob/master/.zshrc](https://github.com/codetalkchannel/pimpyourterminal/blob/master/.zshrc)
 
-https://github.com/zsh-users
+[zsh-users](https://github.com/zsh-users)
 
-https://help.github.com/en
+[help.github](https://help.github.com/en)
 
 Following are other changes require to make iterm more customizable and solutions to some problem I have encountered so far.
 
@@ -190,9 +190,9 @@ command-failure-status:
 
 Following are some alternatives to colorls
 
-https://github.com/ogham/exa
+[ogham/exa](https://github.com/ogham/exa)
 
-https://github.com/Peltoche/lsd
+[Peltoche/lsd](https://github.com/Peltoche/lsd)
 
 
 
