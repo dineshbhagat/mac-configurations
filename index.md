@@ -27,7 +27,7 @@
 
 
 
-<a href="#configurations">![](images/2b06.png)</a> 
+<a href="#configurations">⬆️</a> 
 #### Iterm2/Terminal configurations
 
 Note: Make sure you have *local admin rights* before you proceed with the following installations.
