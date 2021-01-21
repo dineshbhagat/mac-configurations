@@ -1,4 +1,4 @@
-<a href="https://github.com/dineshbhagat/mac-configurations/blob/master/README.md#keychain-password">◀️</a>
+<a href="README.md#keychain-password">◀️</a>
 
 
 
