@@ -8,6 +8,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-readme-index
   - jekyll-relative-links
+  - jekyll-sitemap
 
 
 relative_links:
