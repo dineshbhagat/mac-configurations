@@ -27,7 +27,7 @@
 
 
 
-<a href="#configurations">:arrow_up:</a> 
+<a href="#configurations">![](images/2b06.png)</a> 
 #### Iterm2/Terminal configurations
 
 Note: Make sure you have *local admin rights* before you proceed with the following installations.
@@ -243,7 +243,7 @@ Other customizations you can try:
 
 
 ------
-<a href="#configurations">:arrow_up:</a>  
+<a href="#configurations">![](images/2b06.png)</a>  
 #### Python setup
 
 `brew install python@3`  
@@ -316,7 +316,7 @@ pip2 install -r requirements.txt
 pip3 install -r requirements.txt
 ```
 ------
-<a href="#configurations">:arrow_up:</a>  
+<a href="#configurations">![](images/2b06.png)</a>  
 #### GO setup
 `brew install golang`  or `brew install go`
 check version
@@ -349,7 +349,7 @@ More Ref
 2. [GO-info](go-info.md)
       
 ------
-<a href="#configurations">:arrow_up:</a>  
+<a href="#configurations">![](images/2b06.png)</a>  
 #### Groovy setup
 If you have existing groovy version installed remove it first  
 `brew remove groovy`  
@@ -365,7 +365,7 @@ Ref:
 [1](https://stackoverflow.com/a/42952785/2987755)
 
 ------
-<a href="#configurations">:arrow_up:</a>  
+<a href="#configurations">![](images/2b06.png)</a>  
 #### IntelliJ idea settings
 
 For IntelliJ keymap, import [settings.jar](settings.jar)
@@ -379,7 +379,7 @@ For IntelliJ keymap, import [settings.jar](settings.jar)
 http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up your mac java version and environment variables
 
 ------ 
-<a href="#configurations">:arrow_up:</a>  
+<a href="#configurations">![](images/2b06.png)</a>  
 #### SDKMAN
 
 Install:
@@ -452,7 +452,7 @@ sdk install java 11.0.8.hs-adpt
 Ref: https://sdkman.io/
 
 ------
-<a href="#configurations">:arrow_up:</a> 
+<a href="#configurations">![](images/2b06.png)</a> 
 #### Keychain Password
 
 [add/update/delete](Keychain-password.md)
@@ -467,7 +467,7 @@ Part2: https://www.youtube.com/watch?v=UsKd9Y42Mo0
 
 
 ------
-<a href="#configurations">:arrow_up:</a> 
+<a href="#configurations">![](images/2b06.png)</a> 
 
 [customize-iterm2.sh](https://gist.github.com/dineshbhagat/a4bdff5c011957f9950b9bebed7f5e30)
 
