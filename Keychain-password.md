@@ -1,8 +1,9 @@
-<a href="README.md#keychain-password">◀️</a>
+---
+layout: default
+---
 
+<a href="README.md#keychain-password">:arrow_left:</a>
 
-
-- Ref: https://www.netmeister.org/blog/keychain-passwords.html
 
   #### Using the OS X Keychain to store and retrieve passwords
 
@@ -48,4 +49,5 @@
     ```
 
       
+    [Ref](https://www.netmeister.org/blog/keychain-passwords.html)
 
