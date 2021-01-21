@@ -3,3 +3,8 @@ title: Mac-Configuration
 plugins:
   - jemoji
   - jekyll-seo-tag
+  - github-pages-health-check
+  - jekyll-gist
+  - jekyll-redirect-from
+  - jekyll-readme-index
+  - jekyll-relative-links
