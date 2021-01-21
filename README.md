@@ -126,6 +126,7 @@ source ~/.zshrc
 
 # If you're using Zsh
 echo 'export PATH="$HOME/.gem/ruby/2.7.2/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
 
 # If you're using Bash
 echo 'export PATH="$HOME/.gem/ruby/2.7.2/bin:$PATH"' >> ~/.bash_profile
