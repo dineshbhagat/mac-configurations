@@ -27,7 +27,7 @@
 
 
 
-<a href="#configurations">⬆️</a> 
+<a href="#configurations">:arrow_up:</a> 
 #### Iterm2/Terminal configurations
 
 Note: Make sure you have *local admin rights* before you proceed with the following installations.
