@@ -10,6 +10,7 @@ group :jekyll_plugins do
  gem 'jekyll-redirect-from'
  gem 'jekyll-readme-index'
  gem 'jekyll-relative-links'
+ gem 'jekyll-sitemap'
 end
 
 gemspec
