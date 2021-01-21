@@ -65,11 +65,11 @@ Following site will help you setup your mac.
    https://www.nerdfonts.com/
 
 5. Install powerlevel9k theme(choose Option 2: Install for Oh-My-ZSH) https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k  
-6. Update .zshrc file as show in [here](https://github.com/dineshbhagat/mac-configurations/blob/master/.zshrc)
+6. Update .zshrc file as show in [here](.zshrc)
 7. change fonts for iterm2: iTerm2 -> Preferences -> Profiles -> Text -> Font -> Change Font to hack-nerd
 8. Execute `compaudit | xargs chmod g-w,o-w /usr/local/share/zsh ;compaudit | xargs chmod g-w,o-w /usr/local/share/zsh/site-functions`
 9. change font settings as shown in image  
-   ![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202018-12-04%20at%205.47.48%20PM.png)
+   ![image](images/Screen%20Shot%202018-12-04%20at%205.47.48%20PM.png)
 10. Vim Customization 
 
 ```shell
@@ -77,7 +77,7 @@ git clone https://github.com/amix/vimrc.git ~/.vim_runtime && sh ~/.vim_runtime/
 ```
 
 11. Customize iterm2 [shortcut](https://stackoverflow.com/a/10485061/2987755)
-    ![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/iterm2-config.png)
+    ![image](images/iterm2-config.png)
 
 ⌘←  "SEND HEX CODE"      0x01  
 ⌘→  "SEND HEX CODE"      0x05  
@@ -175,17 +175,17 @@ $ — stashed changes;
 ⇡ — unpushed commits
 ```
 
-![normal-prompt](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202018-10-08%20at%2011.50.18%20AM.png)
+![normal-prompt](images/Screen%20Shot%202018-10-08%20at%2011.50.18%20AM.png)
 
-![auto-complete](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202018-10-08%20at%2011.59.12%20AM.png)
+![auto-complete](images/Screen%20Shot%202018-10-08%20at%2011.59.12%20AM.png)
 
 command-failure-status:
 
-![terminate-command-on-failure-status](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202018-10-08%20at%2012.00.18%20PM.png)
+![terminate-command-on-failure-status](images/Screen%20Shot%202018-10-08%20at%2012.00.18%20PM.png)
 
 
 
-![ll-and-ls-commands](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screen%20Shot%202016-11-08%20at%2012.18.00%20AM.png)
+![ll-and-ls-commands](images/Screen%20Shot%202016-11-08%20at%2012.18.00%20AM.png)
 
 
 Following are some alternatives to colorls
@@ -233,8 +233,8 @@ Minor difference compare to previous setup
 2. git status difference, we get total number of unstaged, untracked files, here 5 unstaged files and 13 untracked files   
 3. if previous command's return status was success/error then subsequent enter will be in green/red respectively as shown below   
 
-![](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screenshot%202019-12-21%20at%204.59.39%20PM.png)
-![](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Screenshot%202019-12-21%20at%204.57.52%20PM.png)
+![](images/Screenshot%202019-12-21%20at%204.59.39%20PM.png)
+![](images/Screenshot%202019-12-21%20at%204.57.52%20PM.png)
 
 
 
@@ -455,7 +455,7 @@ Ref: https://sdkman.io/
 <a href="#configurations">:arrow_up:</a> 
 #### Keychain Password
 
-[add/update/delete](https://github.com/dineshbhagat/mac-configurations/blob/master/Keychain-password.md)
+[add/update/delete](Keychain-password.md)
 
 ------
 
