@@ -5,23 +5,23 @@
 ***
 
 - [Configurations](#configurations)
-	- [Iterm2/Terminal configurations](#iterm2terminal-configurations)
-		- [Zsh plugins](#zsh-plugins)
-		- [Install Fonts](#install-fonts)
-		- [Get better version of man pages](#get-better-version-of-man-pages)
-		- [Install Ruby](#install-ruby)
-		- [Make ls, ll commands colorful](#make-ls-ll-commands-colorful-and-much-more-using-colorls)
-		- [Optional powerlevel10k on top of powerlevel9k](#powerlevel10k-on-top-of-powerlevel9k)
-	- [Python setup](#python-setup)
-		- [Virtual Environment for python](#virtual-environment-for-python)
-	- [GO setup](#go-setup)
-		- [Environment variables](#environment-variables)
-	- [Groovy setup](#groovy-setup)
-	- [IntelliJ idea settings](#intellij-idea-settings)
-	- [Multiple java versions in mac](#multiple-java-versions-in-mac)
-	- [SDKMAN](#sdkman)
-	- [Keychain-password](#keychain-password)
-	- [video tutorials](#video-tutorials)
+  - [Iterm2/Terminal configurations](#iterm2terminal-configurations)
+    - [Zsh plugins](#zsh-plugins)
+    - [Install Fonts](#install-fonts)
+    - [Get better version of man pages](#get-better-version-of-man-pages)
+    - [Install Ruby](#install-ruby)
+    - [Make ls, ll commands colorful](#make-ls-ll-commands-colorful-and-much-more-using-colorls)
+    - [Optional powerlevel10k on top of powerlevel9k](#powerlevel10k-on-top-of-powerlevel9k)
+  - [Python setup](#python-setup)
+    - [Virtual Environment for python](#virtual-environment-for-python)
+  - [GO setup](#go-setup)
+    - [Environment variables](#environment-variables)
+  - [Groovy setup](#groovy-setup)
+  - [IntelliJ idea settings](#intellij-idea-settings)
+  - [Multiple java versions in mac](#multiple-java-versions-in-mac)
+  - [SDKMAN](#sdkman)
+  - [Keychain-password](#keychain-password)
+  - [video tutorials](#video-tutorials)
 
 ***
 
@@ -54,15 +54,15 @@ Following site will help you setup your mac.
 
    ##### Install Fonts
 
-   https://github.com/adobe-fonts/source-code-pro
+   [source-code-pro](https://github.com/adobe-fonts/source-code-pro)
 
-   https://github.com/powerline/fonts
+   [powerline fonts](https://github.com/powerline/fonts)
 
-   https://github.com/gabrielelana/awesome-terminal-fonts
+   [awesome-terminal-fonts](https://github.com/gabrielelana/awesome-terminal-fonts)
 
-   https://github.com/ryanoasis/nerd-fonts
+   [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
    
-   https://www.nerdfonts.com/
+   [nerd-fonts](https://www.nerdfonts.com/)
 
 5. Install powerlevel9k theme(choose Option 2: Install for Oh-My-ZSH) https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k  
 6. Update .zshrc file as show in [here](https://github.com/dineshbhagat/mac-configurations/blob/master/.zshrc)
@@ -91,19 +91,20 @@ git clone https://github.com/amix/vimrc.git ~/.vim_runtime && sh ~/.vim_runtime/
 
 More info:
 
-https://github.com/nicolashery/mac-dev-setup
 
-https://github.com/donnemartin/dev-setup
+[nicolashery/mac-dev-setup](https://github.com/nicolashery/mac-dev-setup)
 
-https://sourabhbajaj.com/mac-setup/
+[donnemartin/dev-setup](https://github.com/donnemartin/dev-setup)
 
-https://github.com/andreafrancia/trash-cli
+[sourabhbajaj/mac-setup/](https://sourabhbajaj.com/mac-setup/)
 
-https://github.com/codetalkchannel/pimpyourterminal/blob/master/.zshrc
+[andreafrancia/trash-cli](https://github.com/andreafrancia/trash-cli)
 
-https://github.com/zsh-users
+[pimpyourterminal/blob/master/.zshrc](https://github.com/codetalkchannel/pimpyourterminal/blob/master/.zshrc)
 
-https://help.github.com/en
+[zsh-users](https://github.com/zsh-users)
+
+[help.github](https://help.github.com/en)
 
 Following are other changes require to make iterm more customizable and solutions to some problem I have encountered so far.
 
@@ -190,9 +191,9 @@ command-failure-status:
 
 Following are some alternatives to colorls
 
-https://github.com/ogham/exa
+[ogham/exa](https://github.com/ogham/exa)
 
-https://github.com/Peltoche/lsd
+[Peltoche/lsd](https://github.com/Peltoche/lsd)
 
 
 
