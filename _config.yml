@@ -12,7 +12,7 @@ plugins:
 
 relative_links:
   enabled:     true
-  collections: false
+  collections: true
 
 readme_index:
   enabled:          true
