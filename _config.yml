@@ -2,3 +2,4 @@ theme: jekyll-theme-hacker
 title: Mac-Configuration
 plugins:
   - jemoji
+  - jekyll-seo-tag
