@@ -2,7 +2,14 @@
 
 source 'https://rubygems.org'
 
-gem 'jemoji'
-gem 'jekyll-seo-tag'
+group :jekyll_plugins do
+ gem 'jemoji'
+ gem 'jekyll-seo-tag'
+ gem 'github-pages-health-check'
+ gem 'jekyll-gist'
+ gem 'jekyll-redirect-from'
+ gem 'jekyll-readme-index'
+ gem 'jekyll-relative-links'
+end
 
 gemspec
