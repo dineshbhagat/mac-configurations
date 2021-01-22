@@ -314,7 +314,11 @@ If you want to install all packages from `requirements.txt`
 ```python
 pip2 install -r requirements.txt
 #OR
-pip3 install -r requirements.txt
+pip3 install --user -r requirements.txt
+# pip3 install help
+# --user --> Install to the Python user install directory for your platform.  
+# Typically ~/.local/, or %APPDATA%\Python on Windows.  
+# (See the Python documentation for site.USER_BASE for full details.
 ```
 ------
 <a href="#configurations">:arrow_up:</a>  
