@@ -43,6 +43,10 @@ relative_links:
   enabled:     true
   collections: true
 
+include:
+  - basic-mac-configuration.md
+  - postman.md
+
 readme_index:
   enabled:          true
   remove_originals: false
