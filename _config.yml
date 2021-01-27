@@ -21,12 +21,12 @@ description: This is collections/ways to configure mac for development
 #  line in _config.yml. It will appear in your document head meta (for
 #  Google search results) and in your feed.xml site description.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 # markdown: kramdown
-# theme: jekyll-theme-hacker
+theme: jekyll-theme-hacker
 plugins:
   - jemoji
   - jekyll-seo-tag
