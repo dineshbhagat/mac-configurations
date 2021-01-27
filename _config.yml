@@ -25,7 +25,7 @@ title: Mac-Configuration
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-# markdown: kramdown
+markdown: kramdown
 theme: jekyll-theme-hacker
 plugins:
   - jemoji
