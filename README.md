@@ -76,7 +76,7 @@ Following site will help you setup your mac.
 git clone https://github.com/amix/vimrc.git ~/.vim_runtime && sh ~/.vim_runtime/install_awesome_vimrc.sh
 ```
 
-11. Customize iterm2 [shortcut](https://stackoverflow.com/a/10485061/2987755)
+11. Customize iterm2 [shortcut](https://stackoverflow.com/a/10485061/2987755)  
     ![image](images/iterm2-config.png)
 
 ⌘←  "SEND HEX CODE"      0x01  
