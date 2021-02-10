@@ -40,7 +40,7 @@ Following site will help you setup your mac.
 `brew install $(< brew-leaves.txt)`
 
 3. Add theme to iterm2: [Oh-my-Z](https://ohmyz.sh/)   
-`sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+`sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)""`
 
 4. Add additional plugins, themes and fonts to iterm2  
 
