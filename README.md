@@ -483,3 +483,4 @@ Part2: https://www.youtube.com/watch?v=UsKd9Y42Mo0
 [ref](https://github.com/jekyll/jekyll-gist)
 ------
 
+[![HitCount](http://hits.dwyl.com/dineshbhagat/mac-configurations.svg)](http://hits.dwyl.com/dineshbhagat/mac-configurations)
