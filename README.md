@@ -260,8 +260,19 @@ This will add icons to directories and files
 wget https://github.com/jarun/nnn/archive/refs/heads/master.zip
 tar -zxvf master.zip
 cd nnn-master/
+# Not Zero, but Alphabet O, you will get binary nnn in same folder and you can move this bonary to the place you want and use it.
+sudo make O_NERD=1
+
+# Since I have install nnn with homebrew and it does not give any colors and icons, so  compiled it manually and replaced nnn binary file
+sudo cp nnn /usr/local/Cellar/nnn/4.0/bin/
+```
 
 ```
+nnn -de
+```
+
+![image](images/Screenshot%202021-04-23%20at%2012.21.01%20PM.png)
+
 
 Plugins   
 ```bash
