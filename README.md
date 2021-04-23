@@ -255,7 +255,9 @@ brew install nnn
 OR     
 Refer installation instructions from [here](https://github.com/jarun/nnn/wiki)   
 OR   
-This will add icons to directories and files    
+This will add icons to directories and files   
+Note: Nerd fonts should be installed and configured.
+
 ```bash
 wget https://github.com/jarun/nnn/archive/refs/heads/master.zip
 tar -zxvf master.zip
