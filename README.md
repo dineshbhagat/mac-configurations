@@ -247,11 +247,21 @@ Other customizations you can try:
 ------
 <a href="#configurations">:arrow_up:</a>  
 #### Terminal File Manager
+
+Installation:   
 ```bash
 brew install nnn
 ```
-OR   
+OR    
 Refer installation instructions from [here](https://github.com/jarun/nnn/wiki)
+OR  
+This will add icons to directories and files  
+```bash
+wget https://github.com/jarun/nnn/archive/refs/heads/master.zip
+tar -zxvf master.zip
+cd nnn-master/
+
+```
 
 Plugins   
 ```bash
