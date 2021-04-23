@@ -12,6 +12,7 @@
     - [Install Ruby](#install-ruby)
     - [Make ls, ll commands colorful](#make-ls-ll-commands-colorful-and-much-more-using-colorls)
     - [Optional powerlevel10k on top of powerlevel9k](#powerlevel10k-on-top-of-powerlevel9k)
+  - [Terminal File Manager](#terminal-file-manager)
   - [Python setup](#python-setup)
     - [Virtual Environment for python](#virtual-environment-for-python)
   - [GO setup](#go-setup)
@@ -244,6 +245,16 @@ Other customizations you can try:
 
 
 ------
+<a href="#configurations">:arrow_up:</a>  
+#### Terminal File Manager
+
+Refer installation instructions from [here](https://github.com/jarun/nnn/wiki)
+
+Ref: 
+- https://github.com/jarun/nnn
+------
+
+
 <a href="#configurations">:arrow_up:</a>  
 #### Python setup
 
