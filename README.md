@@ -253,6 +253,17 @@ brew install nnn
 OR   
 Refer installation instructions from [here](https://github.com/jarun/nnn/wiki)
 
+Plugins   
+```bash
+curl -Ls https://raw.githubusercontent.com/jarun/nnn/master/plugins/getplugs | sh
+```
+Plugins are installed to `${XDG_CONFIG_HOME:-$HOME/.config}/nnn/plugins`.
+
+Add active plugin list to .zshrc/.bashrc file
+```
+export NNN_PLUG='f:finder;o:fzopen;p:mocplay;d:diffs;t:nmount;v:imgview'
+```
+
 Ref: 
 - https://github.com/jarun/nnn
 ------
