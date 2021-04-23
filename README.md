@@ -247,7 +247,10 @@ Other customizations you can try:
 ------
 <a href="#configurations">:arrow_up:</a>  
 #### Terminal File Manager
-
+```bash
+brew install nnn
+```
+OR   
 Refer installation instructions from [here](https://github.com/jarun/nnn/wiki)
 
 Ref: 
