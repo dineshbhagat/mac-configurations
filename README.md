@@ -563,7 +563,7 @@ If your zsh is slower:
   zprof
   ```
 
-Ref: https://blog.mattclemente.com/2020/06/26/oh-my-zsh-slow-to-load.html#:~:text=We%20did%20it%20by%3A,environments%20using%20the%20evalcache%20plugin
+[Ref](https://blog.mattclemente.com/2020/06/26/oh-my-zsh-slow-to-load.html#:~:text=We%20did%20it%20by%3A,environments%20using%20the%20evalcache%20plugin)
 
 
 
@@ -576,5 +576,3 @@ Ref: https://blog.mattclemente.com/2020/06/26/oh-my-zsh-slow-to-load.html#:~:tex
 
 [ref](https://github.com/jekyll/jekyll-gist)
 ------
-
-[![HitCount](http://hits.dwyl.com/dineshbhagat/mac-configurations.svg)](http://hits.dwyl.com/dineshbhagat/mac-configurations)
