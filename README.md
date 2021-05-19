@@ -167,7 +167,9 @@ sudo gem cleanup
 ```shell
 $sudo gem install colorls
 ```
-or
+or 
+faster than colorls:   
+
 [exa](https://the.exa.website/)
 
 ```shell
