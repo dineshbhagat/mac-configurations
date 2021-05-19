@@ -10,7 +10,7 @@
     - [Install Fonts](#install-fonts)
     - [Get better version of man pages](#get-better-version-of-man-pages)
     - [Install Ruby](#install-ruby)
-    - [Make ls, ll commands colorful](#make-ls-ll-commands-colorful-and-much-more-using-colorls)
+    - [Make ls, ll commands colorful](#make-ls-ll-commands-colorful)
     - [Optional powerlevel10k on top of powerlevel9k](#powerlevel10k-on-top-of-powerlevel9k)
   - [Terminal File Manager](#terminal-file-manager)
   - [Python setup](#python-setup)
@@ -160,10 +160,18 @@ sudo gem cleanup
 `bundle init`
 
 
-##### Make ls, ll commands colorful and much more using [colorls](https://github.com/athityakumar/colorls)
+##### Make ls, ll commands colorful
+
+[colorls](https://github.com/athityakumar/colorls)
 
 ```shell
 $sudo gem install colorls
+```
+or
+[exa](https://the.exa.website/)
+
+```shell
+brew install exa
 ```
 
 Snapshots of my configurations:
