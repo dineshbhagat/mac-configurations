@@ -530,6 +530,42 @@ If you still could not follow up the steps, follow steps mentioned in the video
 Part1: https://www.youtube.com/watch?v=iwH1XqVjZOE  
 Part2: https://www.youtube.com/watch?v=UsKd9Y42Mo0  
 
+------
+
+If your zsh is slower: 
+
+- check shell loading time
+  ```
+  timezsh() {
+     shell=${1-$SHELL}
+     for i in $(seq 1 10); do /usr/bin/time $shell -i -c exit; done
+   }
+  timezsh 
+  ```
+- check its plugin loading time
+  ```
+   # Load all of the plugins that were defined in ~/.zshrc
+   for plugin ($plugins); do
+     timer=$(($(gdate +%s%N)/1000000))
+     if [ -f $ZSH_CUSTOM/plugins/$plugin/$plugin.plugin.zsh ]; then
+       source $ZSH_CUSTOM/plugins/$plugin/$plugin.plugin.zsh
+     elif [ -f $ZSH/plugins/$plugin/$plugin.plugin.zsh ]; then
+       source $ZSH/plugins/$plugin/$plugin.plugin.zsh
+     fi
+     now=$(($(gdate +%s%N)/1000000))
+     elapsed=$(($now-$timer))
+     echo $elapsed":" $plugin
+   done
+  ```
+- zsh profiler module
+  ```
+  zmodload zsh/zprof
+  zprof
+  ```
+
+Ref: https://blog.mattclemente.com/2020/06/26/oh-my-zsh-slow-to-load.html#:~:text=We%20did%20it%20by%3A,environments%20using%20the%20evalcache%20plugin
+
+
 
 ------
 <a href="#configurations">:arrow_up:</a> 
