@@ -25,7 +25,7 @@
   - [Keychain-password](#keychain-password)
   - [video tutorials](#video-tutorials)
   - [Basic Mac setup](#basic-mac-setup)
-  - [Softwares](#software)
+  - [Softwares](#softwares)
 
 ***
 
