@@ -25,6 +25,7 @@
   - [Keychain-password](#keychain-password)
   - [video tutorials](#video-tutorials)
   - [Basic Mac setup](#basic-mac-setup)
+  - [Softwares](#software)
 
 ***
 
@@ -587,6 +588,13 @@ If your zsh is slower:
 [If you need token before calling any api](postman.md)
 
 ------
+<a href="#configurations">:arrow_up:</a> 
+### Softwares
+
+[These](softwarelist.md) softwares I find it useful and grateful to the people behind it.
+
+------
+
 <a href="#configurations">:arrow_up:</a> 
 
 [customize-iterm2.sh](https://gist.github.com/dineshbhagat/a4bdff5c011957f9950b9bebed7f5e30)
