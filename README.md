@@ -12,6 +12,7 @@
     - [Install Ruby](#install-ruby)
     - [Make ls, ll commands colorful](#make-ls-ll-commands-colorful)
     - [Optional powerlevel10k on top of powerlevel9k](#powerlevel10k-on-top-of-powerlevel9k)
+    - [iterm2 color theme](#iterm2-color-theme)
   - [Terminal File Manager](#terminal-file-manager)
   - [Python setup](#python-setup)
     - [Virtual Environment for python](#virtual-environment-for-python)
@@ -253,6 +254,17 @@ Minor difference compare to previous setup
 Other customizations you can try:
 1. https://denysdovhan.com/spaceship-prompt/
 
+------
+
+<a href="#configurations">:arrow_up:</a>
+#### iterm2 color theme
+
+The color scheme I have used in above iterm2 snapshots is [here](mac-configuration.itermcolors)
+
+If you need different color schemes then you can [ref](https://github.com/sindresorhus/iterm2-snazzy)
+
+- Download the colorscheme file
+- double click on it, iterm2 will import it.
 
 ------
 <a href="#configurations">:arrow_up:</a>  
