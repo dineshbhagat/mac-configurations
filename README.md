@@ -24,6 +24,7 @@
   - [SDKMAN](#sdkman)
   - [Keychain-password](#keychain-password)
   - [video tutorials](#video-tutorials)
+  - [Basic Mac setup](#basic-mac-setup)
 
 ***
 
@@ -577,7 +578,13 @@ If your zsh is slower:
 
 [Ref](https://blog.mattclemente.com/2020/06/26/oh-my-zsh-slow-to-load.html#:~:text=We%20did%20it%20by%3A,environments%20using%20the%20evalcache%20plugin)
 
+------
+<a href="#configurations">:arrow_up:</a> 
+### Basic Mac Setup
 
+[These](basic-mac-configuration.md) are common solutions to problems faced while using mac.
+
+[If you need token before calling any api](postman.md)
 
 ------
 <a href="#configurations">:arrow_up:</a> 
