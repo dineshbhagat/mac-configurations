@@ -5,6 +5,7 @@
 - [ ] [Adding application to finder window](#addAppFinder):
 - [ ] [Image editing tool](#imageEditingTool):
 - [ ] [Control audio based on application](#audioControl):
+- [ ] [Solution to "application is damaged and move it bin](#appdamaged):
 
 
 
@@ -148,5 +149,15 @@ In case if you see, there is no impact of changing the audio by changing slider 
 
 Then check for audio setting and choose background music option as shown ![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/zoom-setting.png)
 
+
+------
+
+#### [[⬆]](#toc) <a name='appdamaged'> fix-app-damaged-cant-be-opened-trash-error-mac </a>
+
+```bash
+xattr -cr /Applications/Signal.app
+```
+
+Ref: https://osxdaily.com/2019/02/13/fix-app-damaged-cant-be-opened-trash-error-mac/
 
 ------
