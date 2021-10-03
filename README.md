@@ -244,10 +244,15 @@ Only change you need to do is
 ```bash
 git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
 ```
+OR
+```bash
+brew install romkatv/powerlevel10k/powerlevel10k
+echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+```
 
 2. Add powerlevel10k theme to `.zshrc` file and comment powerlevel9k
 ```bash
-#ZSH_THEME="powerlevel9k/powerlevel9k"
+ #ZSH_THEME="powerlevel9k/powerlevel9k"
  ZSH_THEME="powerlevel10k/powerlevel10k"
  ```
 3. source the zsh config file
