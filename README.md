@@ -225,16 +225,6 @@ command-failure-status:
 ![ll-and-ls-commands](images/Screen%20Shot%202016-11-08%20at%2012.18.00%20AM.png)
 
 
-Following are some alternatives to colorls
-
-[ogham/exa](https://github.com/ogham/exa)
-
-[Peltoche/lsd](https://github.com/Peltoche/lsd)
-
-
-
-
-
 ##### powerlevel10k on top of powerlevel9k
 
 This is optional setup and can be easy to change to and fro from powerlevel9k to [powerlevel10k](https://github.com/romkatv/powerlevel10k)
@@ -242,7 +232,7 @@ This is optional setup and can be easy to change to and fro from powerlevel9k to
 Only change you need to do is
 1. Clone powerlevel10k sourcecode
 ```bash
-git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10
 ```
 OR
 ```bash
