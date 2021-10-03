@@ -92,17 +92,17 @@ Following site will help you setup your mac.
    ![image](images/Screen%20Shot%202018-12-04%20at%205.47.48%20PM.png)
 10. Vim Customization 
 
-```shell
-git clone https://github.com/amix/vimrc.git ~/.vim_runtime && sh ~/.vim_runtime/install_awesome_vimrc.sh
-```
+    ```shell
+    git clone https://github.com/amix/vimrc.git ~/.vim_runtime && sh ~/.vim_runtime/install_awesome_vimrc.sh
+    ```
 
 11. Customize iterm2 [shortcut](https://stackoverflow.com/a/10485061/2987755)  
     ![image](images/iterm2-config.png)
 
-⌘←  "SEND HEX CODE"      0x01  
-⌘→  "SEND HEX CODE"      0x05  
-⌥←  "SEND ESC SEQ"  b  
-⌥→  "SEND ESC SEQ"  f  
+    ⌘←  "SEND HEX CODE"      0x01  
+    ⌘→  "SEND HEX CODE"      0x05  
+    ⌥←  "SEND ESC SEQ"  b  
+    ⌥→  "SEND ESC SEQ"  f  
 
 12. Bonus: If you want terminal app to be similar to iterm2 do following settings
     - terminal -> preference -> Basic theme ->Background -> change color from white to black, 
@@ -183,23 +183,23 @@ sudo gem cleanup
 
 [colorls](https://github.com/athityakumar/colorls)
 
-```shell
-$sudo gem install colorls
-```
+   ```shell
+   $sudo gem install colorls
+   ```
 or 
 faster than colorls:   
 
 1. [exa](https://the.exa.website/)
 
-```shell
-brew install exa
-```
+   ```shell
+   brew install exa
+   ```
 
 2. [LSD](https://github.com/Peltoche/lsd)
 
-```shell
-
-```
+   ```shell
+   brew install lsd
+   ```
 
 Snapshots of my configurations:
 
