@@ -59,6 +59,20 @@ Following site will help you setup your mac.
    ```
 
    ##### Install Fonts
+   
+   ```bash
+   brew tap homebrew/cask-fonts
+   brew install --cask font-hack-nerd-font
+
+   # powerline clone
+   git clone https://github.com/powerline/fonts.git --depth=1
+   # install
+   cd fonts
+   ./install.sh
+   # clean-up a bit
+   cd ..
+   rm -rf fonts
+   ```
 
    [source-code-pro](https://github.com/adobe-fonts/source-code-pro)
 
@@ -175,10 +189,16 @@ $sudo gem install colorls
 or 
 faster than colorls:   
 
-[exa](https://the.exa.website/)
+1. [exa](https://the.exa.website/)
 
 ```shell
 brew install exa
+```
+
+2. [LSD](https://github.com/Peltoche/lsd)
+
+```shell
+
 ```
 
 Snapshots of my configurations:
