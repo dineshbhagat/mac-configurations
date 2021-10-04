@@ -45,6 +45,8 @@ You can also drag one app thumbnail onto another in the Spaces bar.
 
 http://osxdaily.com/2013/06/19/copy-file-folder-path-mac-os-x/
 
+For MacOS Big sur: https://macosxautomation.com/automator/services/
+
 https://github.com/dineshbhagat/mac-configurations/blob/master/images/Copy%20Path.workflow.zip
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
