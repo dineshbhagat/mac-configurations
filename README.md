@@ -200,7 +200,10 @@ faster than colorls:
    ```shell
    brew install lsd
    ```
-
+   ```
+   alias ll='lsd -la'
+   alias ls='lsd'
+   ```
 Snapshots of my configurations:
 
 ```shell
