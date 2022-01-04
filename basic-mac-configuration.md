@@ -45,17 +45,21 @@ You can also drag one app thumbnail onto another in the Spaces bar.
 
 http://osxdaily.com/2013/06/19/copy-file-folder-path-mac-os-x/
 
+[Workflow](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Copy%20Path.workflow.zip)
+
+
 For **MacOS Big sur**: 
 1. https://macosxautomation.com/automator/services/
 
 OR
 
-1. Select a file or folder and perform a right-click.
-2. When the context menu pops up, press and hold the Option key on the keyboard.
-3. Copy “file-name” as Pathname option will appear in the context menu. Just click it to copy the full file path to the clipboard.
+1. Select a file or folder and perform a right-click.  
+2. When the context menu pops up, press and hold the Option key on the keyboard.  
+3. Copy “file-name” as Pathname option will appear in the context menu. Just click it to copy the full file path to the clipboard.  
 
+OR  
+[Workflow-quickAction](https://github.com/dineshbhagat/mac-configurations/blob/778c16b18e2c5ba3e69ba1e6490ee88c7f1bcd9b/images/copy-path-for-bigsur.zip)
 
-https://github.com/dineshbhagat/mac-configurations/blob/master/images/Copy%20Path.workflow.zip
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### [[⬆]](#toc) <a name='textfile'>Create text file at any location in finder app</a>
