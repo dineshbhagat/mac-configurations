@@ -45,7 +45,15 @@ You can also drag one app thumbnail onto another in the Spaces bar.
 
 http://osxdaily.com/2013/06/19/copy-file-folder-path-mac-os-x/
 
-For MacOS Big sur: https://macosxautomation.com/automator/services/
+For **MacOS Big sur**: 
+1. https://macosxautomation.com/automator/services/
+
+OR
+
+1. Select a file or folder and perform a right-click.
+2. When the context menu pops up, press and hold the Option key on the keyboard.
+3. Copy “file-name” as Pathname option will appear in the context menu. Just click it to copy the full file path to the clipboard.
+
 
 https://github.com/dineshbhagat/mac-configurations/blob/master/images/Copy%20Path.workflow.zip
 
