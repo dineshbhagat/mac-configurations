@@ -341,7 +341,9 @@ Ref:
 
 #### [Fig Autocomplete](https://fig.io/)
 
-
+```bash
+brew install --cask fig
+```
 
 
 ------
