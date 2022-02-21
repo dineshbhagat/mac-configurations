@@ -345,6 +345,10 @@ Ref:
 brew install --cask fig
 ```
 
+You can opt-out of all telemetry and crash reporting by running:   
+```
+fig settings telemetry.disabled true
+```
 
 ------
 
