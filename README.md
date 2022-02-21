@@ -350,6 +350,8 @@ You can opt-out of all telemetry and crash reporting by running:
 fig settings telemetry.disabled true
 ```
 
+Requires an emailId for the setup. :unamused:
+
 ------
 
 <a href="#configurations">:arrow_up:</a>  
