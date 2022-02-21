@@ -13,6 +13,7 @@
     - [Make ls, ll commands colorful](#make-ls-ll-commands-colorful)
     - [Optional powerlevel10k on top of powerlevel9k](#powerlevel10k-on-top-of-powerlevel9k)
     - [iterm2 color theme](#iterm2-color-theme)
+    - [fig autocomplete](#fig-autocomplete)
   - [Terminal File Manager](#terminal-file-manager)
   - [Python setup](#python-setup)
     - [Virtual Environment for python](#virtual-environment-for-python)
@@ -335,6 +336,13 @@ Ref:
 - https://github.com/jarun/nnn
 ------
 
+#### [Fig Autocomplete](https://fig.io/)
+
+
+
+
+
+------
 
 <a href="#configurations">:arrow_up:</a>  
 #### Python setup
