@@ -13,7 +13,7 @@
     - [Make ls, ll commands colorful](#make-ls-ll-commands-colorful)
     - [Optional powerlevel10k on top of powerlevel9k](#powerlevel10k-on-top-of-powerlevel9k)
     - [iterm2 color theme](#iterm2-color-theme)
-    - [Terminal Filemanager](#terminal-filemanager)
+    - [Terminal File Manager](#terminal-file-manager)
     - [fig autocomplete](#fig-autocomplete)
   - [Terminal File Manager](#terminal-file-manager)
   - [Python setup](#python-setup)
