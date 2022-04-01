@@ -15,7 +15,7 @@
     - [iterm2 color theme](#iterm2-color-theme)
     - [Terminal File Manager](#terminal-file-manager)
     - [fig autocomplete](#fig-autocomplete)
-  - [Terminal File Manager](#terminal-file-manager)
+  - [List Of Shell Customization frameworks](#list-of-shell-customization-frameworks)
   - [Python setup](#python-setup)
     - [Virtual Environment for python](#virtual-environment-for-python)
   - [GO setup](#go-setup)
@@ -351,6 +351,13 @@ fig settings telemetry.disabled true
 ```
 
 Requires an emailId for the setup. :unamused:
+
+------
+
+<a href="#configurations">:arrow_up:</a> 
+
+#### [List Of Shell Customization frameworks](https://github.com/alebcay/awesome-shell)
+
 
 ------
 
