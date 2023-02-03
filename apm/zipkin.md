@@ -37,4 +37,4 @@ spring.datasource.url=jdbc:mysql://localhost:3306/test?queryInterceptors=brave.m
 
 ```
 
-![image](https://github.com/dineshbhagat/mac-configurations/blob/master/apm/images/Screenshot%202019-08-21%20at%206.20.32%20PM.png)
+![image](https://github.com/dineshbhagat/mac-configurations/blob/8697478fe3a5cfaa6fed09164ac2f1d61939415c/apm/images/Screenshot%202019-08-21%20at%206.20.32%20PM.png)
