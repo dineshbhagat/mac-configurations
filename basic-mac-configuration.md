@@ -45,7 +45,7 @@ You can also drag one app thumbnail onto another in the Spaces bar.
 
 http://osxdaily.com/2013/06/19/copy-file-folder-path-mac-os-x/
 
-[Workflow](https://github.com/dineshbhagat/mac-configurations/blob/master/images/Copy%20Path.workflow.zip)
+[Workflow](https://github.com/dineshbhagat/mac-configurations/blob/main/images/Copy%20Path.workflow.zip)
 
 
 For **MacOS Big sur**: 
@@ -64,7 +64,7 @@ OR
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### [[⬆]](#toc) <a name='textfile'>Create text file at any location in finder app</a>
 
-https://github.com/dineshbhagat/mac-configurations/blob/master/images/New%20text%20File.workflow.zip
+https://github.com/dineshbhagat/mac-configurations/blob/main/images/New%20text%20File.workflow.zip
 
 
 Ref: https://zeldor.biz/2017/12/mac-os-x-finder-new-file/
@@ -134,10 +134,10 @@ end tell
 1. go to folder where application is present in finder e.g. /Applications/
 2. Select application, Press command button and drag application to finder toolbar
 3. Your screen will look like as below
-![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/finder-toolbar-customization.png)
+![image](https://github.com/dineshbhagat/mac-configurations/blob/1598c54473844720d4685ec74d2f1f34b5f24bc9/images/finder-toolbar-customization.png)
 
 
-https://github.com/dineshbhagat/mac-configurations/blob/master/images/New%20Text%20File.app.zip
+https://github.com/dineshbhagat/mac-configurations/blob/main/images/New%20Text%20File.app.zip
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -159,9 +159,9 @@ brew cask install background-music
 
 Ref: https://github.com/kyleneideck/BackgroundMusic
 
-In case if you see, there is no impact of changing the audio by changing slider ![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/backgroundmusic.png)
+In case if you see, there is no impact of changing the audio by changing slider ![image](https://github.com/dineshbhagat/mac-configurations/blob/1598c54473844720d4685ec74d2f1f34b5f24bc9/images/backgroundmusic.png)
 
-Then check for audio setting and choose background music option as shown ![image](https://github.com/dineshbhagat/mac-configurations/blob/master/images/zoom-setting.png)
+Then check for audio setting and choose background music option as shown ![image](https://github.com/dineshbhagat/mac-configurations/blob/1598c54473844720d4685ec74d2f1f34b5f24bc9/images/zoom-setting.png)
 
 
 ------
