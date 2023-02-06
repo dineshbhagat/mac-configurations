@@ -24,7 +24,7 @@
   - [IntelliJ idea settings](#intellij-idea-settings)
   - [Multiple java versions in mac](#multiple-java-versions-in-mac)
   - [SDKMAN](#sdkman)
-  - [POSTMAN](#postman-configs)
+  - [Postman Configs](#postman-configs)
   - [Keychain-password](#keychain-password)
   - [video tutorials](#video-tutorials)
   - [Basic Mac setup](#basic-mac-setup)
