@@ -56,8 +56,33 @@ pm.sendRequest(echoPostRequest, function (err, response) {
     pm.globals.set("jwttoken", response.json().access_token_key);
 });
 
-
-
-
-
 ```
+
+------------
+
+##### Dynamic Variables
+
+postman uses faker.js lib to generate dynamic variable values
+We can use existing variables (e.g. guid - global identifier in uuid format) declared already, prefixed it with `$` sign.
+
+In headers
+Key: Value
+```
+caller : {{$guid}}
+```
+
+or as path param   
+```
+<url>/{{$guid}}
+```
+
+or as body   
+```json
+{
+    "id": "{{$guid}}",
+}
+```
+
+Ref: https://learning.postman.com/docs/writing-scripts/script-references/variables-list/
+
+
