@@ -1,4 +1,4 @@
-RFR: 
+Ref:   
 https://zipkin.io/pages/quickstart  
 https://github.com/openzipkin/sleuth-webmvc-example  
 https://cloud.spring.io/spring-cloud-sleuth/reference/html/  
@@ -7,7 +7,6 @@ https://cloud.spring.io/spring-cloud-sleuth/reference/html/
 
 ```shell
 mkdir ~/Desktop/zipkin && cd ~/Desktop/zipkin && curl -sSL https://zipkin.io/quickstart.sh | bash -s  && java -jar zipkin.jar
-
 ```
 http://127.0.0.1:9411/zipkin/
 
