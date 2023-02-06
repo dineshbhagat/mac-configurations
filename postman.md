@@ -83,6 +83,8 @@ or as body
 }
 ```
 
+NOTE: If you have `{{$guid}}` defined in headers, body and path param, all 3 will be of different values and will not be same, if you need it as same value, then you need use Pre-req script and set it as global param and reference it in headers, body and path param.
+
 Ref: https://learning.postman.com/docs/writing-scripts/script-references/variables-list/
 
 
