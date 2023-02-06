@@ -24,7 +24,7 @@
   - [IntelliJ idea settings](#intellij-idea-settings)
   - [Multiple java versions in mac](#multiple-java-versions-in-mac)
   - [SDKMAN](#sdkman)
-  - [POSTMAN](#postman)
+  - [POSTMAN](#postman-configs)
   - [Keychain-password](#keychain-password)
   - [video tutorials](#video-tutorials)
   - [Basic Mac setup](#basic-mac-setup)
@@ -576,10 +576,9 @@ Ref: https://sdkman.io/
 
 ------ 
 <a href="#configurations">:arrow_up:</a>  
-#### POSTMAN
+#### Postman Configs
 
 [add/update/delete](postman.md)
-[Ref for github pages](https://github.com/benbalter/jekyll-relative-links/)
 
 ------
 <a href="#configurations">:arrow_up:</a> 
