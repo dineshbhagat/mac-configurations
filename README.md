@@ -24,6 +24,7 @@
   - [IntelliJ idea settings](#intellij-idea-settings)
   - [Multiple java versions in mac](#multiple-java-versions-in-mac)
   - [SDKMAN](#sdkman)
+  - [POSTMAN](#postman)
   - [Keychain-password](#keychain-password)
   - [video tutorials](#video-tutorials)
   - [Basic Mac setup](#basic-mac-setup)
@@ -573,6 +574,13 @@ sdk install java 11.0.8.hs-adpt
 
 Ref: https://sdkman.io/
 
+------ 
+<a href="#configurations">:arrow_up:</a>  
+#### POSTMAN
+
+[add/update/delete](postman.md)
+[Ref for github pages](https://github.com/benbalter/jekyll-relative-links/)
+
 ------
 <a href="#configurations">:arrow_up:</a> 
 #### Keychain Password
@@ -630,13 +638,12 @@ If your zsh is slower:
 
 [These](basic-mac-configuration.md) are common solutions to problems faced while using mac.
 
-[If you need token before calling any api](postman.md)
 
 ------
 <a href="#configurations">:arrow_up:</a> 
 ### Softwares
 
-[These](softwarelist.md) softwares I find it useful and grateful to the people behind it.
+[These](softwarelist.md) softwares I find it useful and grateful to the people who take care of it.
 
 ------
 
@@ -647,4 +654,5 @@ If your zsh is slower:
 {% gist a4bdff5c011957f9950b9bebed7f5e30 customize-iterm2.sh %}
 
 [ref](https://github.com/jekyll/jekyll-gist)
+
 ------
