@@ -58,6 +58,8 @@ pm.sendRequest(echoPostRequest, function (err, response) {
 
 ```
 
+Ref: https://learning.postman.com/docs/writing-scripts/intro-to-scripts/
+
 ------------
 
 ##### Dynamic Variables
