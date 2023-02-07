@@ -578,7 +578,7 @@ Ref: https://sdkman.io/
 <a href="#configurations">:arrow_up:</a>  
 #### Postman Configs
 
-[add/update/delete](postman.md)
+[bearer token in pre-script and dynamic variables](postman.md)
 
 ------
 <a href="#configurations">:arrow_up:</a> 
@@ -593,8 +593,8 @@ Ref: https://sdkman.io/
 #### video tutorials
 
 If you still could not follow up the steps, follow steps mentioned in the video  
-Part1: https://www.youtube.com/watch?v=iwH1XqVjZOE  
-Part2: https://www.youtube.com/watch?v=UsKd9Y42Mo0  
+[Part1:https://www.youtube.com/watch?v=iwH1XqVjZOE](https://www.youtube.com/watch?v=iwH1XqVjZOE)  
+[Part2:https://www.youtube.com/watch?v=UsKd9Y42Mo0](https://www.youtube.com/watch?v=UsKd9Y42Mo0).   
 
 ------
 
@@ -652,6 +652,7 @@ If your zsh is slower:
 
 {% gist a4bdff5c011957f9950b9bebed7f5e30 customize-iterm2.sh %}
 
-[ref](https://github.com/jekyll/jekyll-gist)
+[Ref](https://github.com/jekyll/jekyll-gist)
+
 
 ------
