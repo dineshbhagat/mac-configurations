@@ -24,7 +24,7 @@ Using postman, we can do this by using Pre-req. tab.
    Click on manage environment --> globals --> create variable `jwttoken`
   
 2. Use this `jwttoken` global variable as authorization value 
-    Click on Auth --> select `TYPE` as `Bearer token` -> Insert value of Token as `{{jwttoken}}`
+    Click on Auth --> select `TYPE` as `Bearer token` -> Insert value of Token as `\{\{jwttoken\}\}`
    
 3. Now write Pre-req script which will get executed before every request
 
@@ -58,7 +58,7 @@ pm.sendRequest(echoPostRequest, function (err, response) {
 
 ```
 
-Ref: https://learning.postman.com/docs/writing-scripts/intro-to-scripts/
+[Ref:](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/)
 
 ------------
 
@@ -69,24 +69,24 @@ We can use existing variables (e.g. guid - global identifier in uuid format) dec
 
 In headers
 Key: Value
-```
-caller : {{$guid}}
+```json
+caller : \{\{\$guid\}\}
 ```
 
 or as path param   
-```
-<url>/{{$guid}}
+```json
+<url>/\{\{\$guid\}\}
 ```
 
 or as body   
 ```json
 {
-    "id": "{{$guid}}",
+    "id": "\{\{\$guid\}\}",
 }
 ```
 
-NOTE: If you have `{{$guid}}` defined in headers, body and path param, all 3 will be of different values and will not be same, if you need it as same value, then you need use Pre-req script and set it as global param and reference it in headers, body and path param.
+NOTE: If you have `\{\{\$guid\}\}` defined in headers, body and path param, all 3 will be of different values and will not be same, if you need it as same value, then you need use Pre-req script and set it as global param and reference it in headers, body and path param.
 
-Ref: https://learning.postman.com/docs/writing-scripts/script-references/variables-list/
+[Ref](https://learning.postman.com/docs/writing-scripts/script-references/variables-list/)
 
 
