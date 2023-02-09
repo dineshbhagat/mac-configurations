@@ -88,7 +88,7 @@ Following site will help you setup your mac.
    [nerd-fonts](https://www.nerdfonts.com/)
 
 5. Install powerlevel9k theme(choose Option 2: Install for Oh-My-ZSH) https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k  
-6. Update .zshrc file as show in [here](.zshrc)
+6. Update [.zshrc](https://github.com/dineshbhagat/mac-configurations/blob/d220ae87fa8351adf7ba63db73f6a91b2fb866cb/.zshrc) file
 7. change fonts for iterm2: iTerm2 -> Preferences -> Profiles -> Text -> Font -> Change Font to hack-nerd
 8. Execute `compaudit | xargs chmod g-w,o-w /usr/local/share/zsh ;compaudit | xargs chmod g-w,o-w /usr/local/share/zsh/site-functions`
 9. change font settings as shown in image  
