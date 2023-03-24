@@ -44,7 +44,7 @@ Following site will help you setup your mac.
 1. Install iterm2 from https://www.iterm2.com/ and Install Homebrew from https://brew.sh/ 
 
 2. Install software listed in file brew-leaves.txt   
-`brew install $(< brew-leaves.txt)`
+   `brew install $(< brew-leaves.txt)`
 
 3. Add theme to iterm2: [Oh-my-Z](https://ohmyz.sh/)   
    ```shell
@@ -189,7 +189,7 @@ sudo gem cleanup
    ```shell
    $sudo gem install colorls
    ```
-or 
+or  
 faster than colorls:   
 
 1. [exa](https://the.exa.website/)
@@ -336,6 +336,15 @@ export NNN_PLUG='f:finder;o:fzopen;p:mocplay;d:diffs;t:nmount;v:imgview'
 
 Ref: 
 - https://github.com/jarun/nnn
+------
+
+#### Want to have uniform commit message format ? 
+
+https://commitizen-tools.github.io/commitizen/
+
+![]()
+![]()
+
 ------
 
 <a href="#configurations">:arrow_up:</a> 
