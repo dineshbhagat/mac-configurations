@@ -14,6 +14,7 @@
     - [Optional powerlevel10k on top of powerlevel9k](#powerlevel10k-on-top-of-powerlevel9k)
     - [iterm2 color theme](#iterm2-color-theme)
     - [Terminal File Manager](#terminal-file-manager)
+    - [Uniform Commits for git projects](want-to-have-uniform-commit-message-format-)
     - [fig autocomplete](#fig-autocomplete)
   - [List Of Shell Customization frameworks](#list-of-shell-customization-frameworks)
   - [Python setup](#python-setup)
