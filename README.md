@@ -342,8 +342,8 @@ Ref:
 
 https://commitizen-tools.github.io/commitizen/
 
-![]()
-![]()
+![](https://github.com/dineshbhagat/mac-configurations/blob/59b2e6be92ab5878201b365333c48f1692fcc7b6/images/cz1.png)
+![](https://github.com/dineshbhagat/mac-configurations/blob/59b2e6be92ab5878201b365333c48f1692fcc7b6/images/cz2.png)
 
 ------
 
