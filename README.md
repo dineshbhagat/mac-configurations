@@ -14,7 +14,7 @@
     - [Optional powerlevel10k on top of powerlevel9k](#powerlevel10k-on-top-of-powerlevel9k)
     - [iterm2 color theme](#iterm2-color-theme)
     - [Terminal File Manager](#terminal-file-manager)
-    - [Uniform Commits for git projects](want-to-have-uniform-commit-message-format-)
+    - [Uniform Commits for git projects](#uniform-commit-message-format)
     - [fig autocomplete](#fig-autocomplete)
   - [List Of Shell Customization frameworks](#list-of-shell-customization-frameworks)
   - [Python setup](#python-setup)
@@ -293,6 +293,7 @@ If you need different color schemes then you can [ref](https://github.com/sindre
 - double click on it, iterm2 will import it.
 
 ------
+
 <a href="#configurations">:arrow_up:</a>  
 #### Terminal File Manager
 
@@ -342,7 +343,7 @@ Ref:
 
 <a href="#configurations">:arrow_up:</a> 
 
-#### Want to have uniform commit message format ? 
+#### Uniform commit message format
 
 [commitizen](https://commitizen-tools.github.io/commitizen/)
 
@@ -451,7 +452,9 @@ pip3 install --user -r requirements.txt
 # Typically ~/.local/, or %APPDATA%\Python on Windows.  
 # (See the Python documentation for site.USER_BASE for full details.
 ```
+
 ------
+
 <a href="#configurations">:arrow_up:</a>  
 #### GO setup
 `brew install golang`  or `brew install go`
