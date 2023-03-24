@@ -336,11 +336,14 @@ export NNN_PLUG='f:finder;o:fzopen;p:mocplay;d:diffs;t:nmount;v:imgview'
 
 Ref: 
 - https://github.com/jarun/nnn
+
 ------
+
+<a href="#configurations">:arrow_up:</a> 
 
 #### Want to have uniform commit message format ? 
 
-https://commitizen-tools.github.io/commitizen/
+[commitizen](https://commitizen-tools.github.io/commitizen/)
 
 ![](https://github.com/dineshbhagat/mac-configurations/blob/59b2e6be92ab5878201b365333c48f1692fcc7b6/images/cz1.png)
 ![](https://github.com/dineshbhagat/mac-configurations/blob/59b2e6be92ab5878201b365333c48f1692fcc7b6/images/cz2.png)
