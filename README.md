@@ -350,6 +350,32 @@ Ref:
 ![](https://github.com/dineshbhagat/mac-configurations/blob/59b2e6be92ab5878201b365333c48f1692fcc7b6/images/cz1.png)
 ![](https://github.com/dineshbhagat/mac-configurations/blob/59b2e6be92ab5878201b365333c48f1692fcc7b6/images/cz2.png)
 
+**In case if you want to change message prompt and add additional types then edit following file**   
+For "conventional_commits" type template   
+```
+File: /usr/local/lib/python3.11/site-packages/commitizen/cz/conventional_commits/conventional_commits.py
+class: class ConventionalCommitsCz(BaseCommitizen)
+method: def questions(self)
+ "choices": [
+ // other existing choices, NOTE: key should be of single character and should not be used by existing choices
+ {
+    "value": "chore",
+    "name": (
+        "chor: changes that do not relate to a fix or feature and "
+        "don't modify src or test files (for example updating dependencies)"
+    ),
+    "key": "h",
+},
+{
+    "value": "revert",
+    "name": (
+        "reverts a previous commit"
+    ),
+    "key": "z",
+},
+``` 
+Similarly scope and subject can be modified.
+
 ------
 
 <a href="#configurations">:arrow_up:</a> 
