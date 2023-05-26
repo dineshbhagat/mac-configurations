@@ -1,3 +1,9 @@
+---
+layout: default
+---
+
+<a href="README.md#application-initializer">:arrow_left:</a>
+
 Some of the helpful application generator websites to quick-start development.
 
 
