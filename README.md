@@ -30,7 +30,7 @@
   - [video tutorials](#video-tutorials)
   - [Basic Mac setup](#basic-mac-setup)
   - [Softwares](#softwares)
-  - [Application Initializers](#application-initializers.md)
+  - [Application Initializers](#application-initializers)
 
 ***
 
@@ -680,12 +680,17 @@ If your zsh is slower:
 
 [These](basic-mac-configuration.md) are common solutions to problems faced while using mac.
 
-
 ------
 <a href="#configurations">:arrow_up:</a> 
 ### Softwares
 
 [These](softwarelist.md) softwares I find it useful and grateful to the people who take care of it.
+
+------
+<a href="#configurations">:arrow_up:</a> 
+### Application Initializers
+
+[Some of the useful application generators](application-initializers.md).
 
 ------
 
