@@ -370,7 +370,7 @@ method: def questions(self)
 {
     "value": "revert",
     "name": (
-        "reverts a previous commit"
+        "revert: reverts a previous commit"
     ),
     "key": "z",
 },
