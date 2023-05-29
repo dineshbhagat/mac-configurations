@@ -353,7 +353,7 @@ Ref:
 
 **In case if you want to change message prompt and add additional types then edit following file**   
 For "conventional_commits" type template   
-```
+```python
 File: /usr/local/lib/python3.11/site-packages/commitizen/cz/conventional_commits/conventional_commits.py
 class: class ConventionalCommitsCz(BaseCommitizen)
 method: def questions(self)
@@ -376,6 +376,20 @@ method: def questions(self)
 },
 ``` 
 Similarly scope and subject can be modified.
+
+Add `revert` and `chore` in schema patters as well
+
+```python
+    def schema_pattern(self) -> str:
+        PATTERN = (
+            r"(?s)"  # To explictly make . match new line
+            r"(build|ci|chore|docs|feat|fix|perf|refactor|style|test|chore|revert|bump)"  # type
+            r"(\(\S+\))?!?:"  # scope
+            r"( [^\n\r]+)"  # subject
+            r"((\n\n.*)|(\s*))?$"
+        )
+        return PATTERN
+```
 
 ------
 
