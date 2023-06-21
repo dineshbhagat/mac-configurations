@@ -320,8 +320,9 @@ Ref:
 
 **In case if you want to change message prompt and add additional types then edit following file**   
 For "conventional_commits" type template   
+File: [/usr/local/lib/python3.11/site-packages/commitizen/cz/conventional_commits/conventional_commits.py](https://github.com/dineshbhagat/mac-configurations/blob/7710d09503d9b8a08a6493db97fb262d579865b1/conventional_commits.py)
+
 ```python
-File: /usr/local/lib/python3.11/site-packages/commitizen/cz/conventional_commits/conventional_commits.py
 class: class ConventionalCommitsCz(BaseCommitizen)
 method: def questions(self)
  "choices": [
