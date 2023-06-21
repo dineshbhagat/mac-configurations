@@ -250,6 +250,7 @@ Other customizations you can try:
 1. [🚀](https://spaceship-prompt.sh/)
 2. [⭐🚢 == 🚀](https://starship.rs/)
 3. [🐟🐚](https://fishshell.com/)
+4. [List Of Shell Customization frameworks](https://github.com/alebcay/awesome-shell)
 
 ------
 
@@ -375,13 +376,6 @@ fig settings telemetry.disabled true
 ```
 
 Requires an emailId for the setup. :unamused:
-
-------
-
-<a href="#configurations">:arrow_up:</a> 
-
-#### [List Of Shell Customization frameworks](https://github.com/alebcay/awesome-shell)
-
 
 ------
 
