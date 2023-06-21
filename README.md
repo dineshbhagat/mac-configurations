@@ -11,7 +11,7 @@
     - [Get better version of man pages](#get-better-version-of-man-pages)
     - [Install Ruby](#install-ruby)
     - [Make ls, ll commands colorful](#make-ls-ll-commands-colorful)
-    - [Optional powerlevel10k on top of powerlevel9k](#powerlevel10k-on-top-of-powerlevel9k)
+    - [Optional powerlevel10k Configuration](#powerlevel10k-configuration)
     - [iterm2 color theme](#iterm2-color-theme)
     - [Terminal File Manager](#terminal-file-manager)
     - [Uniform Commits for git projects](#uniform-commit-message-format)
@@ -89,7 +89,7 @@ Following site will help you setup your mac.
    
    [nerd-fonts](https://www.nerdfonts.com/)
 
-5. Install powerlevel9k theme(choose Option 2: Install for Oh-My-ZSH) https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k  
+5. Install powerlevel10k theme(`brew install powerlevel10k`)
 6. Update [.zshrc](https://github.com/dineshbhagat/mac-configurations/blob/d220ae87fa8351adf7ba63db73f6a91b2fb866cb/.zshrc) file
 7. change fonts for iterm2: iTerm2 -> Preferences -> Profiles -> Text -> Font -> Change Font to hack-nerd
 8. Execute `compaudit | xargs chmod g-w,o-w /usr/local/share/zsh ;compaudit | xargs chmod g-w,o-w /usr/local/share/zsh/site-functions`
@@ -98,7 +98,7 @@ Following site will help you setup your mac.
 10. Vim Customization 
 
     ```shell
-    git clone https://github.com/amix/vimrc.git ~/.vim_runtime && sh ~/.vim_runtime/install_awesome_vimrc.sh
+      git clone https://github.com/amix/vimrc.git ~/.vim_runtime && sh ~/.vim_runtime/install_awesome_vimrc.sh
     ```
 
 11. Customize iterm2 [shortcut](https://stackoverflow.com/a/10485061/2987755)  
@@ -116,26 +116,25 @@ Following site will help you setup your mac.
 
 More info:
 
-[nicolashery/mac-dev-setup](https://github.com/nicolashery/mac-dev-setup)
+- [nicolashery/mac-dev-setup](https://github.com/nicolashery/mac-dev-setup)
 
-[donnemartin/dev-setup](https://github.com/donnemartin/dev-setup)
+- [donnemartin/dev-setup](https://github.com/donnemartin/dev-setup)
 
-[sourabhbajaj/mac-setup/](https://sourabhbajaj.com/mac-setup/)
+- [sourabhbajaj/mac-setup/](https://sourabhbajaj.com/mac-setup/)
 
-[andreafrancia/trash-cli](https://github.com/andreafrancia/trash-cli)
+- [andreafrancia/trash-cli](https://github.com/andreafrancia/trash-cli)
 
-[pimpyourterminal/blob/master/.zshrc](https://github.com/codetalkchannel/pimpyourterminal/blob/master/.zshrc)
+- [pimpyourterminal/blob/master/.zshrc](https://github.com/codetalkchannel/pimpyourterminal/blob/master/.zshrc)
 
-[zsh-users](https://github.com/zsh-users)
+- [zsh-users](https://github.com/zsh-users)
 
-[help.github](https://help.github.com/en)
+- [help.github](https://help.github.com/en)
 
 Following are other changes require to make iterm more customizable and solutions to some problem I have encountered so far.
 
 ##### Get better version of man pages
 
 https://tldr.sh/
-
 
 ##### Install Ruby
 
@@ -171,7 +170,6 @@ sudo gem update
 
 # delete older gems
 sudo gem cleanup
-
 ```
 
  The first thing you want to do after installing a new Ruby version is to [install Bundler](https://github.com/nicolashery/mac-dev-setup#ruby).   
@@ -186,29 +184,25 @@ sudo gem cleanup
 
 ##### Make ls, ll commands colorful
 
-[colorls](https://github.com/athityakumar/colorls)
-
-   ```shell
-   $sudo gem install colorls
-   ```
-or  
-faster than colorls:   
-
 1. [exa](https://the.exa.website/)
 
    ```shell
    brew install exa
    ```
 
-2. [LSD](https://github.com/Peltoche/lsd)
+2. [LSD](https://github.com/Peltoche/lsd) --> **I liked this one** 
 
    ```shell
    brew install lsd
-   ```
-   ```
    alias ll='lsd -la'
    alias ls='lsd'
    ```
+3. [colorls](https://github.com/athityakumar/colorls) --> slower compared to other plugins
+
+   ```shell
+   $sudo gem install colorls
+   ```
+   
 Snapshots of my configurations:
 
 ```shell
@@ -228,58 +222,34 @@ command-failure-status:
 
 ![terminate-command-on-failure-status](images/Screen%20Shot%202018-10-08%20at%2012.00.18%20PM.png)
 
-
-
 ![ll-and-ls-commands](images/Screen%20Shot%202016-11-08%20at%2012.18.00%20AM.png)
 
 
-##### powerlevel10k on top of powerlevel9k
+##### powerlevel10k configuration
 
-This is optional setup and can be easy to change to and fro from powerlevel9k to [powerlevel10k](https://github.com/romkatv/powerlevel10k)
-
-Only change you need to do is
-1. Clone powerlevel10k sourcecode
-```bash
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10
-```
-OR
-```bash
-brew install romkatv/powerlevel10k/powerlevel10k
-echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
-```
-
-2. Add powerlevel10k theme to `.zshrc` file and comment powerlevel9k
-```bash
- #ZSH_THEME="powerlevel9k/powerlevel9k"
- ZSH_THEME="powerlevel10k/powerlevel10k"
- ```
-3. source the zsh config file
-```bash
-source ~/.zshrc
-```
-
-4. If you still need to configure powerlevel10k, you can execute following command and choose suitable options for you
+1. To configure powerlevel10k, execute following command and choose suitable options for you
 
 ```bash
 p10k configure
 ```
 
-5. If you want to use older setup, just change the theme to powerlevel9k and 
+2. This will generate following files and you can have multiple files for each of the config 
 ```bash
-mv ~/.p10k.zsh ~/.p10k.zsh.bak
+mv ~/.p10k.zsh ~/.p10k.zsh.config1
 ```
-Minor difference compare to previous setup
-1. No longer print status bar on enter command   
-2. git status difference, we get total number of unstaged, untracked files, here 5 unstaged files and 13 untracked files   
-3. if previous command's return status was success/error then subsequent enter will be in green/red respectively as shown below   
+To use desired config
+```bash
+cp ~/.p10k.zsh.config1 ~/.p10k.zsh
+```
+Restart the terminal.   
 
 ![](images/Screenshot%202019-12-21%20at%204.59.39%20PM.png)
 ![](images/Screenshot%202019-12-21%20at%204.57.52%20PM.png)
 
-
-
 Other customizations you can try:
-1. https://denysdovhan.com/spaceship-prompt/
+1. [🚀](https://spaceship-prompt.sh/)
+2. [⭐🚢 == 🚀](https://starship.rs/)
+3. [🐟🐚](https://fishshell.com/)
 
 ------
 
@@ -317,10 +287,7 @@ sudo make O_NERD=1
 
 # Since I have install nnn with homebrew and it does not give any colors and icons, so  compiled it manually and replaced nnn binary file
 sudo cp nnn /usr/local/Cellar/nnn/4.0/bin/
-```
-
-```
-nnn -de
+alias nnn='nnn -de'
 ```
 
 ![image](images/Screenshot%202021-04-23%20at%2012.21.01%20PM.png)
