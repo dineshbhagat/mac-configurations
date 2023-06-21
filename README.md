@@ -16,7 +16,6 @@
     - [Terminal File Manager](#terminal-file-manager)
     - [Uniform Commits for git projects](#uniform-commit-message-format)
     - [fig autocomplete](#fig-autocomplete)
-  - [List Of Shell Customization frameworks](#list-of-shell-customization-frameworks)
   - [Python setup](#python-setup)
     - [Virtual Environment for python](#virtual-environment-for-python)
   - [GO setup](#go-setup)
