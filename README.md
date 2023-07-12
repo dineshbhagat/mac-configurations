@@ -14,6 +14,7 @@
     - [Optional powerlevel10k Configuration](#powerlevel10k-configuration)
     - [iterm2 color theme](#iterm2-color-theme)
     - [Terminal File Manager](#terminal-file-manager)
+    - [Terminal Git Gui](#terminal-git-gui)
     - [Uniform Commits for git projects](#uniform-commit-message-format)
     - [fig autocomplete](#fig-autocomplete)
   - [Python setup](#python-setup)
@@ -306,6 +307,19 @@ export NNN_PLUG='f:finder;o:fzopen;p:mocplay;d:diffs;t:nmount;v:imgview'
 
 Ref: 
 - https://github.com/jarun/nnn
+
+------
+
+<a href="#configurations">:arrow_up:</a> 
+
+#### Terminal Git Gui
+
+```bash
+brew install jesseduffield/lazygit/lazygit
+```
+
+Ref:
+- https://github.com/jesseduffield/lazygit
 
 ------
 
