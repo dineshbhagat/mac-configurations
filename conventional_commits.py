@@ -221,12 +221,20 @@ class ConventionalCommitsCz(BaseCommitizen):
 
     def example(self) -> str:
         return (
-            "fix: correct minor typos in code\n"
+            "[ABCD-1234] - fix(Stability): fixing one of the bug\n"
             "\n"
-            "see the issue for details on the typos fixed\n"
+            "https://jira.target.com/browse/ABCD-1234\n"
             "\n"
             "closes issue #12"
         )
+        # original example
+        #return (
+        #    "fix: correct minor typos in code\n"
+        #    "\n"
+        #    "see the issue for details on the typos fixed\n"
+        #    "\n"
+        #    "closes issue #12"
+        #)
 
     def schema(self) -> str:
         return (
