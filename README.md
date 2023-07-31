@@ -332,9 +332,15 @@ Ref:
 ![](https://github.com/dineshbhagat/mac-configurations/blob/59b2e6be92ab5878201b365333c48f1692fcc7b6/images/cz1.png)
 ![](https://github.com/dineshbhagat/mac-configurations/blob/59b2e6be92ab5878201b365333c48f1692fcc7b6/images/cz2.png)
 
-**In case if you want to change message prompt and add additional types then edit following file**   
-For "conventional_commits" type template   
-File: [/usr/local/lib/python3.11/site-packages/commitizen/cz/conventional_commits/conventional_commits.py](https://github.com/dineshbhagat/mac-configurations/blob/7710d09503d9b8a08a6493db97fb262d579865b1/conventional_commits.py)
+**In case if you want to change message prompt and add additional types then edit following file**  
+
+Add following code at the end of files `/usr/local/lib/python3.11/site-packages/commitizen/defaults.py` and `/usr/local/Cellar/commitizen/3.5.4/libexec/lib/python3.11/site-packages/commitizen/defaults.py`.   
+```
+version_parser = r"(?P<version>([0-9]+)\.([0-9]+)\.([0-9]+)(?:-([0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*))?(?:\+[0-9A-Za-z-]+)?(\w+)?)"
+```
+For "conventional_commits" type template    
+`commitizen-version` --> replace version number   
+File: [/usr/local/lib/python3.11/site-packages/commitizen/cz/conventional_commits/conventional_commits.py, /usr/local/Cellar/commitizen/<commitizen-version>/libexec/lib/python3.11/site-packages/commitizen/cz/conventional_commits/conventional_commits.py](https://github.com/dineshbhagat/mac-configurations/blob/7710d09503d9b8a08a6493db97fb262d579865b1/conventional_commits.py)
 
 ```python
 class: class ConventionalCommitsCz(BaseCommitizen)
