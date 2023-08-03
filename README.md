@@ -342,6 +342,12 @@ For "conventional_commits" type template
 `commitizen-version` --> replace version number   
 File: [/usr/local/lib/python3.11/site-packages/commitizen/cz/conventional_commits/conventional_commits.py, /usr/local/Cellar/commitizen/<commitizen-version>/libexec/lib/python3.11/site-packages/commitizen/cz/conventional_commits/conventional_commits.py](https://github.com/dineshbhagat/mac-configurations/blob/7710d09503d9b8a08a6493db97fb262d579865b1/conventional_commits.py)
 
+This has one downside that, for every commitizen upgrade, need to change ^^ files manually   
+```bash
+cp /usr/local/lib/python3.11/site-packages/commitizen/cz/conventional_commits/conventional_commits.py /usr/local/Cellar/commitizen/3.6.0/libexec/lib/python3.11/site-packages/commitizen/cz/conventional_commits/conventional_commits.py
+cp /usr/local/lib/python3.11/site-packages/commitizen/defaults.py /usr/local/Cellar/commitizen/3.6.0/libexec/lib/python3.11/site-packages/commitizen/defaults.py
+```
+
 ```python
 class: class ConventionalCommitsCz(BaseCommitizen)
 method: def questions(self)
