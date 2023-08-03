@@ -344,9 +344,9 @@ File: [/usr/local/lib/python3.11/site-packages/commitizen/cz/conventional_commit
 
 This has one downside that, for every commitizen upgrade, need to change ^^ files manually   
 ```bash
-cp /usr/local/lib/python3.11/site-packages/commitizen/cz/conventional_commits/conventional_commits.py /usr/local/Cellar/commitizen/3.6.0/libexec/lib/python3.11/site-packages/commitizen/cz/conventional_commits/conventional_commits.py
+cp /usr/local/lib/python3.11/site-packages/commitizen/cz/conventional_commits/conventional_commits.py /usr/local/Cellar/commitizen/$(cz version)/libexec/lib/python3.11/site-packages/commitizen/cz/conventional_commits/conventional_commits.py
 
-cat <<"EOT" >> /usr/local/Cellar/commitizen/3.6.0/libexec/lib/python3.11/site-packages/commitizen/defaults.py
+cat <<"EOT" >> /usr/local/Cellar/commitizen/$(cz version)libexec/lib/python3.11/site-packages/commitizen/defaults.py
 
 version_parser = r"(?P<version>([0-9]+)\.([0-9]+)\.([0-9]+)(?:-([0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*))?(?:\+[0-9A-Za-z-]+)?(\w+)?)"
 EOT
