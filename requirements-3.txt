@@ -1,4 +1,4 @@
-urllib3==1.26.5
+urllib3==1.26.17
 virtualenv==16.4.3
 python-dateutil==2.7.2
 jsonlib-python3==1.6.1
