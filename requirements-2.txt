@@ -1,4 +1,4 @@
 Fabric==1.14.1
 python-dateutil==2.7.5
 simplejson==3.16.0
-urllib3==1.26.5
+urllib3==1.26.18
