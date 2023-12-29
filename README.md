@@ -15,6 +15,7 @@
     - [iterm2 color theme](#iterm2-color-theme)
     - [Terminal File Manager](#terminal-file-manager)
     - [Terminal Git Gui](#terminal-git-gui)
+    - [Terminal Git Diff Tool](#terminal-git-diff-tool)
     - [Uniform Commits for git projects](#uniform-commit-message-format)
     - [fig autocomplete](#fig-autocomplete)
   - [Python setup](#python-setup)
@@ -320,6 +321,19 @@ brew install jesseduffield/lazygit/lazygit
 
 Ref:
 - https://github.com/jesseduffield/lazygit
+
+------
+
+<a href="#configurations">:arrow_up:</a> 
+
+#### Terminal Git Diff Tool
+
+```bash
+brew install difftastic
+```
+
+Ref:
+- [Difftastic is Fantastic](https://github.com/wilfred/difftastic)
 
 ------
 
