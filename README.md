@@ -18,6 +18,7 @@
     - [Terminal Git Diff Tool](#terminal-git-diff-tool)
     - [Uniform Commits for git projects](#uniform-commit-message-format)
     - [fig autocomplete](#fig-autocomplete)
+  - [nushell](#nushell)
   - [Python setup](#python-setup)
     - [Virtual Environment for python](#virtual-environment-for-python)
   - [GO setup](#go-setup)
@@ -419,6 +420,26 @@ fig settings telemetry.disabled true
 ```
 
 Requires an emailId for the setup. :unamused:
+
+------
+
+<a href="#configurations">:arrow_up:</a> 
+#### nushell
+
+- It is a structured shell like PowerShell.
+- Nu views data functionally.
+- Rather than using mutation, pipelines act as a means to load, change, and save data without mutable state.  
+```bash
+# Linux and macOS
+brew install nushell
+# Windows
+winget install nushell
+```
+After installing, launch Nu by typing `nu`
+
+[website](https://www.nushell.sh/)   
+[github](https://github.com/nushell/nushell)  
+[book](https://www.nushell.sh/book/)  
 
 ------
 
