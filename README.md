@@ -425,10 +425,12 @@ Requires an emailId for the setup. :unamused:
 
 <a href="#configurations">:arrow_up:</a> 
 #### nushell
-
+- if you work with lots of json, yaml, toml, xml, csv, ini, data files, then I would suggest this shell than any other shell, it gives you so many options to make your life easy. 
 - It is a structured shell like PowerShell.
 - Nu views data functionally.
-- Rather than using mutation, pipelines act as a means to load, change, and save data without mutable state.  
+- Rather than using mutation, pipelines act as a means to load, change, and save data without mutable state.
+- If you are used to any previous shell then this would help you get started: https://www.nushell.sh/book/nushell_map.html, https://www.nushell.sh/book/nushell_operator_map.html
+- Some of the programming language option on shell prompt: https://www.nushell.sh/book/nushell_map_imperative.html 
 ```bash
 # Linux and macOS
 brew install nushell
