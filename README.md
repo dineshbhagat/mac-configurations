@@ -588,16 +588,24 @@ http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up
 
 ------ 
 <a href="#configurations">:arrow_up:</a>  
-#### SDKMAN
+#### 
 
 Install:
 
 ```shell
-curl -s "https://get.sdkman.io" | bash
+curl -s "https://get..io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk version
-
 ```
+OR using [homebrew](https://github.com/sdkman/homebrew-tap)
+```shell
+brew tap sdkman/tap
+brew install sdkman-cli
+# then add following lines to the end of your .bash_profile or .zshrc file
+export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
+[[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
+```
+
 Uninstall: 
 
 ```shell
