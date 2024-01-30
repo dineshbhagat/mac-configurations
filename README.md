@@ -588,7 +588,7 @@ http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up
 
 ------ 
 <a href="#configurations">:arrow_up:</a>  
-#### 
+#### SDKMAN
 
 Install:
 
