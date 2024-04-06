@@ -230,6 +230,27 @@ export PATH=$graalHome/bin:$PATH
 
 export LC_ALL=en_US.UTF-8
 
+# --- need to have github token for following function to work --
+# this function will set upstream config if you have already forked repo
+export github_token=""
+function add_upstream() {
+     echo "------------------------"
+     git remote -v
+     url=$(git config --get remote.origin.url)
+     IFS=: read -r var1 var2 <<< $url
+     repoWithOwner=${${var2}%.git}
+     remote=$(curl -u ${USER}:$github_token "https://api.github.com/api/v3/repos/$repoWithOwner" | jq -r '.parent.ssh_url')
+     if [ "$remote" != "null" ]; then
+         git remote add upstream "$remote"
+         git remote set-url --push upstream fake
+     else
+         echo "no upstream found"
+     fi
+     git remote -v
+     echo "-----------------------"
+}
+#--------------------------------------------------------------
+
 # https://github.com/dineshbhagat/mac-configurations/blob/main/README.md#make-ls-ll-commands-colorful
 alias ll='lsd -la'
 alias ls='lsd'
