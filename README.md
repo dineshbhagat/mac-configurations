@@ -11,6 +11,7 @@
     - [Get better version of man pages](#get-better-version-of-man-pages)
     - [Install Ruby](#install-ruby)
     - [Make ls, ll commands colorful](#make-ls-ll-commands-colorful)
+    - [Smart cd command](#smart-cd-command)
     - [Optional powerlevel10k Configuration](#powerlevel10k-configuration)
     - [iterm2 color theme](#iterm2-color-theme)
     - [Terminal File Manager](#terminal-file-manager)
@@ -225,6 +226,19 @@ command-failure-status:
 ![terminate-command-on-failure-status](images/Screen%20Shot%202018-10-08%20at%2012.00.18%20PM.png)
 
 ![ll-and-ls-commands](images/Screen%20Shot%202016-11-08%20at%2012.18.00%20AM.png)
+
+##### Smart cd command
+
+[zoxide](https://github.com/ajeetdsouza/zoxide)
+
+[fzf](https://github.com/junegunn/fzf)
+
+```bash
+brew install zoxide
+brew install fzf
+# add following at the end of zshrc file
+eval "$(zoxide init --cmd cd zsh)"
+```
 
 
 ##### powerlevel10k configuration
