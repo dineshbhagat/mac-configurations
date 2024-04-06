@@ -349,6 +349,7 @@ brew install difftastic
 
 Ref:
 - [Difftastic is Fantastic](https://github.com/wilfred/difftastic)
+- [installation with git](https://difftastic.wilfred.me.uk/git.html)
 
 ------
 
