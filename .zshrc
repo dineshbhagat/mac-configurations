@@ -236,7 +236,7 @@ alias ls='lsd'
 
 # file browser
 alias nnn='nnn -de'
-
+eval "$(zoxide init --cmd cd zsh)"
 
 # embedded-terminal intelliJ idea
 bindkey "\e\eOD" backward-word
