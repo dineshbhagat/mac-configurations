@@ -141,6 +141,8 @@ https://tldr.sh/
 
 ##### Install Ruby
 
+[Ruby Version Manager](https://github.com/rbenv/rbenv)
+
 ```shell
 brew install rbenv ruby-build
 
@@ -148,7 +150,7 @@ brew install rbenv ruby-build
 echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
 source ~/.bash_profile
 
-echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.zshrc
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi' >> ~/.zshrc
 source ~/.zshrc
 
 # If you're using Zsh
