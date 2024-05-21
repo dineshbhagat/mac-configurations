@@ -465,7 +465,12 @@ After installing, launch Nu by typing `nu`
 <a href="#configurations">:arrow_up:</a>  
 #### Python setup
 
-`brew install python@3`  
+```
+brew install python@3
+pip install --upgrade setuptools
+python -m ensurepip --upgrade
+pip install --upgrade pip
+```
 
 info:   
 ```bash
@@ -499,11 +504,18 @@ System python installation path
 Homebrew installed python path  
 `/usr/local/Cellar/python/<version>/`
 
-Let us us python3 for virtual environment  
-`pip3 install virtualenv`
+Let us use python3 for virtual environment  
+`pip3 install virtualenv`   
+OR upgrade    
+`pip install --upgrade virtualenv`   
 
 Setup virtual environment at any location, lets setup at home directory  
-`virtualenv -p python3 ~/virtEnvPy3`
+```
+virtualenv -p python3 ~/virtEnvPy3
+python3 -m pip install --upgrade setuptools
+virtualenv --upgrade-embed-wheels
+```  
+
 
 Activate virtual environment  
 
@@ -538,6 +550,9 @@ pip3 install --user -r requirements.txt
 # Typically ~/.local/, or %APPDATA%\Python on Windows.  
 # (See the Python documentation for site.USER_BASE for full details.
 ```
+
+Ref:   
+ - https://stackoverflow.com/a/77364602/2987755
 
 ------
 
