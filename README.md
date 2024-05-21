@@ -525,13 +525,15 @@ System python installation path
 Homebrew installed python path  
 `/usr/local/Cellar/python/<version>/`
 
+Or We can use python version set by pyenv as mentioned above.   
+
 Let us use python3 for virtual environment  
 `pip3 install virtualenv`   
 OR upgrade    
 `pip install --upgrade virtualenv`   
 
 Setup virtual environment at any location, lets setup at home directory  
-```
+```bash
 virtualenv -p python3 ~/virtEnvPy3
 python3 -m pip install --upgrade setuptools
 virtualenv --upgrade-embed-wheels
@@ -540,7 +542,7 @@ virtualenv --upgrade-embed-wheels
 
 Activate virtual environment  
 
-```shell
+```bash
 cd ~/virtEnvPy3
 source bin/activate
 ```
