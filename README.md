@@ -22,6 +22,7 @@
   - [nushell](#nushell)
   - [Python setup](#python-setup)
     - [Virtual Environment for python](#virtual-environment-for-python)
+    - [Multiple python versions on local machine](#multiple-python-versions-on-local-machine)
   - [GO setup](#go-setup)
     - [Environment variables](#environment-variables)
   - [Groovy setup](#groovy-setup)
@@ -491,6 +492,26 @@ They will install into the site-package directory
 ```
 
 `brew install python@2`
+
+##### Multiple python versions on local machine
+
+```bash
+# install py environment manager
+brew install pyenv
+# identify versions available
+pyenv install --list
+# Install python
+pyenv install <python-version>
+# verify installed version
+pyenv versions
+# To set global python version
+pyenv global <python-version>
+# check python version
+python -version
+# Once you close the terminal or open new terminal tab, this may not work, we need to initialize everytime we start a bash/zsh sessions
+# add following in .zshrc or .bashrc file, similar to rbenv(ruby environment)
+eval "$(pyenv init -)"
+```
 
 ##### Virtual Environment for python
 
