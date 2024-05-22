@@ -325,7 +325,7 @@ export NNN_PLUG='f:finder;o:fzopen;p:mocplay;d:diffs;t:nmount;v:imgview'
 ```
 
 Ref: 
-- https://github.com/jarun/nnn
+- [nnn-github](https://github.com/jarun/nnn)
 
 ------
 
@@ -338,7 +338,7 @@ brew install jesseduffield/lazygit/lazygit
 ```
 
 Ref:
-- https://github.com/jesseduffield/lazygit
+- [lazygit-github](https://github.com/jesseduffield/lazygit)
 
 ------
 
@@ -614,8 +614,8 @@ pyenv which pip
 
 
 Ref:   
- - https://realpython.com/intro-to-pyenv/
- - https://stackoverflow.com/a/77364602/2987755
+ - [intro-to-pyenv](https://realpython.com/intro-to-pyenv/)
+ - [python 3.12 breaking changes](https://stackoverflow.com/a/77364602/2987755)
 
 ------
 
@@ -644,12 +644,13 @@ export GOROOT="$(brew --prefix golang)/libexec"
 export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 ```
 Import Go packages
-`go get -u github.com/tednaleid/ganda` [Ref](https://github.com/tednaleid/ganda)
+`go get -u github.com/tednaleid/ganda`
 
 
 More Ref
-1. https://golang.org/project/
-2. [GO-info](go-info.md)
+1. [Ganda](https://github.com/tednaleid/ganda)
+2. [Golang-Homepage](https://golang.org/project/)
+3. [GO-info](go-info.md)
       
 ------
 <a href="#configurations">:arrow_up:</a>  
@@ -760,7 +761,8 @@ sdk install java 11.0.8.hs-adpt
 
 ```
 
-Ref: https://sdkman.io/
+Ref:
+- [sdkman homepage](https://sdkman.io/)
 
 ------ 
 <a href="#configurations">:arrow_up:</a>  
@@ -845,7 +847,7 @@ If your zsh is slower:
 
 {% gist a4bdff5c011957f9950b9bebed7f5e30 customize-iterm2.sh %}
 
-[Ref](https://github.com/jekyll/jekyll-gist)
+[jekyll-gist](https://github.com/jekyll/jekyll-gist)
 
 
 ------
