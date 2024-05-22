@@ -21,8 +21,8 @@
     - [fig autocomplete](#fig-autocomplete)
   - [nushell](#nushell)
   - [Python setup](#python-setup)
-    - [Virtual Environment for python](#virtual-environment-for-python)
     - [Multiple python versions on local machine](#multiple-python-versions-on-local-machine)
+    - [Virtual Environment for python](#virtual-environment-for-python)
   - [GO setup](#go-setup)
     - [Environment variables](#environment-variables)
   - [Groovy setup](#groovy-setup)
@@ -466,6 +466,10 @@ After installing, launch Nu by typing `nu`
 <a href="#configurations">:arrow_up:</a>  
 #### Python setup
 
+1. **pyenv** manages multiple versions of Python itself.
+2. **virtualenv/venv** manages virtual environments for a specific Python version.
+3. **pyenv-virtualenv** manages virtual environments for across varying versions of Python.
+
 ```
 brew install python@3
 pip install --upgrade setuptools
@@ -506,6 +510,8 @@ pyenv install <python-version>
 pyenv versions
 # To set global python version
 pyenv global <python-version>
+# To set local version, this is helpful when you have multiple projects depends on different python versions but at the same time, you do not want to change your global python version
+pyenv local <python-version>
 # check python version
 python -version
 # Once you close the terminal or open new terminal tab, this may not work, we need to initialize everytime we start a bash/zsh sessions
@@ -531,13 +537,6 @@ System python installation path
 Homebrew installed python path  
 `/usr/local/Cellar/python/<version>/`
 
-Or We can use python version set by pyenv as mentioned above using [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) plugin.   
-Installation of pyenv-virtualenv plugin, for more refer respective github page:     
-```
-brew install pyenv-virtualenv
-# Add following to .zshrc/,bashrc file
-eval "$(pyenv virtualenv-init -)" 
-```
 
 Let us use python3 for virtual environment  
 `pip3 install virtualenv`   
@@ -585,6 +584,28 @@ pip3 install --user -r requirements.txt
 # Typically ~/.local/, or %APPDATA%\Python on Windows.  
 # (See the Python documentation for site.USER_BASE for full details.
 ```
+
+##### Use pyenv along with venv [preferred if you have multiple projects with different python versions]   
+This is possible with [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) plugin.   
+Installation of pyenv-virtualenv plugin, for more refer respective github page:     
+```bash
+brew install pyenv-virtualenv
+# Add following to .zshrc/,bashrc file
+eval "$(pyenv virtualenv-init -)" 
+```
+
+Create a virtual environment, make sure you have installed `python-version` from pyenv. This creates `.python-version` file to project folder.  
+`pyenv virtualenv <python-version> <environment/project_name>` e.g. `pyenv virtualenv 3.11.9 LLM-demo`
+
+Activate Virtual env
+`pyenv local <environment_name>LLM-demo` e.g. `pyenv local LLM-demo`
+
+Verify
+```bash
+pyenv which python
+pyenv which pip
+```
+
 
 Ref:   
  - https://realpython.com/intro-to-pyenv/
