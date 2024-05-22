@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'jekyll-theme-hacker', '~> 0.2.0'
 
 group :jekyll_plugins do
+ gem 'github-pages'
  gem 'jemoji'
  gem 'jekyll-seo-tag'
  gem 'github-pages-health-check'
