@@ -511,6 +511,12 @@ python -version
 # Once you close the terminal or open new terminal tab, this may not work, we need to initialize everytime we start a bash/zsh sessions
 # add following in .zshrc or .bashrc file, similar to rbenv(ruby environment)
 eval "$(pyenv init -)"
+# installation location
+ls ~/.pyenv/versions/
+# To remove any python version
+pyenv uninstall <python-version>
+# To check installed python versions
+pyenv versions
 ```
 
 ##### Virtual Environment for python
@@ -525,7 +531,13 @@ System python installation path
 Homebrew installed python path  
 `/usr/local/Cellar/python/<version>/`
 
-Or We can use python version set by pyenv as mentioned above.   
+Or We can use python version set by pyenv as mentioned above using [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) plugin.   
+Installation of pyenv-virtualenv plugin, for more refer respective github page:     
+```
+brew install pyenv-virtualenv
+# Add following to .zshrc/,bashrc file
+eval "$(pyenv virtualenv-init -)" 
+```
 
 Let us use python3 for virtual environment  
 `pip3 install virtualenv`   
@@ -575,6 +587,7 @@ pip3 install --user -r requirements.txt
 ```
 
 Ref:   
+ - https://realpython.com/intro-to-pyenv/
  - https://stackoverflow.com/a/77364602/2987755
 
 ------
