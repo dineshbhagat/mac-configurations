@@ -597,6 +597,12 @@ eval "$(pyenv virtualenv-init -)"
 Create a virtual environment, make sure you have installed `python-version` from pyenv. This creates `.python-version` file to project folder.  
 `pyenv virtualenv <python-version> <environment/project_name>` e.g. `pyenv virtualenv 3.11.9 LLM-demo`
 
+If you need all site-packages from parent python version to be available in virtual env then   
+```bash
+pyenv virtualenv --system-site-packages <python-version> <environment/project_name>
+```
+
+
 Activate Virtual env
 `pyenv local <environment_name>LLM-demo` e.g. `pyenv local LLM-demo`
 
