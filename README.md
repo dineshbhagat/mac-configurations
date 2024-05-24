@@ -686,14 +686,29 @@ http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up
 <a href="#configurations">:arrow_up:</a>  
 #### SDKMAN
 
+Why:
+- When you have multiple project which depends on different java versions
+- It is difficult to remember which java version is required for project
+
+Helps:  
+- Setup once for all the project,
+- Free from cognitive load and changing java version for the project unless supported java version changed ☕
+- Global and local java versions can co-exists.
+- IDE support for sdkman downloaded java
+
 Install:
 
 ```shell
-curl -s "https://get..io" | bash
+curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
-sdk version
 ```
-OR using [homebrew](https://github.com/sdkman/homebrew-tap)
+THIS MUST BE AT THE END OF THE .zshrc/.bashrc FILE FOR SDKMAN TO WORK!!!
+```bash
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+```
+
+OR using [homebrew-deprecated](https://github.com/sdkman/homebrew-tap)
 ```shell
 brew tap sdkman/tap
 brew install sdkman-cli
@@ -701,6 +716,9 @@ brew install sdkman-cli
 export SDKMAN_DIR=$(brew --prefix sdkman-cli)/libexec
 [[ -s "${SDKMAN_DIR}/bin/sdkman-init.sh" ]] && source "${SDKMAN_DIR}/bin/sdkman-init.sh"
 ```
+
+Verify installation:   
+`sdk version`
 
 Uninstall: 
 
@@ -710,7 +728,6 @@ $ rm -rf ~/.sdkman
 # remove following line from bashrc/zshrc
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 [[ -s "/home/dudette/.sdkman/bin/sdkman-init.sh" ]] && source "/home/dudette/.sdkman/bin/sdkman-init.sh"
-
 ```
 
 Update:  
@@ -740,26 +757,48 @@ Available Java Versions
 | AdoptOpenJDK  |     | 15.0.0.j9    | adpt    |            | 15.0.0.j9-adpt   |      
 |               | >>> | 11.0.8.hs    | adpt    | installed  | 11.0.8.hs-adpt   |
 |               |     | 8.0.265.j9   | adpt    |            | 8.0.265.j9-adpt  |
-|               |     | 8.0.265.hs   | adpt    |            | 8.0.265.hs-adpt  |
 | Amazon        |     | 15.0.0       | amzn    |            | 15.0.0-amzn      |
 |               |     | 11.0.8       | amzn    |            | 11.0.8-amzn      |
-|               |     | 8.0.265      | amzn    |            | 8.0.265-amzn     |
-| Azul Zulu     |     | 15.0.0       | zulu    |            | 15.0.0-zulu      |     
-| BellSoft      |     | 15.0.0.fx    | librca  |            | 15.0.0.fx-librca |    
+| Azul Zulu     |     | 15.0.0       | zulu    |            | 15.0.0-zulu      |      
 | GraalVM       |     | 20.2.0.r11   | grl     |            | 20.2.0.r11-grl   |     
 | Java.net      |     | 16.ea.19     | open    |            | 16.ea.19-open    |       
 | SAP           |     | 15.0.0       | sapmchn |            | 15.0.0-sapmchn   |
-     
 
 Use the Identifier for installation:   
-
 ```bash
 # syntax
-sdk install java <version-dist>
+sdk install java <Identifier>
 # e.g.
-sdk install java 11.0.8.hs-adpt
-
+sdk install java 11.0.23-tem
 ```
+Note: Install Global JDK with `Y` prompt and rest of the JDK as `n`   
+Do you want java <identifier> to be set as default? (Y/n): Y   
+Or 
+you can set any version as default   
+```bash
+sdk default java 11.0.23-tem
+```
+
+To check which java version `sdk current java`  
+
+To setup java for any project, go to project root folder and execute  
+`sdk env init` -> This will create .sdkmanrc file.   
+It adds global java version in file as
+```
+java=11.0.23-tem
+```
+If you need different version, edit file and update required java version with its identifier. 
+Verify change by `sdk env`.  
+
+Now if you want to setup project specific jdk version and do not want to switch everytime
+add/enable `sdkman_auto_env=true` in `$SDKMAN_DIR/etc/config` file by executing `sdk config`   
+
+Update specific libs or all the libs `sdk upgrade java` or `sdk upgrade` 
+
+Temporary file cleanup `sdk flush`
+
+Script : When we want to use java_home in script, get jdk home as `sdk home java <identifier>`
+
 
 Ref:
 - [sdkman homepage](https://sdkman.io/)
