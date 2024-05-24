@@ -779,7 +779,7 @@ you can set any version as default
 sdk default java 11.0.23-tem
 ```
 
-To check which java version `sdk current java`  
+To check java version at any path `sdk current java`  
 
 To setup java for any project, go to project root folder and execute  
 `sdk env init` -> This will create .sdkmanrc file.   
