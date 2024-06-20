@@ -49,7 +49,7 @@ Following site will help you setup your mac.
 
 1. Install iterm2 from https://www.iterm2.com/ and Install Homebrew from https://brew.sh/ 
 
-2. Install software listed in file brew-leaves.txt   
+2. Install software listed in file brew-leaves.txt(export `brew leaves | xargs brew desc --eval-all`, `brew ls --casks | xargs brew desc --eval-all`)    
    `brew install $(< brew-leaves.txt)`
 
 3. Add theme to iterm2: [Oh-my-Z](https://ohmyz.sh/)   
