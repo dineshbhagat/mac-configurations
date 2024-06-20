@@ -88,8 +88,6 @@ Following site will help you setup your mac.
    [powerline fonts](https://github.com/powerline/fonts)
 
    [awesome-terminal-fonts](https://github.com/gabrielelana/awesome-terminal-fonts)
-
-   [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
    
    [nerd-fonts](https://www.nerdfonts.com/)
 
