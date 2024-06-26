@@ -79,7 +79,7 @@ HIST_STAMPS="mm/dd/yyyy"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git zsh-syntax-highlighting zsh-autosuggestions zsh-completions osx jsontools mvn
+  git zsh-syntax-highlighting zsh-autosuggestions zsh-completions macos jsontools mvn
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -136,25 +136,11 @@ export PATH=$JAVA_HOME/bin:$PATH
 alias sqldeveloper="/Applications/SQLDeveloper.app/Contents/MacOS/sqldeveloper.sh; exit"
 alias jd="java -jar /Users/${USER}/standalone/Bytecode-Viewer-2.10.16.jar"
 
-java8()
-{
-    export JAVA_HOME=~/standalone/temurin-8.jdk/Contents/Home
-    export PATH=${JAVA_HOME}/bin:$PATH
-    java -version
-}
-
 java17()
 {
      export JAVA_HOME=~/standalone/temurin-17.jdk/Contents/Home
      export PATH=${JAVA_HOME}/bin:$PATH
      java -version
-}
-
-
-java19() {
-	export JAVA_HOME=~/standalone/jdk-19.jdk/Contents/Home
-	export PATH=${JAVA_HOME}/bin:$PATH
-    java -version
 }
 
 export GOPATH="${HOME}/go-workspace"
@@ -183,9 +169,11 @@ function box() {
 
 alias stopnginx="nginx -s stop"
 
+# url encoder and decoder
 alias urld='python3 -c "import sys, urllib.parse as ul; print(ul.unquote(sys.argv[1]))"'
 alias urle='python3 -c "import sys, urllib.parse as ul; print(ul.quote(sys.argv[1]))"'
 
+alias jps='jps -lm'
 alias jshell="~/standalone/temurin-17.jdk/Contents/Home/bin/jshell --enable-preview"
 alias ojava="~/standalone/jdk-14.0.1+7/Contents/Home/bin/java"
 export kafka=~/standalone/kafka_2.13-3.3.1
@@ -220,13 +208,11 @@ alias telegrafDefaultConfig="/usr/local/opt/telegraf/bin/telegraf -config /usr/l
 
 alias trino="/usr/local/opt/trino/bin/trino-server run"
 
-alias startpostgres='echo "To delete log files run: rm -rf /usr/local/var/postgres/log/*, restart postgres"; /usr/local/opt/postgresql/bin/postgres -D /usr/local/var/postgres'
+alias startpostgres='echo "To delete log files run: rm -rf /usr/local/var/postgres/log/*, restart postgres"; /usr/local/opt/postgresql@15/bin/postgres -D /usr/local/var/postgresql@15'
 alias postgresreport="pgbadger --prefix '%m [%p]: [%l-1] user=%u,db=%d,app=%a,client=%h ' /usr/local/var/postgres/log/* -o /usr/local/var/postgres/log/postgreslog.html"
 
-export graalHome=~/standalone/graalvm-ce-1.0.0-rc11/Contents/Home/bin
-alias gjavac="$graalHome/javac"
-alias gjava="$graalHome/java"
-export PATH=$graalHome/bin:$PATH
+
+export cellar="/usr/local/Cellar"
 
 export LC_ALL=en_US.UTF-8
 
@@ -262,6 +248,22 @@ eval "$(zoxide init --cmd cd zsh)"
 # embedded-terminal intelliJ idea
 bindkey "\e\eOD" backward-word
 bindkey "\e\eOC" forward-word
+
+# Manage sdks
+eval "$(rbenv init - zsh)"
+#eval "$(pyenv init -)"
+#eval "$(pyenv virtualenv-init -)"
+
+# node version manager, similar to sdkman
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+# Manage JVM environments, 
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
 #################################################################
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
