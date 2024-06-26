@@ -250,7 +250,10 @@ bindkey "\e\eOD" backward-word
 bindkey "\e\eOC" forward-word
 
 # Manage sdks
+# ruby sdk manager
 eval "$(rbenv init - zsh)"
+
+# Python sdk manager
 #eval "$(pyenv init -)"
 #eval "$(pyenv virtualenv-init -)"
 
@@ -258,7 +261,6 @@ eval "$(rbenv init - zsh)"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 
 # Manage JVM environments, 
 export SDKMAN_DIR="$HOME/.sdkman"
