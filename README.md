@@ -468,6 +468,8 @@ After installing, launch Nu by typing `nu`
 2. **virtualenv/venv** manages virtual environments for a specific Python version.
 3. **pyenv-virtualenv** manages virtual environments for across varying versions of Python.
 
+![](https://imgs.xkcd.com/comics/python_environment.png)
+
 ```
 brew install python@3
 pip install --upgrade setuptools
