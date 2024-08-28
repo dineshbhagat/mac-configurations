@@ -269,6 +269,8 @@ Other customizations you can try:
 3. [🐟🐚](https://fishshell.com/)
 4. [List Of Shell Customization frameworks](https://github.com/alebcay/awesome-shell)
 
+**Sadly, this project is no longer maintained 😞**
+
 ------
 
 <a href="#configurations">:arrow_up:</a>
