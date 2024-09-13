@@ -705,6 +705,10 @@ Ref:
 
 For IntelliJ keymap, import [settings.jar](settings.jar)
 
+[To Launch from terminal](https://www.jetbrains.com/help/idea/working-with-the-ide-features-from-command-line.html#toolbox)   
+1. Go to respective app's settings and give shell scripts name. Let say `ideac` for community version of intellij idea.  
+2. Execute `ideac .` from terminal to launch it.  
+
 [Fonts](https://www.jetbrains.com/lp/mono/)
 
 ------
