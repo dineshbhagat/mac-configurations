@@ -17,6 +17,7 @@
     - [Terminal File Manager](#terminal-file-manager)
     - [Terminal Git Gui](#terminal-git-gui)
     - [Terminal Git Diff Tool](#terminal-git-diff-tool)
+    - [Use Idea As Default Command Line Merge Tool](#use-idea-as-default-command-line-merge-tool)
     - [Uniform Commits for git projects](#uniform-commit-message-format)
     - [fig autocomplete](#fig-autocomplete)
   - [nushell](#nushell)
@@ -353,6 +354,34 @@ brew install difftastic
 Ref:
 - [Difftastic is Fantastic](https://github.com/wilfred/difftastic)
 - [installation with git](https://difftastic.wilfred.me.uk/git.html)
+
+------
+
+#### Use Idea As Default Command Line Merge Tool
+
+Note: 
+1. `/Applications/IntelliJ IDEA.app/Contents/macOS/idea` is installation path of idea IDE.    
+2. By default, Git keeps a copy of the file's contents before resolving conflicts.  
+   After a merge, Git saves the original file with the conflict tags with a .orig extension.  
+   This file will not be preserved if you set the variable `keepBackup` to `false`.
+    
+```bash
+# Find .gitconfig file and add following config
+
+[merge]
+tool = intellij
+[mergetool "intellij"]
+cmd = '/Applications/IntelliJ IDEA.app/Contents/macOS/idea' merge “$LOCAL” “$REMOTE” “$BASE”
+“$MERGED”
+trustExitCode = true
+[mergetool]
+keepBackup = false 
+```
+
+3. Whenever in merge conflict situation, execute `git mergetool` (this mergetool string is defined in config)
+4. Once conflict is resolved in idea, click on apply button to conclude the merge.
+
+[Ref](https://www.jetbrains.com/help/idea/tutorial-use-idea-as-default-command-line-merge-tool.html)
 
 ------
 
