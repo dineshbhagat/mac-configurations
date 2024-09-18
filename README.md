@@ -925,3 +925,16 @@ If your zsh is slower:
 
 
 ------
+
+Other Awesome resources 😎 📚 🗒️:
+
+- https://github.com/sindresorhus/awesome
+- https://github.com/jlevy/the-art-of-command-line
+- https://github.com/rothgar/awesome-tuis
+- https://github.com/agarrharr/awesome-cli-apps
+- https://github.com/cirosantilli/linux-kernel-module-cheat
+- https://github.com/rothgar/mastering-zsh
+- https://github.com/forthebadge/for-the-badge
+- https://github.com/serhii-londar/open-source-mac-os-apps
+
+------
