@@ -371,7 +371,7 @@ Note:
 [merge]
 tool = intellij
 [mergetool "intellij"]
-cmd = '~/Applications/IntelliJ\ IDEA\ Community\ Edition.app/Contents/MacOS/idea' merge “$LOCAL” “$REMOTE” “$BASE”
+cmd = '~/Applications/IntelliJ\ IDEA\ Community\ Edition.app/Contents/MacOS/idea' merge "$LOCAL" "$REMOTE" "$BASE"
 “$MERGED”
 trustExitCode = true
 [mergetool]
