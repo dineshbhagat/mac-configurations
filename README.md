@@ -360,7 +360,7 @@ Ref:
 #### Use Idea As Default Command Line Merge Tool
 
 Note: 
-1. `/Applications/IntelliJ IDEA.app/Contents/macOS/idea` is installation path of idea IDE.    
+1. `/Applications/IntelliJ IDEA.app/Contents/macOS/idea` is installation path of idea IDE(or if you are using Toolbox to install IDE `~/Applications/IntelliJ\ IDEA\ Community\ Edition.app/Contents/MacOS/idea`).    
 2. By default, Git keeps a copy of the file's contents before resolving conflicts.  
    After a merge, Git saves the original file with the conflict tags with a .orig extension.  
    This file will not be preserved if you set the variable `keepBackup` to `false`.
@@ -371,7 +371,7 @@ Note:
 [merge]
 tool = intellij
 [mergetool "intellij"]
-cmd = '/Applications/IntelliJ IDEA.app/Contents/macOS/idea' merge “$LOCAL” “$REMOTE” “$BASE”
+cmd = '~/Applications/IntelliJ\ IDEA\ Community\ Edition.app/Contents/MacOS/idea' merge “$LOCAL” “$REMOTE” “$BASE”
 “$MERGED”
 trustExitCode = true
 [mergetool]
