@@ -78,7 +78,6 @@ Following site will help you setup your mac.
    ##### Install Fonts
    
    ```bash
-   brew tap homebrew/cask-fonts
    brew install --cask font-hack-nerd-font
 
    # powerline clone
