@@ -255,6 +255,7 @@ eval "$(zoxide init --cmd cd zsh)"
 
 ```bash
 p10k configure
+# incase of issue ref: https://github.com/romkatv/powerlevel10k/issues/936#issuecomment-670839712
 ```
 
 2. This will generate following files and you can have multiple files for each of the config 
