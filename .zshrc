@@ -78,8 +78,14 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+
+# this line should be before `source $ZSH/oh-my-zsh.sh` line
+fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src  
+
+# zsh-syntax-highlighting should be last in plugin list
+
 plugins=(
-  git zsh-syntax-highlighting zsh-autosuggestions zsh-completions macos jsontools mvn
+  git zsh-autosuggestions zsh-completions macos jsontools mvn zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
