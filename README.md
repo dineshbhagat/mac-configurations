@@ -65,8 +65,15 @@ Following site will help you setup your mac.
    You can add additional plugins in zsh at `.oh-my-zsh/custom/plugins` location
 
    ```shell
-   cd $ZSH/custom/plugins;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git && git clone https://github.com/zsh-users/zsh-autosuggestions && git clone https://github.com/zsh-users/zsh-completions
+   # since we are using oh-my-z, we will not install following plugins through homebrew
+   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting &&
+   git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions &&
+   git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
    ```
+   Following further instructions from here:   
+   [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)   
+   [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)   
+   [zsh-completions](https://github.com/zsh-users/zsh-completions?tab=readme-ov-file#oh-my-zsh)   
 
    ##### Install Fonts
    
@@ -92,19 +99,19 @@ Following site will help you setup your mac.
    
    [nerd-fonts](https://www.nerdfonts.com/)
 
-5. Install powerlevel10k theme(`brew install powerlevel10k`)
-6. Update [.zshrc](https://github.com/dineshbhagat/mac-configurations/blob/d220ae87fa8351adf7ba63db73f6a91b2fb866cb/.zshrc) file
-7. change fonts for iterm2: iTerm2 -> Preferences -> Profiles -> Text -> Font -> Change Font to hack-nerd
-8. Execute `compaudit | xargs chmod g-w,o-w /usr/local/share/zsh ;compaudit | xargs chmod g-w,o-w /usr/local/share/zsh/site-functions`
-9. change font settings as shown in image  
+6. Install powerlevel10k theme(`brew install powerlevel10k`)
+7. Update [.zshrc](https://github.com/dineshbhagat/mac-configurations/blob/d220ae87fa8351adf7ba63db73f6a91b2fb866cb/.zshrc) file
+8. change fonts for iterm2: iTerm2 -> Preferences -> Profiles -> Text -> Font -> Change Font to hack-nerd
+9. Execute `compaudit | xargs chmod g-w,o-w /usr/local/share/zsh ;compaudit | xargs chmod g-w,o-w /usr/local/share/zsh/site-functions`
+10. change font settings as shown in image  
    ![image](images/Screen%20Shot%202018-12-04%20at%205.47.48%20PM.png)
-10. Vim Customization 
+11. Vim Customization 
 
     ```shell
       git clone https://github.com/amix/vimrc.git ~/.vim_runtime && sh ~/.vim_runtime/install_awesome_vimrc.sh
     ```
 
-11. Customize iterm2 [shortcut](https://stackoverflow.com/a/10485061/2987755)  
+12. Customize iterm2 [shortcut](https://stackoverflow.com/a/10485061/2987755)  
     ![image](images/iterm2-config.png)
 
     ⌘←  "SEND HEX CODE"      0x01  
@@ -112,7 +119,7 @@ Following site will help you setup your mac.
     ⌥←  "SEND ESC SEQ"  b  
     ⌥→  "SEND ESC SEQ"  f  
 
-12. Bonus: If you want terminal app to be similar to iterm2 do following settings
+13. Bonus: If you want terminal app to be similar to iterm2 do following settings
     - terminal -> preference -> Basic theme ->Background -> change color from white to black, 
     - Text -> change color from black to white
     - Font -> change for to Hack bold nerd font  
