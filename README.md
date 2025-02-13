@@ -248,36 +248,35 @@ brew install fzf
 eval "$(zoxide init --cmd cd zsh)"
 ```
 
-
 ##### powerlevel10k configuration
 
 1. To configure powerlevel10k, execute following command and choose suitable options for you
 
-```bash
-p10k configure
-# incase of issue ref: https://github.com/romkatv/powerlevel10k/issues/936#issuecomment-670839712
-```
+   ```bash
+   p10k configure
+   # incase of issue ref: https://github.com/romkatv/powerlevel10k/issues/936#issuecomment-670839712
+   ```
 
 2. This will generate following files and you can have multiple files for each of the config 
-```bash
-mv ~/.p10k.zsh ~/.p10k.zsh.config1
-```
-To use desired config
-```bash
-cp ~/.p10k.zsh.config1 ~/.p10k.zsh
-```
-Restart the terminal.   
+   ```bash
+   mv ~/.p10k.zsh ~/.p10k.zsh.config1
+   ```
+   To use desired config
+   ```bash
+   cp ~/.p10k.zsh.config1 ~/.p10k.zsh
+   ```
+   Restart the terminal.   
 
-![](images/Screenshot%202019-12-21%20at%204.59.39%20PM.png)
-![](images/Screenshot%202019-12-21%20at%204.57.52%20PM.png)
+   ![](images/Screenshot%202019-12-21%20at%204.59.39%20PM.png)
+   ![](images/Screenshot%202019-12-21%20at%204.57.52%20PM.png)
+
+   **Sadly, this project is no longer maintained 😞**
 
 Other customizations you can try:
 1. [🚀](https://spaceship-prompt.sh/)
 2. [⭐🚢 == 🚀](https://starship.rs/)
 3. [🐟🐚](https://fishshell.com/)
 4. [List Of Shell Customization frameworks](https://github.com/alebcay/awesome-shell)
-
-**Sadly, this project is no longer maintained 😞**
 
 ------
 
@@ -288,8 +287,8 @@ The color scheme I have used in above iterm2 snapshots is [here](mac-configurati
 
 If you need different color schemes then you can [ref](https://github.com/sindresorhus/iterm2-snazzy)
 
-- Download the colorscheme file
-- double click on it, iterm2 will import it.
+- Download the colorscheme file  
+- double click on it, iterm2 will import it.  
 
 ------
 
@@ -319,7 +318,6 @@ alias nnn='nnn -de'
 ```
 
 ![image](images/Screenshot%202021-04-23%20at%2012.21.01%20PM.png)
-
 
 Plugins   
 ```bash
