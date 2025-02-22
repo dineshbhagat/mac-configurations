@@ -17,6 +17,7 @@
     - [Terminal File Manager](#terminal-file-manager)
     - [Terminal Git Gui](#terminal-git-gui)
     - [Terminal Git Diff Tool](#terminal-git-diff-tool)
+    - [Git config](#git-config)
     - [Use Idea As Default Command Line Merge Tool](#use-idea-as-default-command-line-merge-tool)
     - [Uniform Commits for git projects](#uniform-commit-message-format)
     - [fig autocomplete](#fig-autocomplete)
@@ -389,6 +390,15 @@ keepBackup = false
 [Ref](https://www.jetbrains.com/help/idea/tutorial-use-idea-as-default-command-line-merge-tool.html)
 
 ------
+
+<a href="#configurations">:arrow_up:</a> 
+
+#### Git Config
+
+[Ref](https://blog.gitbutler.com/how-git-core-devs-configure-git/)
+
+
+-------
 
 <a href="#configurations">:arrow_up:</a> 
 
