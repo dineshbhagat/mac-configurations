@@ -37,6 +37,7 @@
   - [Basic Mac setup](#basic-mac-setup)
   - [Softwares](#softwares)
   - [Application Initializers](#application-initializers)
+  - [Bbedit](#bbedit)
 
 ***
 
@@ -938,6 +939,13 @@ If your zsh is slower:
 
 [jekyll-gist](https://github.com/jekyll/jekyll-gist)
 
+
+------
+
+<a href="#configurations">:arrow_up:</a> 
+### Bbedit
+
+[Bbedit customization](./bbedit/readme.md)
 
 ------
 
