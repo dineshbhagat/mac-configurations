@@ -2,7 +2,7 @@ Ref: https://gist.github.com/brokaw/95ade1358954cd97d0f2c8e992e14b08
 
 #### Making JSON Output More Readable with BBEdit
 
-1. Close bbedit and Place `pretty-json.sh`, `compact-json.sh` files in `~/Library/Application\ Support/BBEdit/Text\ Filters`  
+1. Close bbedit and Place [pretty-json.sh](pretty-json.sh), [compact-json.sh](compact-json.sh) files in `~/Library/Application\ Support/BBEdit/Text\ Filters`  
 
    ```shell
    # NOTE: jq is faster than python so skipping python based solution here
