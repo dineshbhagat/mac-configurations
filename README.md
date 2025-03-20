@@ -945,7 +945,7 @@ If your zsh is slower:
 <a href="#configurations">:arrow_up:</a> 
 ### Bbedit
 
-[Bbedit customization](./bbedit/readme.md)
+[Bbedit customization](bbedit/readme.md)
 
 ------
 
