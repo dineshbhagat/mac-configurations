@@ -145,7 +145,7 @@ Following are other changes require to make iterm more customizable and solution
 
 ##### Get better version of man pages
 
-https://tldr.sh/
+https://tldr.sh/tlrc
 
 ##### Install Ruby
 
