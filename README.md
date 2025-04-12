@@ -349,7 +349,7 @@ To use plugin, press `;` and  `f` for finder, `v` for imgView plugin as we have 
 
 [Keyboard and mouse control](https://github.com/jarun/nnn/wiki/Usage#keyboard-mouse)
 
-
+[nnn setup with icons previews and plugins](https://github.com/dineshbhagat/mac-configurations/blob/main/nnn_mac_setup_with_icons_previews_and_plugins.md)
 
 Ref: 
 - [nnn-github](https://github.com/jarun/nnn)
