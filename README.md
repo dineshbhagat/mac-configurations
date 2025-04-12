@@ -80,7 +80,8 @@ Following site will help you setup your mac.
    ##### Install Fonts
    
    ```bash
-   brew install --cask font-hack-nerd-font
+   brew install font-hack-nerd-font
+   brew install font-jetbrains-mono-nerd-font
 
    # powerline clone
    git clone https://github.com/powerline/fonts.git --depth=1
