@@ -197,23 +197,32 @@ sudo gem cleanup
 
 ##### Make ls, ll commands colorful
 
-1. [exa](https://the.exa.website/)
+1. [eza](https://eza.rocks/)
 
    ```shell
-   brew install exa
+   brew install eza
    ```
 
-2. [LSD](https://github.com/Peltoche/lsd) --> **I liked this one** 
+   [Github](https://github.com/eza-community/eza)
+   This provides more customization options than LSD. As of now lacks full nerd-font support.
+   My tree alternative
+   ```
+   alias tree="eza -G --classify=always --icons=always -T -a --header"
+   alias l="eza -l --classify=always --icons=always -a -a"
+   ```
+   
+   | eza  | Lsd  |
+   | ---- | ---- |
+   | <img width="559" alt="eza" src="https://github.com/user-attachments/assets/2dcd9bac-1cd4-4b36-b531-c558aeeacaea" />     | <img width="711" alt="lsd" src="https://github.com/user-attachments/assets/464acbc9-1fc7-4942-9181-91e69d3bb16b" />
+     |
+   
+
+3. [LSD](https://github.com/Peltoche/lsd) --> **I liked this one** 
 
    ```shell
    brew install lsd
    alias ll='lsd -la'
    alias ls='lsd'
-   ```
-3. [colorls](https://github.com/athityakumar/colorls) --> slower compared to other plugins
-
-   ```shell
-   $sudo gem install colorls
    ```
    
 Snapshots of my configurations:
