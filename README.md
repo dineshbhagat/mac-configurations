@@ -318,6 +318,8 @@ sudo make O_NERD=1
 # Since I have install nnn with homebrew and it does not give any colors and icons, so  compiled it manually and replaced nnn binary file
 sudo cp nnn /usr/local/Cellar/nnn/4.0/bin/
 alias nnn='nnn -de'
+or
+alias nh='nnn -deHr' #shows hidden files and folders, with copy paste progress
 ```
 
 ![image](images/Screenshot%202021-04-23%20at%2012.21.01%20PM.png)
@@ -332,6 +334,12 @@ Add active plugin list to .zshrc/.bashrc file
 ```
 export NNN_PLUG='f:finder;o:fzopen;p:mocplay;d:diffs;t:nmount;v:imgview'
 ```
+
+To use plugin, press `;` and  `f` for finder, `v` for imgView plugin as we have devined in `NNN_PLUG`
+
+[Keyboard and mouse control](https://github.com/jarun/nnn/wiki/Usage#keyboard-mouse)
+
+
 
 Ref: 
 - [nnn-github](https://github.com/jarun/nnn)
