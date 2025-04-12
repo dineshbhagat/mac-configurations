@@ -213,8 +213,8 @@ sudo gem cleanup
    
    | eza  | Lsd  |
    | ---- | ---- |
-   | <img width="559" alt="eza" src="https://github.com/user-attachments/assets/2dcd9bac-1cd4-4b36-b531-c558aeeacaea" />     | <img width="711" alt="lsd" src="https://github.com/user-attachments/assets/464acbc9-1fc7-4942-9181-91e69d3bb16b" />
-     |
+   | <img width="559" alt="eza" src="https://github.com/user-attachments/assets/2dcd9bac-1cd4-4b36-b531-c558aeeacaea" /> | <img width="711" alt="lsd" src="https://github.com/user-attachments/assets/464acbc9-1fc7-4942-9181-91e69d3bb16b" /> |
+   | <img width="1101" alt="eza-ls" src="https://github.com/user-attachments/assets/df5ac567-9dde-4f30-af9d-1a8db4ca0b09" /> | <img width="1059" alt="lsd-ls" src="https://github.com/user-attachments/assets/d4c76aeb-aa98-4056-b5ba-fa58b26300df" /> |
    
 
 3. [LSD](https://github.com/Peltoche/lsd) --> **I liked this one** 
