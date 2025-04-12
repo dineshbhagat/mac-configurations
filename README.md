@@ -290,7 +290,8 @@ The color scheme I have used in above iterm2 snapshots is [here](mac-configurati
 If you need different color schemes then you can [ref](https://github.com/sindresorhus/iterm2-snazzy)
 
 - Download the colorscheme file  
-- double click on it, iterm2 will import it.  
+- double click on it, iterm2 will import it.
+- iterm2 configurations are stored at `/Users/$USER/.config/iterm2`, if you want to safegaurd your accidental config changes then you can use git(git init, git commit) to track all the changes.
 
 ------
 
