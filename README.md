@@ -32,7 +32,7 @@
   - [Multiple java versions in mac](#multiple-java-versions-in-mac)
   - [Development Environment Setup Tools](#development-environment-setup-tools)
     - [SDKMAN](#sdkman)
-    - [-en-place](#-en-place)
+    - [mise-en-place](#mise-en-place)
   - [Postman Configs](#postman-configs)
   - [Keychain-password](#keychain-password)
   - [video tutorials](#video-tutorials)
