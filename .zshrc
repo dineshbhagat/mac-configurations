@@ -84,7 +84,7 @@ fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 # zsh-syntax-highlighting should be last in plugin list
 
 plugins=(
-  git zsh-autosuggestions macos jsontools mvn zsh-syntax-highlighting
+  git zsh-autosuggestions macos jsontools mvn zsh-syntax-highlighting gradle-completion
 )
 
 source $ZSH/oh-my-zsh.sh
