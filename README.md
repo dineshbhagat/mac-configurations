@@ -32,7 +32,7 @@
   - [Multiple java versions in mac](#multiple-java-versions-in-mac)
   - [Development Environment Setup Tools](#development-environment-setup-tools)
     - [SDKMAN](#sdkman)
-    - [mise-en-place](#mise-en-place)
+    - [-en-place](#-en-place)
   - [Postman Configs](#postman-configs)
   - [Keychain-password](#keychain-password)
   - [video tutorials](#video-tutorials)
@@ -881,6 +881,8 @@ Ref:
 ------ 
 
 #### Mise-en-place
+
+mise is a polyglot tool version manager. It replaces tools like asdf, nvm, pyenv, rbenv, etc.
 
 ```bash
 brew install mise
