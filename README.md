@@ -77,7 +77,8 @@ Following site will help you setup your mac.
    Following further instructions from here:   
    [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)   
    [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)   
-   [zsh-completions](https://github.com/zsh-users/zsh-completions?tab=readme-ov-file#oh-my-zsh)   
+   [zsh-completions](https://github.com/zsh-users/zsh-completions?tab=readme-ov-file#oh-my-zsh)
+   [gradle-completion](https://github.com/gradle/gradle-completion)
 
    ##### Install Fonts
    
