@@ -30,7 +30,9 @@
   - [Groovy setup](#groovy-setup)
   - [IntelliJ idea settings](#intellij-idea-settings)
   - [Multiple java versions in mac](#multiple-java-versions-in-mac)
-  - [SDKMAN](#sdkman)
+  - [Development Environment Setup Tools](#development-environment-setup-tools)
+    - [SDKMAN](#sdkman)
+    - [mise-en-place](#mise-en-place)
   - [Postman Configs](#postman-configs)
   - [Keychain-password](#keychain-password)
   - [video tutorials](#video-tutorials)
@@ -754,6 +756,9 @@ http://jdk.java.net/12/ unzip and use for latest features, this will not mess-up
 
 ------ 
 <a href="#configurations">:arrow_up:</a>  
+
+### Development Environment Setup Tools
+
 #### SDKMAN
 
 Why:
@@ -872,6 +877,18 @@ Script : When we want to use java_home in script, get jdk home as `sdk home java
 
 Ref:
 - [sdkman homepage](https://sdkman.io/)
+
+------ 
+
+#### Mise-en-place
+
+```bash
+brew install mise
+```
+
+Java Tool: https://mise.jdx.dev/lang/java.html
+
+[Github](https://github.com/jdx/mise)
 
 ------ 
 <a href="#configurations">:arrow_up:</a>  
