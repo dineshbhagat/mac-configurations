@@ -1029,10 +1029,6 @@ Action
 
 All actions are pinned to immutable commit SHAs for supply-chain safety.
 
-> **Node 24 note** — The workflow sets `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true`
-> at the `env` level to opt in early and suppress Node 20 deprecation warnings
-> ahead of the mandatory switch on **June 2, 2026**.
-
 #### Local build
 
 ```bash
