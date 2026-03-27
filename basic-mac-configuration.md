@@ -6,6 +6,7 @@
 - [ ] [Image editing tool](#imageEditingTool):
 - [ ] [Control audio based on application](#audioControl):
 - [ ] [Solution to "application is damaged and move it bin](#appdamaged):
+- [ ] [How to contribute to your personal github repo from work laptop without exposing your work email id](#personal-github-repo):
 
 
 
@@ -173,5 +174,18 @@ xattr -cr /Applications/Signal.app
 ```
 
 Ref: https://osxdaily.com/2019/02/13/fix-app-damaged-cant-be-opened-trash-error-mac/
+
+------
+
+#### [[⬆]](#toc) <a name='personal-github-repo'> How to contribute to your personal github repo from work laptop without exposing your work email id </a>
+
+Note: Take atmost care to not push any confidential info to your private repo. 
+
+1. Enable "Keep my email addresses private" option here: https://github.com/settings/emails and get noreply email
+2. Get classic token with repo access from here: https://github.com/settings/tokens
+3. Add repo specific config `git config user.name <github username>`, `git config user.email <noreply email>` , `git remote set-url origin https://<github-username>:<classic-token>@github.com/<githubusername>/<repo-name>`
+4. Verify these settings in `.git/config`
+5. You may need to execute `git remote set-url origin https://<github-username>:<classic-token>@github.com/<githubusername>/<repo-name>` for every new session.
+6. since this token is exposed in your local shell history, and if this is an issue for you, then you should invalidate this token from here: https://github.com/settings/tokens
 
 ------
