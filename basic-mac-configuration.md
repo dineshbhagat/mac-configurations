@@ -1,3 +1,4 @@
+
 ## <a name='toc'>Table of Contents</a>
 - [ ] [Use apps in Split View on Mac](#split):
 - [ ] [copy full path in mac](#copypath):

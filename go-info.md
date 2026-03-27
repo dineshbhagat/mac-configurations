@@ -1,4 +1,4 @@
-<a href="https://github.com/dineshbhagat/mac-configurations#go-setup">:arrow_backward:</a>
+<a href="{{ '/' | relative_url }}#go-setup">:arrow_backward:</a>
 
 
 Ref: https://godoc.org/
@@ -41,4 +41,3 @@ Eclipse Setup for golang
 - Add your entry point go file to main folder.
 - That's it...
 ![image](https://github.com/dineshbhagat/mac-configurations/blob/9046e890bb7c73947c22eff281aa3d287e4088bf/images/Screen%20Shot%202019-04-06%20at%202.47.48%20AM.png)
-

@@ -41,15 +41,25 @@ kramdown:
     css: class
 
 theme: jekyll-theme-hacker
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
 plugins:
   - jemoji
   - jekyll-seo-tag
   - github-pages-health-check
   - jekyll-gist
+  - jekyll-optional-front-matter
   - jekyll-redirect-from
   - jekyll-readme-index
   - jekyll-relative-links
   - jekyll-sitemap
+  - jekyll-titles-from-headings
 
 timezone: Asia/Kolkata
 
@@ -57,11 +67,13 @@ relative_links:
   enabled:     true
   collections: true
 
-include:
-  - basic-mac-configuration.md
-  - postman.md
 
 readme_index:
   enabled:          true
   remove_originals: false
-  with_frontmatter: false
+  with_frontmatter: true
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: true

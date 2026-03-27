@@ -3,7 +3,7 @@ JavaFx error in start page:
 Reason: Since Java-8 is default java version and set as $JAVA_HOME.
 java-8 is adopt openjdk and does not have jfx.
 
-If you change $JAVA_HOME to adopt openjdk 11 then this issue will not occure since it has jfx.
+If you change $JAVA_HOME to adopt openjdk 11 then this issue will not occur since it has jfx.
 
 But as a workaround:
 
@@ -28,4 +28,3 @@ add following alias to your `.bashrc/.zshrc` file.
 alias sqldeveloper="/Applications/SQLDeveloper.app/Contents/MacOS/sqldeveloper.sh; exit"
 ```
 Now to open sqlDeveloper, execute `sqldeveloper` command in terminal. 
-

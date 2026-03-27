@@ -1,9 +1,4 @@
----
-layout: default
----
-
-<a href="README.md#keychain-password">:arrow_left:</a>
-
+<a href="{{ '/' | relative_url }}#keychain-password">:arrow_left:</a>
 
   #### Using the OS X Keychain to store and retrieve passwords
 
@@ -57,4 +52,3 @@ layout: default
 
       
     [Ref](https://www.netmeister.org/blog/keychain-passwords.html)
-

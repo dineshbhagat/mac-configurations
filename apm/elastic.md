@@ -4,7 +4,7 @@ Ref:
 
 
 If you do not want to install for entire system, install only for virtual env then,  
-Enable virtual environment as mention [here](https://github.com/dineshbhagat/mac-configurations#python-setup) 
+Enable virtual environment as mention [here]({{ '/' | relative_url }}#python-setup) 
 
 
 1. Download or clone the repository https://github.com/ElasticHQ/elasticsearch-HQ

@@ -2,16 +2,18 @@
 
 source 'https://rubygems.org'
 
-group :jekyll_plugins do
-# gem 'jekyll-theme-hacker', '~> 0.2.0'
- gem 'jemoji'
- gem 'jekyll-seo-tag'
- gem 'github-pages-health-check'
- gem 'jekyll-gist'
- gem 'jekyll-redirect-from'
- gem 'jekyll-readme-index'
- gem 'jekyll-relative-links'
- gem 'jekyll-sitemap'
-end
+gem 'jekyll', '~> 4.4'
+gem 'jekyll-theme-hacker', '~> 0.2.0'
 
-gemspec
+group :jekyll_plugins do
+  gem 'jemoji', '~> 0.13'
+  gem 'jekyll-seo-tag', '~> 2.8'
+  gem 'github-pages-health-check', '~> 1.19'
+  gem 'jekyll-gist', '~> 1.5'
+  gem 'jekyll-optional-front-matter'
+  gem 'jekyll-redirect-from', '~> 0.16'
+  gem 'jekyll-readme-index', '~> 0.3'
+  gem 'jekyll-relative-links', '~> 0.7'
+  gem 'jekyll-sitemap', '~> 1.4'
+  gem 'jekyll-titles-from-headings', '~> 0.5'
+end

@@ -1,4 +1,5 @@
 [![forthebadge](https://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](https://forthebadge.com)   **But it is**  [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)  
+[![Deploy Jekyll site to Pages](https://github.com/dineshbhagat/mac-configurations/actions/workflows/jekyll.yml/badge.svg?branch=main)](https://github.com/dineshbhagat/mac-configurations/actions/workflows/jekyll.yml)
 
 ### Configurations
 
@@ -40,6 +41,7 @@
   - [Softwares](#softwares)
   - [Application Initializers](#application-initializers)
   - [Bbedit](#bbedit)
+  - [GitHub Pages Deployment](#github-pages-deployment)
 
 ***
 
@@ -215,9 +217,9 @@ sudo gem cleanup
    alias l="eza -l --classify=always --icons=always -a -a"
    ```
    
-   | eza  | Lsd  |
-   | ---- | ---- |
-   | <img width="559" alt="eza" src="https://github.com/user-attachments/assets/2dcd9bac-1cd4-4b36-b531-c558aeeacaea" /> | <img width="711" alt="lsd" src="https://github.com/user-attachments/assets/464acbc9-1fc7-4942-9181-91e69d3bb16b" /> |
+   | eza                                                                                                                                 | Lsd                                                                                                                                 |
+   |-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+   | <img width="559" alt="eza" src="https://github.com/user-attachments/assets/2dcd9bac-1cd4-4b36-b531-c558aeeacaea" />                 | <img width="711" alt="lsd" src="https://github.com/user-attachments/assets/464acbc9-1fc7-4942-9181-91e69d3bb16b" />                 |
    | <img width="1101" height="10" alt="eza-ls" src="https://github.com/user-attachments/assets/df5ac567-9dde-4f30-af9d-1a8db4ca0b09" /> | <img width="1059" height="10" alt="lsd-ls" src="https://github.com/user-attachments/assets/d4c76aeb-aa98-4056-b5ba-fa58b26300df" /> |
    
 
@@ -248,7 +250,7 @@ command-failure-status:
 
 ![terminate-command-on-failure-status](images/Screen%20Shot%202018-10-08%20at%2012.00.18%20PM.png)
 
-![ll-and-ls-commands](images/Screen%20Shot%202016-11-08%20at%2012.18.00%20AM.png)
+![ll-and-ls-commands](images/iterm1.png)
 
 ##### Smart cd command
 
@@ -325,7 +327,7 @@ Note: Nerd fonts should be installed and configured.
 wget https://github.com/jarun/nnn/archive/refs/heads/master.zip
 tar -zxvf master.zip
 cd nnn-master/
-# Not Zero, but Alphabet O, you will get binary nnn in same folder and you can move this bonary to the place you want and use it.
+# Not Zero, but Alphabet O, you will get binary nnn in same folder and you can move this binary to the place you want and use it.
 sudo make O_NERD=1
 
 # Since I have install nnn with homebrew and it does not give any colors and icons, so  compiled it manually and replaced nnn binary file
@@ -352,7 +354,7 @@ To use plugin, press `;` and  `f` for finder, `v` for imgView plugin as we have 
 
 [Keyboard and mouse control](https://github.com/jarun/nnn/wiki/Usage#keyboard-mouse)
 
-[nnn setup with icons previews and plugins](https://github.com/dineshbhagat/mac-configurations/blob/main/nnn_mac_setup_with_icons_previews_and_plugins.md)
+[nnn setup with icons previews and plugins](nnn_mac_setup_with_icons_previews_and_plugins.md)
 
 Ref: 
 - [nnn-github](https://github.com/jarun/nnn)
@@ -901,7 +903,7 @@ Java Tool: https://mise.jdx.dev/lang/java.html
 
 ------
 <a href="#configurations">:arrow_up:</a> 
-#### Keychain Password
+#### Keychain Password {#keychain-password}
 
 [add/update/delete](Keychain-password.md)
 
@@ -964,7 +966,7 @@ If your zsh is slower:
 
 ------
 <a href="#configurations">:arrow_up:</a> 
-### Application Initializers
+### Application Initializers {#application-initializers}
 
 [Some of the useful application generators](application-initializers.md).
 
@@ -972,9 +974,9 @@ If your zsh is slower:
 
 <a href="#configurations">:arrow_up:</a> 
 
-[customize-iterm2.sh](https://gist.github.com/dineshbhagat/a4bdff5c011957f9950b9bebed7f5e30)
+[configure-iterm2.sh](https://gist.github.com/dineshbhagat/a4bdff5c011957f9950b9bebed7f5e30)
 
-{% gist a4bdff5c011957f9950b9bebed7f5e30 customize-iterm2.sh %}
+{% gist dineshbhagat/a4bdff5c011957f9950b9bebed7f5e30 configure-iterm2.sh %}
 
 [jekyll-gist](https://github.com/jekyll/jekyll-gist)
 
@@ -982,13 +984,65 @@ If your zsh is slower:
 ------
 
 <a href="#configurations">:arrow_up:</a> 
-### Bbedit
+### BBEdit
 
-[Bbedit customization](bbedit/Readme.md)
+[Bbedit customization](bbedit/)
 
 ------
 
-Other Awesome resources 😎 📚 🗒️:
+<a href="#configurations">:arrow_up:</a>
+### GitHub Pages Deployment
+
+This site is built and deployed via **GitHub Actions** using a custom Jekyll workflow
+(not the default GitHub-hosted `github-pages` gem pipeline).
+
+<details>
+<summary>Why GitHub Actions instead of the default Pages build?</summary>
+
+The default GitHub Pages build only supports a pinned set of gems from the `github-pages`
+meta-gem. Plugins such as `jekyll-readme-index` and a standalone `jekyll ~> 4.x` require
+a self-managed build, which is exactly what the Actions workflow provides.
+
+</details>
+
+#### Prerequisites
+
+1. In your repository go to **Settings → Pages → Build and deployment**.
+2. Set **Source** to **GitHub Actions** (not the legacy _Deploy from a branch_ option).
+
+#### Workflow summary
+
+| File | Purpose |
+|------|---------|
+| `.github/workflows/jekyll.yml` | Build Jekyll site and deploy to GitHub Pages |
+| `Gemfile` | Declares Jekyll 4 + plugins; resolved by Bundler in CI |
+
+#### Action versions used
+
+Action                         
+-------------------------------
+`actions/checkout`             
+`ruby/setup-ruby`              
+`actions/configure-pages`      
+`actions/upload-pages-artifact`
+`actions/deploy-pages`         
+
+All actions are pinned to immutable commit SHAs for supply-chain safety.
+
+> **Node 24 note** — The workflow sets `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true`
+> at the `env` level to opt in early and suppress Node 20 deprecation warnings
+> ahead of the mandatory switch on **June 2, 2026**.
+
+#### Local build
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+------
+
+ 😎 📚 🗒️:
 
 - https://github.com/sindresorhus/awesome
 - https://github.com/jlevy/the-art-of-command-line
