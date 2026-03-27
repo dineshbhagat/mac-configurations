@@ -582,7 +582,7 @@ pyenv global <python-version>
 # To set local version, this is helpful when you have multiple projects depends on different python versions but at the same time, you do not want to change your global python version
 pyenv local <python-version>
 # check python version
-python -version
+python -V
 # Once you close the terminal or open new terminal tab, this may not work, we need to initialize everytime we start a bash/zsh sessions
 # add following in .zshrc or .bashrc file, similar to rbenv(ruby environment)
 eval "$(pyenv init -)"
