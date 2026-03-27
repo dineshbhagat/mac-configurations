@@ -45,4 +45,3 @@ pip3 -V     # pip 10.0.1 from /usr/local/lib/python3.6/site-packages/pip (python
 ```
 
 Ref: https://discourse.brew.sh/t/python-2-complains-import-sitecustomize-failed-use-v-for-traceback/1879/7
-
