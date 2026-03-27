@@ -111,7 +111,7 @@ Following site will help you setup your mac.
 8. change fonts for iterm2: iTerm2 -> Preferences -> Profiles -> Text -> Font -> Change Font to hack-nerd
 9. Execute `compaudit | xargs chmod g-w,o-w /usr/local/share/zsh ;compaudit | xargs chmod g-w,o-w /usr/local/share/zsh/site-functions`
 10. change font settings as shown in image  
-   ![image](images/Screen%20Shot%202018-12-04%20at%205.47.48%20PM.png)
+   ![image](images/iterm-profile.png)
 11. Vim Customization 
 
     ```shell
@@ -242,13 +242,13 @@ $ — stashed changes;
 ⇡ — unpushed commits
 ```
 
-![normal-prompt](images/Screen%20Shot%202018-10-08%20at%2011.50.18%20AM.png)
+![normal-prompt](images/iterm3.png)
 
-![auto-complete](images/Screen%20Shot%202018-10-08%20at%2011.59.12%20AM.png)
+![auto-complete](images/iterm4.png)
 
 command-failure-status:
 
-![terminate-command-on-failure-status](images/Screen%20Shot%202018-10-08%20at%2012.00.18%20PM.png)
+![terminate-command-on-failure-status](images/iterm5.png)
 
 ![ll-and-ls-commands](images/iterm1.png)
 
@@ -284,8 +284,8 @@ eval "$(zoxide init --cmd cd zsh)"
    ```
    Restart the terminal.   
 
-   ![](images/Screenshot%202019-12-21%20at%204.59.39%20PM.png)
-   ![](images/Screenshot%202019-12-21%20at%204.57.52%20PM.png)
+   ![](images/autocomplete.png)
+   ![](images/zsh-theme.png)
 
    **Sadly, this project is no longer maintained 😞**
 
@@ -298,15 +298,15 @@ Other customizations you can try:
 ------
 
 <a href="#configurations">:arrow_up:</a>
-#### iterm2 color theme
+#### iTerm2 color theme
 
 The color scheme I have used in above iterm2 snapshots is [here](mac-configuration.itermcolors)
 
 If you need different color schemes then you can [ref](https://github.com/sindresorhus/iterm2-snazzy)
 
-- Download the colorscheme file  
-- double click on it, iterm2 will import it.
-- iterm2 configurations are stored at `/Users/$USER/.config/iterm2`, if you want to safegaurd your accidental config changes then you can use git(git init, git commit) to track all the changes.
+- Download the ColorScheme file  
+- double-click on it, iTerm2 will import it.
+- iTerm2 configurations are stored at `/Users/$USER/.config/iterm2`, if you want to safegaurd your accidental config changes then you can use git(git init, git commit) to track all the changes.
 
 ------
 
@@ -337,7 +337,7 @@ or
 alias nh='nnn -deHr' #shows hidden files and folders, with copy paste progress
 ```
 
-![image](images/Screenshot%202021-04-23%20at%2012.21.01%20PM.png)
+![image](images/nnn.png)
 
 Plugins   
 ```bash
