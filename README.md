@@ -1012,10 +1012,18 @@ a self-managed build, which is exactly what the Actions workflow provides.
 
 #### Workflow summary
 
-| File | Purpose |
-|------|---------|
-| `.github/workflows/jekyll.yml` | Build Jekyll site and deploy to GitHub Pages |
-| `Gemfile` | Declares Jekyll 4 + plugins; resolved by Bundler in CI |
+| File                           | Purpose                                                |
+|--------------------------------|--------------------------------------------------------|
+| `.github/workflows/jekyll.yml` | Build Jekyll site and deploy to GitHub Pages           |
+| `Gemfile`                      | Declares Jekyll 4 + plugins; resolved by Bundler in CI |
+
+#### Triggers
+
+| Event                    | Behavior                                     |
+|--------------------------|----------------------------------------------|
+| `pull_request` to `main` | Runs Jekyll build validation only            |
+| `push` to `main`         | Builds and deploys to GitHub Pages           |
+| `workflow_dispatch`      | Builds and deploys manually from Actions tab |
 
 #### Action versions used
 
