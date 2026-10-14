@@ -83,11 +83,12 @@ HIST_STAMPS="mm/dd/yyyy"
 
 # this line should be before `source $ZSH/oh-my-zsh.sh` line
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src  
+# Enable Gradle completion installed via homebrew, Make sure this line appears before Oh My Zsh initialization i.e. source $ZSH/oh-my-zsh.sh
+fpath+=("$(brew --prefix)/share/zsh/site-functions" $fpath)
 
 # zsh-syntax-highlighting should be last in plugin list
-
 plugins=(
-  git zsh-autosuggestions macos jsontools mvn zsh-syntax-highlighting gradle-completion
+  git zsh-autosuggestions macos jsontools mvn zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
